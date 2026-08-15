@@ -815,5 +815,13 @@
       "https://new.land.naver.com/rooms?ms=2AL6pE,3zmibo,16&a=APT:OPST:ABYG:OBYG:GM:OR:DDDGG:JWJT:SGJT:VL&e=RETAIL&aa=SMALLSPCRENT&articleNo=2643983551",
       "https://fin.land.naver.com/map?layer=NobwRAlgJmBcYEMBOAXCBjANgUwPpWxQQkzABowAHZBAWwGc5xk0tsBJGeAJgDYAWAMwBOAByCArBICMYAL5yAukA&realEstateTypes=A01-A04-B01-C03&center=3zmeYP-2ALgn4&zoom=15"
     ]
+  },
+  {
+    "date":"2026-08-15","by":"codex","kind":"자리",
+    "summary":"네이버부동산에서 기존 직방 매물과 일치하는 화면을 찾지 못했습니다.",
+    "detail":"사용자 요청에 따라 네이버부동산 구의동 원룸·오피스텔 목록만 확인했습니다. 기존 기록의 보증금 1억 5,399만원, 월세 14만원, 관리비 8만원, 14.85㎡, 3층/5층 조건과 일치하는 네이버 매물이 목록에 없어 도보 시간이나 좌표를 추정하지 않고 commute를 unresolved로 남깁니다.",
+    "refs":[
+      "https://new.land.naver.com/rooms?ms=37.547811,127.0871059,16&a=OPST:OR&e=RETAIL&aa=SMALLSPCRENT"
+    ]
   }
 ]
