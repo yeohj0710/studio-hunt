@@ -145,7 +145,11 @@
     "models": ["소니 a6400", "후지필름 X-T30", "캐논 EOS M50 Mark II", "소니 ZV-E10"],
     "usedOk": true,
     "usedNote": "중고 미러리스는 센서 먼지, 화면 멍, 배터리 수명을 봅니다. 영상용이라 셔터 횟수는 덜 중요합니다.",
-    "quotes": [],
+    "quotes": [
+      { "condition": "new", "price": 890000, "site": "네이버쇼핑", "url": "https://smartstore.naver.com/hiav/products/11853001783?nl-ts-pid=jos%2BKsqW7KTcrniPaGZ-147829&n_media=11068&n_query=%EC%86%8C%EB%8B%88A6400%EB%B3%B8%EC%B2%B4&n_rank=2&n_ad_group=grp-a001-02-000000043184555&n_ad=nad-a001-02-000000464595296&n_campaign_type=2&n_mall_id=histore&n_mall_pid=11853001783&n_ad_group_type=2&n_match=3&NaPm=ct%3Dmsu8awap%7Cci%3DER71c38767%2D9893%2D11f1%2Db44e%2D96706a7dac00%7Ctr%3Dpla%7Chk%3D221f2eb4ce331d47374474a680a98652c219b4d6%7Cnacn%3Dtsb7BEx0cQMG", "model": "소니 a6400", "note": "최대할인가 890,000원, 상품 가격 893,500원, 할인 전 가격 895,000원과 무료배송을 표시합니다.", "seenAt": "2026-08-15" },
+      { "condition": "used", "price": 850000, "site": "번개장터", "url": "https://m.bunjang.co.kr/products/423943256?imp_id=28456a803e69000f346e&content_position=7", "model": "소니 a6400", "note": "상품상태를 사용감 적음, 등록 시점을 3일 전, 일반 배송비 10,000원으로 표시합니다. 컷수 300대, 충전기와 배터리 2개를 적습니다.", "seenAt": "2026-08-15" },
+      { "condition": "used", "price": 917000, "site": "번개장터", "url": "https://m.bunjang.co.kr/products/155339995?imp_id=28456a803e69000f3472&content_position=11", "model": "소니 a6400", "note": "상품상태를 사용감 적음, 등록 시점을 5일 전, 일반 배송비 4,000원으로 표시합니다. 바디셋, 컷수 300여, 보증 남음을 적습니다.", "seenAt": "2026-08-15" }
+    ],
     "chosen": null
   },
   {
