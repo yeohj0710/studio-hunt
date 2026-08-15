@@ -88,7 +88,35 @@
     "alt": [],
     "usedOk": false,
     "usedNote": "",
-    "quotes": [],
+    "quotes": [
+      {
+        "condition": "new",
+        "price": 7690,
+        "site": "네이버쇼핑",
+        "url": "https://smartstore.naver.com/youannam/products/13693111566?nl-ts-pid=jotd%2FsqqPn33anDMWK4-408789&NaPm=ct%3Dmsub5zy9%7Cci%3DERa4edac00%2D989e%2D11f1%2D8a86%2Df69823daf2b3%7Ctr%3Dpla%7Chk%3Ddcef56a5a932a391a1417060cfc5bbb3933ebdf7%7Cnacn%3Dtsb7BEx0cQMG",
+        "model": "우풍차단템 방문틈방음재 미세모 문밑바람막이 브러시",
+        "note": "상품 가격 8,100원과 최대할인가 7,690원, 배송비 3,000원을 표시합니다. 미세모 문 밑 브러시이며 상품정보의 모델명은 DM25_244_브러시 틈새막이 문풍지입니다.",
+        "seenAt": "2026-08-15"
+      },
+      {
+        "condition": "new",
+        "price": 10790,
+        "site": "네이버쇼핑",
+        "url": "https://smartstore.naver.com/kwaktsta/products/13397281655?nl-ts-pid=jote6wpV47TnGnLzVGo-032853&NaPm=ct%3Dmsub6mru%7Cci%3DrBljOQAAAaAFPREcAUU2NA%2E%2E02%7Ctr%3Dpmax%7Chk%3D7ff609a753de677fff943d2c2f31897a123c5aee%7Cnacn%3Dtsb7BEx0cQMG",
+        "model": "통이 넓은 미닫이문 틈새 문풍지 밑 막이 브러시 털붙임 표준형 브리슬 10·15mm",
+        "note": "상품 가격 11,990원과 최대할인가 10,790원, 무료배송을 표시합니다. 표준형 브리슬 10·15mm 문 밑 브러시이며 해외직배송 상품입니다.",
+        "seenAt": "2026-08-15"
+      },
+      {
+        "condition": "new",
+        "price": 6000,
+        "site": "네이버쇼핑",
+        "url": "https://smartstore.naver.com/windowsealing/products/5259659871?NaPm=ct%3Dmsub7ok8%7Cci%3Dcfee95f8f3e4fcaf97ba0cdc3d8dee2932baf209%7Ctr%3Dslsl%7Csn%3D2649582%7Chk%3Db8d1ac5a44648a4211b9793a6478da426644f317&nl-query=%EB%AC%B8%ED%92%8D%EC%A7%80+5m+%EB%B0%A9%EC%9D%8C",
+        "model": "윈도실링 5미터 창문 난방·미세먼지·벌레·외풍·방음 문풍지",
+        "note": "상품 가격 6,000원과 배송비 3,200원을 표시합니다. 5m 창호 모헤어 교체용 문풍지이며 평점 4.8과 리뷰 1,193건을 표시합니다.",
+        "seenAt": "2026-08-15"
+      }
+    ],
     "chosen": null
   },
   {
