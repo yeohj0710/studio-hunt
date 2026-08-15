@@ -936,5 +936,14 @@
       "https://new.land.naver.com/rooms?ms=37.547811,127.0871059,16&a=OPST:OR&e=RETAIL&aa=SMALLSPCRENT",
       "https://fin.land.naver.com/map?center=127.0871059-37.547811&zoom=15"
     ]
+  },
+  {
+    "date":"2026-08-15","by":"codex","kind":"자리",
+    "summary":"네이버부동산에서 주소와 기존 화면을 확인했지만 일치하는 상세 매물을 찾지 못해 건축물 용도를 미확인으로 남겼습니다.",
+    "detail":"사용자 요청에 따라 네이버부동산에서 서울 광진구 구의동 49-13을 주소 검색하고 기존 화면으로도 확인했지만 보증금 1,000만원·월세 45만원·16.5㎡·2층/5층 조건과 일치하는 상세 매물을 찾지 못했습니다. 건축물 용도와 숙박·전입신고 가능 여부를 확인하지 못해 livable을 미확인으로 남겼습니다.",
+    "refs":[
+      "https://fin.land.naver.com/map?center=3zmrnY-2ALsTD&realEstateTypes=A01-A04-B01-C03&zoom=17&layer=NobwRAlgJmBcYCcCGUIFcDOB9ADhAdmADRgYCmSCAxgBYAKlSAthnOMqpnQXMAIwAmAOwA6AAwBOPgA4hAFgBsRAMyiArGoEKBaoQF0Avgb1A&showOnlySelectedRegion=false",
+      "https://new.land.naver.com/rooms?ms=37.5446539,127.0872424,16&a=APT:OPST:ABYG:OBYG:GM:OR:DDDGG:JWJT:SGJT:VL&e=RETAIL&aa=SMALLSPCRENT"
+    ]
   }
 ]
