@@ -340,7 +340,11 @@
     "models": ["개별 스위치 멀티탭"],
     "usedOk": false,
     "usedNote": "전기에 물리는 물건은 새것으로 삽니다.",
-    "quotes": [],
+    "quotes": [
+      { "condition": "new", "price": 47960, "site": "네이버쇼핑", "url": "https://smartstore.naver.com/cleansolar/products/6346630748?nl-ts-pid=jot52dqWBvBGR%2FipG4R-423237&NaPm=ct%3Dmsua2zgd%7Cci%3DER67fceaf1%2D989a%2D11f1%2Dbbe2%2D5e28beaf1165%7Ctr%3Dpla%7Chk%3D00dfcecd4a842ae8971f74dbec3374541e17f69e%7Cnacn%3Dtsb7BEx0cQMG", "model": "세이브에스 자동소화 멀티탭 6구 개별절전형 5m", "note": "같은 상세 화면의 6구 개별절전형 5m 구성 상품 가격 47,960원과 배송비 3,000원을 표시합니다. 상품은 개별스위치, 6구, 접지와 과부하차단을 제공하며 본문 기본 상품 가격은 42,460원으로 옵션 선택이 필요합니다.", "seenAt": "2026-08-15" },
+      { "condition": "new", "price": 18900, "site": "네이버쇼핑", "url": "https://smartstore.naver.com/zenicore/products/13533019851?nl-ts-pid=jot6ZsqWfokBU%2BQdXrG-231779&NaPm=ct%3Dmsua3nt5%7Cci%3DER7acd33a7%2D989a%2D11f1%2Db44e%2D96706a7dac00%7Ctr%3Dpla%7Chk%3Dc866d45b2493f51b0e1c0f9ba4e2b5d6fdcb8a5f7%7Cnacn%3Dtsb7BEx0cQMG", "model": "나노 개별 스위치 멀티탭 6구 3m", "note": "6구·3m·1개 옵션을 선택한 상세 화면에서 상품 가격 19,900원, 최대할인가 18,900원과 무료배송을 표시합니다. 개별스위치, 접지, 과부하차단, 16A, 3000W, 국산 제품임을 확인합니다.", "seenAt": "2026-08-15" },
+      { "condition": "new", "price": 15930, "site": "네이버쇼핑", "url": "https://smartstore.naver.com/wishelectricity/products/13342900308?NaPm=ct%3Dmsua46hs%7Cci%3D45a7815da130152019bf5dd94941185fe516cff1%7Ctr%3Dslsl%7Csn%3D12320089%7Chk%3D2f591e059396ad6cf84de6c12e660d314682ae8f&nl-query=%EA%B0%9C%EB%B3%84+%EC%8A%A4%EC%9C%84%EC%B9%98+%EB%A9%80%ED%8B%B0%ED%83%AD+3m+6%EA%B5%AC", "model": "위시전기 고용량 멀티탭 6구 3m", "note": "개별스위치·6구·3m 옵션을 선택한 상세 화면에서 상품 가격 16,100원, 최대할인가 15,930원과 배송비 3,000원을 표시합니다. 접지, 누전차단, 과부하차단과 국산 제품임을 확인합니다.", "seenAt": "2026-08-15" }
+    ],
     "chosen": null
   },
   {
