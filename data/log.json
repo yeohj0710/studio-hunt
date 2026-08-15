@@ -322,5 +322,16 @@
     "refs": [
       "https://www.zigbang.com/home/oneroom/items/49904282?imageThumbnail=https%3A%2F%2Fic.zigbang.com%2Fic%2Fitems%2F49904282%2F1.jpg&hasVrKey=false"
     ]
+  },
+  {
+    "date": "2026-08-15",
+    "by": "codex",
+    "kind": "거리",
+    "summary": "네이버부동산 매물의 상세 주소와 지점까지 도보 시간을 확인했습니다.",
+    "detail": "상세 화면에서 서울시 광진구 구의동 52-7을 확인했고, 네이버지도 추천 도보 경로가 20분, 1.2km, 1,851걸음, 횡단보도 4회로 표시되어 naver-2643603437에 walkMin 20을 기록했습니다.",
+    "refs": [
+      "https://new.land.naver.com/rooms?ms=2AL6pE,3zmibo,16&a=APT:OPST:ABYG:OBYG:GM:OR:DDDGG:JWJT:SGJT:VL&e=RETAIL&aa=SMALLSPCRENT&articleNo=2643603437",
+      "https://map.naver.com/p/search/%EC%84%9C%EC%9A%B8%EC%8B%9C%20%EA%B4%91%EC%A7%84%EA%B5%AC%20%EA%B5%AC%EC%9D%98%EB%8F%99%2052-7"
+    ]
   }
 ]
