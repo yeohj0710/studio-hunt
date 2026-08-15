@@ -78,7 +78,9 @@
     "models": ["카나레", "노이트릭 커넥터 조립품", "노브랜드"],
     "usedOk": false,
     "usedNote": "싸니까 새로 삽니다. 중고 케이블은 접촉 불량을 찾는 데 시간이 더 듭니다.",
-    "quotes": [],
+    "quotes": [
+      { "condition": "new", "price": 23000, "site": "네이버쇼핑", "url": "https://smartstore.naver.com/sonoworx/products/10609412568?NaPm=ct%3Dmsu7v174%7Cci%3D6501773099cd1da74ede843988fde653aad31880%7Ctr%3Dslsl%7Csn%3D1253749%7Chk%3Dc8679dba5118b0d277c5bd7f0f724cb43085cf75&nl-query=%EC%B9%B4%EB%82%98%EB%A0%88+XLR+%EC%BC%80%EC%9D%B4%EB%B8%94+3m", "model": "카나레 L-2T2S XLR 케이블 3m", "note": "상품 가격 23,000원과 배송비 3,000원을 표시합니다.", "seenAt": "2026-08-15" }
+    ],
     "chosen": null
   },
   {
