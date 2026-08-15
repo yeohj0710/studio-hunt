@@ -22,5 +22,13 @@
     "summary": "국가법령정보센터와 정부24에서 상가·사무실의 숙박 가능 여부를 가르는 공식 확인 항목을 확인했습니다.",
     "detail": "공식 자료는 건축물 용도와 용도변경 절차, 건축물대장 확인을 안내하지만 상가·사무실의 숙박을 일괄 허용하지 않습니다. 개별 매물은 계약 전에 건축물대장 용도와 전입신고 가능 여부를 확인해야 한다고 기록했습니다.",
     "refs": ["https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=267115", "https://m.gov.kr/mw/AA020InfoCappView.do?CappBizCD=15000000076&HighCtgCD=A09005", "https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=13110000039&HighCtgCD=A01008"]
+  },
+  {
+    "date": "2026-08-15",
+    "by": "codex",
+    "kind": "확인",
+    "summary": "국세청과 국가법령정보센터에서 주거용 원룸·오피스텔 대관 영업의 확인 항목을 확인했습니다.",
+    "detail": "국세청은 임차 사업장의 사업자등록에 임대차계약서를 요구하고 전대에는 전대동의서를 안내합니다. 집합건물법은 주거 용도로 분양된 전유부분의 용도 외 사용과 관리규약을 확인할 근거를 두므로, 계약 전에 임대차계약·전대 동의·건축물 용도·관리규약을 각각 확인해야 한다고 기록했습니다.",
+    "refs": ["https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=7778&mi=2445", "https://www.nts.go.kr/taxpayer_advocate/na/ntt/selectNttInfo.do?bbsId=50728&mi=40396&nttSn=1302746", "https://law.go.kr/LSW/lsInfoP.do?lsiSeq=68739", "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=254889"]
   }
 ]
