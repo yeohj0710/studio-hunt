@@ -102,5 +102,13 @@
     "summary": "네이버부동산에서 서울 광진구 구의동 원룸 상세 화면 2건을 열어 중복 1건과 새 후보 1건을 확인했습니다.",
     "detail": "기존 매물번호 2643325080은 이미 등록된 매물이라 추가하지 않았습니다. 새 매물번호 2643662595 상세 화면에는 보증금 500만원, 월세 55만원, 관리비 5만원, 전용면적 18㎡, 3층/3층, 단독주택, 위반건축물 해당없음, 즉시입주, 주차 불가능으로 표시했습니다. 지점까지 걸리는 시간과 스튜디오 영업 가능 여부는 확인하지 않았습니다.",
     "refs": ["https://new.land.naver.com/rooms?ms=2AL6pE,3zmibo,16&a=APT:OPST:ABYG:OBYG:GM:OR:DDDGG:JWJT:SGJT:VL&e=RETAIL&aa=SMALLSPCRENT&articleNo=2643662595"]
+  },
+  {
+    "date": "2026-08-15",
+    "by": "codex",
+    "kind": "매물",
+    "summary": "직방에서 서울 광진구 구의동 매물 목록과 상세 화면 1건을 확인해 후보 1건을 추가했습니다.",
+    "detail": "상세 화면에 보증금 1억 7,700만원, 월세 10만원, 관리비 6만원, 전용면적 20.25㎡, 5층/5층, 주차 가능, 즉시 입주 가능으로 표시했습니다. 설명에는 다세대 빌라와 풀옵션을 표시하지만 건축물 용도와 스튜디오 영업 가능 여부는 확인하지 않아 미확인으로 남겼습니다.",
+    "refs": ["https://www.zigbang.com/home/oneroom/items/50051437?imageThumbnail=https%3A%2F%2Fic.zigbang.com%2Fic%2Fitems%2F50051437%2F1.jpg&hasVrKey=false"]
   }
 ]

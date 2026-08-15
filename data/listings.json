@@ -398,5 +398,30 @@
     "cons": ["건축물 용도를 단독주택으로 표시합니다.", "주차 불가능으로 표시합니다.", "지점까지 도보 시간은 확인하지 않았습니다."],
     "notes": "상세 화면에 단독주택 용도, 위반건축물 해당없음, 관리비 5만원, 주차 불가능으로 표시합니다. 방문객을 받는 스튜디오 영업 가능 여부와 소음 조건을 계약 전에 확인해야 합니다.",
     "source": { "site": "네이버부동산", "url": "https://new.land.naver.com/rooms?ms=2AL6pE,3zmibo,16&a=APT:OPST:ABYG:OBYG:GM:OR:DDDGG:JWJT:SGJT:VL&e=RETAIL&aa=SMALLSPCRENT&articleNo=2643662595", "listingId": "2643662595", "seenAt": "2026-08-15" }
+  },
+  {
+    "id": "zigbang-50051437",
+    "title": "구의동 준신축 다세대 분리형 원룸",
+    "kind": "원룸",
+    "address": "서울 광진구 구의동",
+    "addressDetail": "5층 / 5층",
+    "deposit": 17700,
+    "rent": 10,
+    "maintenance": 6,
+    "areaM2": 20.25,
+    "floor": 5,
+    "totalFloors": 5,
+    "ceilingM": null,
+    "livable": "미확인",
+    "livableNote": "상세 설명에 다세대 빌라라고 표시하지만 건축물 용도와 스튜디오 영업 가능 여부는 확인하지 않았습니다.",
+    "noiseRisk": "미확인",
+    "commute": { "walkMin": null, "transitMin": null, "routeNote": "화면에 지하철역 8분과 아차산역·광나루역을 표시하지만 지점까지 걸리는 시간은 확인하지 않았습니다." },
+    "contract": { "minMonths": null, "available": "즉시 입주 가능" },
+    "status": "candidate",
+    "rejectReason": "",
+    "pros": ["월세와 관리비 합계가 16만원입니다.", "전용면적 20.25㎡입니다.", "주차 가능과 에어컨·냉장고·세탁기·인덕션을 표시합니다."],
+    "cons": ["보증금이 1억 7,700만원입니다.", "5층/5층으로 표시합니다.", "지점까지 도보 시간은 확인하지 않았습니다."],
+    "notes": "상세 화면에 분리형 원룸, 주차 가능, 즉시 입주 가능으로 표시합니다. 다세대 빌라에서 방문객을 받는 스튜디오 영업 가능 여부와 소음 조건을 계약 전에 확인해야 합니다.",
+    "source": { "site": "직방", "url": "https://www.zigbang.com/home/oneroom/items/50051437?imageThumbnail=https%3A%2F%2Fic.zigbang.com%2Fic%2Fitems%2F50051437%2F1.jpg&hasVrKey=false", "listingId": "50051437", "seenAt": "2026-08-15" }
   }
 ]
