@@ -10,7 +10,11 @@
     "models": ["슈어 SM58", "오디오테크니카 AT2040", "로데 PodMic", "베링거 XM8500"],
     "usedOk": true,
     "usedNote": "고장 날 데가 거의 없어서 중고로 사도 되는 대표 품목입니다. 그릴 찌그러짐과 케이블 접촉만 봅니다.",
-    "quotes": [],
+    "quotes": [
+      { "condition": "new", "price": 97790, "site": "다나와", "url": "https://prod.danawa.com/info/?pcode=913472&keyword=%EC%8A%88%EC%96%B4%20SM58&cate=10214913", "model": "슈어 SM58 (정품)", "note": "다나와 상품비교 최저가 97,790원과 무료배송을 표시합니다.", "seenAt": "2026-08-15" },
+      { "condition": "used", "price": 30000, "site": "번개장터", "url": "https://m.bunjang.co.kr/products/422266596", "model": "신원 SM58", "note": "상품상태를 사용감 많음으로 표시하고 일반 배송비 5,000원을 표시합니다.", "seenAt": "2026-08-15" },
+      { "condition": "used", "price": 60000, "site": "당근", "url": "https://www.daangn.com/kr/buy-sell/%EC%8A%88%EC%96%B4-sm58s-%EB%A7%88%EC%9D%B4%ED%81%AC-yk88vwvwz29g/", "model": "슈어 SM58S", "note": "거래완료 상품이며 1년 전 등록, 본품만 판매한다고 표시합니다.", "seenAt": "2026-08-15" }
+    ],
     "chosen": null
   },
   {
