@@ -62,5 +62,13 @@
     "summary": "직방에서 서울 광진구 구의동 원룸 상세 화면 3건을 확인하고 매물 후보에 담았습니다.",
     "detail": "보증금은 5,000만원부터 1억5,399만원, 월세는 14만원부터 70만원, 관리비는 없음부터 8만원으로 표시합니다. 비주거·근린생활시설 표시와 입주 가능일을 기록하고, 지점까지 도보 시간은 확인하지 않아 null로 두었습니다.",
     "refs": ["https://www.zigbang.com/home/oneroom/items/50032425?imageThumbnail=https%3A%2F%2Fic.zigbang.com%2Fic%2Fitems%2F50032425%2F1.jpg&hasVrKey=false", "https://www.zigbang.com/home/oneroom/items/49904282?imageThumbnail=https%3A%2F%2Fic.zigbang.com%2Fic%2Fitems%2F49904282%2F1.jpg&hasVrKey=false", "https://www.zigbang.com/home/oneroom/items/50021445?imageThumbnail=https%3A%2F%2Fic.zigbang.com%2Fic%2Fitems%2F50021445%2F1.jpg&hasVrKey=false"]
+  },
+  {
+    "date": "2026-08-15",
+    "by": "codex",
+    "kind": "매물",
+    "summary": "다방에서 서울 광진구 구의동 원룸·투룸 상세 화면 3건을 확인하고 후보 2건과 거른 매물 1건을 기록했습니다.",
+    "detail": "보증금은 1,000만원부터 2,000만원, 월세는 60만원부터 100만원, 관리비는 1만원부터 7만원으로 표시합니다. 제2종근린생활시설과 단독주택 용도를 기록하고, 월세와 관리비 합계가 102만원인 1건은 월 고정비 상한 100만원을 넘어 rejected로 남겼습니다.",
+    "refs": ["https://www.dabangapp.com/map/onetwo?m_lat=37.54361914635132&m_lng=127.0932236640668&m_zoom=14&search_type=region&search_id=10178&detail_type=room&detail_id=6a7aa9ddf9bf35550b29df06", "https://www.dabangapp.com/map/onetwo?m_lat=37.54361914635132&m_lng=127.0932236640668&m_zoom=14&search_type=region&search_id=10178&detail_type=room&detail_id=6a7d25f32be3e5151bac2481", "https://www.dabangapp.com/map/onetwo?m_lat=37.54361914635132&m_lng=127.0932236640668&m_zoom=14&search_type=region&search_id=10178&detail_type=room&detail_id=6a76f9d5c7a9a35ad317e5f0"]
   }
 ]
