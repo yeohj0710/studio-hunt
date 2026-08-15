@@ -174,5 +174,13 @@
     "summary": "직방 상세 화면에서 매물 위치가 구의동까지만 표시되어 도보 시간을 채우지 못했습니다.",
     "detail": "zigbang-50032425 상세 화면의 위치는 서울시 광진구 구의동으로 표시됐고 정확한 번지와 지점까지 도보 시간은 표시되지 않았습니다. 추정값을 넣지 않고 commute.walkMin과 transitMin을 null로 유지했습니다.",
     "refs": ["https://www.zigbang.com/home/oneroom/items/50032425?imageThumbnail=https%3A%2F%2Fic.zigbang.com%2Fic%2Fitems%2F50032425%2F1.jpg&hasVrKey=false"]
+  },
+  {
+    "date": "2026-08-15",
+    "by": "codex",
+    "kind": "거리",
+    "summary": "다방 상세 화면에서 매물 1건의 실제 소재지를 확인해 주소를 보강했습니다.",
+    "detail": "dabang-58439072 상세 화면의 위치 및 주변시설에 서울특별시 광진구 구의동 68-5가 표시됐습니다. 지점까지 도보 경로 결과는 화면에 없어 commute.walkMin과 transitMin은 null로 유지했습니다.",
+    "refs": ["https://www.dabangapp.com/map/onetwo?m_lat=37.54361914635132&m_lng=127.0932236640668&m_zoom=14&search_type=region&search_id=10178&detail_type=room&detail_id=6a7aa9ddf9bf35550b29df06"]
   }
 ]
