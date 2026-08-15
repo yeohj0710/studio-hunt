@@ -403,5 +403,15 @@
     "refs": [
       "https://www.zigbang.com/home/oneroom/items/50032425?imageThumbnail=https%3A%2F%2Fic.zigbang.com%2Fic%2Fitems%2F50032425%2F1.jpg&hasVrKey=false"
     ]
+  },
+  {
+    "date": "2026-08-15",
+    "by": "codex",
+    "kind": "거리",
+    "summary": "네이버부동산 매물의 주소 미표시 사유를 매물 데이터에 명확히 기록했습니다.",
+    "detail": "naver-2643983551 상세 화면이 서울시 광진구 구의동까지만 표시한 사실을 routeNote와 매물 제외 사유에 반영하고, 정확한 주소가 없어 walkMin과 transitMin은 null로 유지했습니다.",
+    "refs": [
+      "https://new.land.naver.com/rooms?ms=2AL6pE,3zmibo,16&a=APT:OPST:ABYG:OBYG:GM:OR:DDDGG:JWJT:SGJT:VL&e=RETAIL&aa=SMALLSPCRENT&articleNo=2643983551"
+    ]
   }
 ]
