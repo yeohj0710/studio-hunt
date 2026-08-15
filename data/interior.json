@@ -378,7 +378,17 @@
     "alt": [],
     "usedOk": false,
     "usedNote": "",
-    "quotes": [],
+    "quotes": [
+      {
+        "condition": "new",
+        "price": 1500,
+        "site": "네이버쇼핑",
+        "url": "https://smartstore.naver.com/formlight/products/12939817181?nl-ts-pid=jotR0dqqJx3GTQiCU6h-349540&n_media=11068&n_query=LED%EC%A0%84%EA%B5%AC6500K12W%EC%A3%BC%EA%B4%91%EC%83%89&n_rank=1&n_ad_group=grp-a001-02-000000059466689&n_ad=nad-a001-02-000000459271917&n_campaign_type=2&n_mall_id=ncp_1nrt7q_01&n_mall_pid=12939817181&n_ad_group_type=2&n_match=3&NaPm=ct%3Dmsubr0vp%7Cci%3DEReda3568c%2D98a0%2D11f1%2D81e1%2De609e8bf4a3b%7Ctr%3Dpla%7Chk%3Db7eb819cfea6601890950dfc1f33815c4ec27aa3%7Cnacn%3Dtsb7BEx0cQMG",
+        "model": "비츠온 LED 볼구 전구 램프 E26 12W 주광색 6500K",
+        "note": "상품가 1,500원, 택배 배송비 2,900원, E26 소켓, 12W, 주광색 6500K, 수량 1개로 표시합니다. 배송비는 20개마다 부과되고 제주·도서지역은 4,000원이 추가됩니다.",
+        "seenAt": "2026-08-15"
+      }
+    ],
     "chosen": null
   }
 ]
