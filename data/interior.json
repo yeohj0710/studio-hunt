@@ -292,7 +292,35 @@
     "alt": [],
     "usedOk": true,
     "usedNote": "",
-    "quotes": [],
+    "quotes": [
+      {
+        "condition": "new",
+        "price": 339000,
+        "site": "네이버쇼핑",
+        "url": "https://smartstore.naver.com/noonfurniture/products/12527062388?nl-ts-pid=jotfWdqWmRY2i%2FL25%2BC-250652&n_media=11068&n_query=%EC%9E%90%EC%B7%A8%EB%B0%A9%EC%9A%A9%ED%85%8C%EC%9D%B4%EB%B8%94120CM&n_rank=1&n_ad_group=grp-a001-02-000000059209409&n_ad=nad-a001-02-000000450675109&n_campaign_type=2&n_mall_id=ncp_1oiq6j_01&n_mall_pid=12527062388&n_ad_group_type=2&n_match=3&NaPm=ct%3Dmsubg0tt%7Cci%3DERbbb26abf%2D989f%2D11f1%2D8110%2Dd6d09e6640e4%7Ctr%3Dpla%7Chk%3Dd9e408fbfc1954596161c2fd6d68efcd7bdb3d21%7Cnacn%3Dtsb7BEx0cQMG",
+        "model": "우디 원목 세라믹 확장형 4인용 6인용 포세린 식탁 1200 1600",
+        "note": "상품 가격 349,000원과 최대할인가 339,000원, 착불 배송비 50,000원을 표시합니다. 상품정보에 폭 120cm, 깊이 80cm, 높이 75cm, 고무나무 원목, E0 자재등급, 접이식·슬라이딩 확장을 표시합니다.",
+        "seenAt": "2026-08-15"
+      },
+      {
+        "condition": "used",
+        "price": 30000,
+        "site": "번개장터",
+        "url": "https://m.bunjang.co.kr/products/423963971",
+        "model": "사무실 회의 테이블 회의실 연수용 책상 120*60*74cm",
+        "note": "상품가 30,000원, 상태 사용감 없음, 규격 120×60×74cm, 수량 1개, 무료배송, 게시 3일 전을 표시합니다.",
+        "seenAt": "2026-08-15"
+      },
+      {
+        "condition": "used",
+        "price": 35000,
+        "site": "번개장터",
+        "url": "https://m.bunjang.co.kr/products/423836261",
+        "model": "사무실 회의 테이블 회의실 연수용 책상 4·6·8인용 120*60*74cm",
+        "note": "상품가 35,000원, 상태 사용감 없음, 수량 1개, 무료배송, 게시 4일 전을 표시합니다. 설명에는 사용한 적이 없는 새 상품이라고 적혀 있습니다.",
+        "seenAt": "2026-08-15"
+      }
+    ],
     "chosen": null
   },
   {
