@@ -383,5 +383,15 @@
     "refs": [
       "https://www.zigbang.com/home/oneroom/items/49931126?itemDetailType=ZIGBANG&imageThumbnail=https%3A%2F%2Fic.zigbang.com%2Fic%2Fitems%2F49931126%2F1.jpg&hasVrKey=false"
     ]
+  },
+  {
+    "date": "2026-08-15",
+    "by": "codex",
+    "kind": "거리",
+    "summary": "네이버부동산 매물의 소재지를 다시 확인했지만 정확한 주소가 표시되지 않았습니다.",
+    "detail": "naver-2643983551 상세 화면의 소재지가 다시 서울시 광진구 구의동까지만 표시되어 정확한 도로명·번지 주소와 네이버지도 도보 경로를 기록하지 않았습니다.",
+    "refs": [
+      "https://new.land.naver.com/rooms?ms=2AL6pE,3zmibo,16&a=APT:OPST:ABYG:OBYG:GM:OR:DDDGG:JWJT:SGJT:VL&e=RETAIL&aa=SMALLSPCRENT&articleNo=2643983551"
+    ]
   }
 ]
