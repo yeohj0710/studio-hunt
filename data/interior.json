@@ -190,7 +190,35 @@
     "alt": [],
     "usedOk": true,
     "usedNote": "",
-    "quotes": [],
+    "quotes": [
+      {
+        "condition": "new",
+        "price": 97900,
+        "site": "네이버쇼핑",
+        "url": "https://smartstore.naver.com/homemadehhome/products/5665826023?nl-ts-pid=jotd4sqWBvAnWYipLSd-434813&NaPm=ct%3Dmsub1ffj%7Cci%3DrBg9agAAAaAFOP9RAUorew%2E%2E01%7Ctr%3Dpmax%7Chk%3D6b5d30b25625b610ee68dcdd3a4c4e9ea6da6174%7Cnacn%3Dtsb7BEx0cQMG",
+        "model": "먼지없는 사계절 러그 워셔블 거실 카페트 단모 방수 대형 81번 200x300",
+        "note": "상품 가격 98,900원과 최대할인가 97,900원, 무료배송을 표시합니다. 200x300cm 단모 러그이며 워셔블·방수 상품이고 평점 4.77과 리뷰 683건을 표시합니다.",
+        "seenAt": "2026-08-15"
+      },
+      {
+        "condition": "used",
+        "price": 43000,
+        "site": "번개장터",
+        "url": "https://m.bunjang.co.kr/products/382654484",
+        "model": "화이트 극세사 러그 200x300",
+        "note": "상품 상태를 새 상품(미사용)으로 표시합니다. 200x300 규격 1개가 43,000원이며 보관만 한 미사용 제품이라고 적습니다. 일반 배송비 11,000원과 게시 시점 13일 전을 표시합니다.",
+        "seenAt": "2026-08-15"
+      },
+      {
+        "condition": "used",
+        "price": 120000,
+        "site": "번개장터",
+        "url": "https://m.bunjang.co.kr/products/370252867",
+        "model": "먼지없는 생활방수 사계절 거실 러그 200x300",
+        "note": "상품 상태를 새 상품(미사용)으로 표시합니다. 200x300 규격 1개가 120,000원이며 집에 펼쳐본 뒤 인테리어와 맞지 않아 다시 판매한다고 적습니다. 무료배송과 과천시 직거래, 게시 시점 5달 전을 표시합니다.",
+        "seenAt": "2026-08-15"
+      }
+    ],
     "chosen": null
   },
   {
