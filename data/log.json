@@ -14,5 +14,13 @@
     "summary": "Google 지도에서 신용보증기금 광진지점의 주소와 좌표를 확인했습니다.",
     "detail": "서울특별시 광진구 광나루로 520 주소에 표시된 위도 37.5446539, 경도 127.0872424를 data/config.json에 반영했습니다.",
     "refs": ["https://www.google.com/maps/place/%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C+%EA%B4%91%EC%A7%84%EA%B5%AC+%EA%B4%91%EB%82%98%EB%A3%A8%EB%A1%9C+520/data=!3m1!4b1!4m6!3m5!1s0x357ca52619741251:0xb1322d7c8460d767!8m2!3d37.5446539!4d127.0872424!16s%2Fg%2F11bz7gf3z1?entry=ttu&g_ep=EgoyMDI2MDgxMi4wIKXMDSoASAFQAw%3D%3D"]
+  },
+  {
+    "date": "2026-08-15",
+    "by": "codex",
+    "kind": "확인",
+    "summary": "국가법령정보센터와 정부24에서 상가·사무실의 숙박 가능 여부를 가르는 공식 확인 항목을 확인했습니다.",
+    "detail": "공식 자료는 건축물 용도와 용도변경 절차, 건축물대장 확인을 안내하지만 상가·사무실의 숙박을 일괄 허용하지 않습니다. 개별 매물은 계약 전에 건축물대장 용도와 전입신고 가능 여부를 확인해야 한다고 기록했습니다.",
+    "refs": ["https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=267115", "https://m.gov.kr/mw/AA020InfoCappView.do?CappBizCD=15000000076&HighCtgCD=A09005", "https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=13110000039&HighCtgCD=A01008"]
   }
 ]
