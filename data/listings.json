@@ -473,5 +473,30 @@
     "cons": ["건축물 용도를 단독주택으로 표시합니다.", "2026년 9월 15일 이후 입주 협의로 표시합니다.", "지점까지 도보 시간은 확인하지 않았습니다."],
     "notes": "상세 화면에 단독주택, 분리형 원룸, 주차 가능, 2026년 9월 15일 이후 입주 협의로 표시합니다. 방문객을 받는 스튜디오 영업 가능 여부와 소음 조건을 계약 전에 확인해야 합니다.",
     "source": { "site": "당근", "url": "https://realty.daangn.com/articles/4169317", "listingId": "4169317", "seenAt": "2026-08-15" }
+  },
+  {
+    "id": "naver-2643603437",
+    "title": "구의동 4층 넓은 분리형 원룸",
+    "kind": "원룸",
+    "address": "서울 광진구 구의동",
+    "addressDetail": "4층 / 5층",
+    "deposit": 5000,
+    "rent": 80,
+    "maintenance": 9,
+    "areaM2": 27.01,
+    "floor": 4,
+    "totalFloors": 5,
+    "ceilingM": null,
+    "livable": "미확인",
+    "livableNote": "건축물 용도를 단독주택으로 표시하고 위반건축물은 해당으로 표시합니다. 스튜디오 영업 가능 여부는 확인하지 않았습니다.",
+    "noiseRisk": "미확인",
+    "commute": { "walkMin": null, "transitMin": null, "routeNote": "지점까지 걸리는 시간은 확인하지 않았습니다." },
+    "contract": { "minMonths": null, "available": "2026-10-30" },
+    "status": "candidate",
+    "rejectReason": "",
+    "pros": ["월세와 관리비 합계가 89만원입니다.", "전용면적 27.01㎡입니다.", "주차 가능과 에어컨·가스레인지·냉장고·세탁기를 표시합니다."],
+    "cons": ["위반건축물 해당으로 표시합니다.", "주차 가능 여부는 협의로 표시합니다.", "2026년 10월 30일 입주 가능으로 표시합니다."],
+    "notes": "상세 화면에 단독주택 용도, 위반건축물 해당, 관리비 9만원, 주차 가능으로 표시합니다. 위반건축물 관련 사항과 방문객을 받는 스튜디오 영업 가능 여부를 계약 전에 확인해야 합니다.",
+    "source": { "site": "네이버부동산", "url": "https://new.land.naver.com/rooms?ms=2AL6pE,3zmibo,16&a=APT:OPST:ABYG:OBYG:GM:OR:DDDGG:JWJT:SGJT:VL&e=RETAIL&aa=SMALLSPCRENT&articleNo=2643603437", "listingId": "2643603437", "seenAt": "2026-08-15" }
   }
 ]
