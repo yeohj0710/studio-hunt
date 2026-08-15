@@ -6,5 +6,13 @@
     "summary": "저장소와 사이트를 만들었습니다. 기준점은 신용보증기금 광진지점(광나루로 520)으로 잡았습니다.",
     "detail": "매물과 장비 시세, 인테리어 견적은 아직 하나도 없습니다. 조건과 살 물건 목록, 예산 시나리오 뼈대만 세웠습니다. 여기서부터는 조사 루프가 숫자를 채웁니다.",
     "refs": []
+  },
+  {
+    "date": "2026-08-15",
+    "by": "codex",
+    "kind": "확인",
+    "summary": "Google 지도에서 신용보증기금 광진지점의 주소와 좌표를 확인했습니다.",
+    "detail": "서울특별시 광진구 광나루로 520 주소에 표시된 위도 37.5446539, 경도 127.0872424를 data/config.json에 반영했습니다.",
+    "refs": ["https://www.google.com/maps/place/%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C+%EA%B4%91%EC%A7%84%EA%B5%AC+%EA%B4%91%EB%82%98%EB%A3%A8%EB%A1%9C+520/data=!3m1!4b1!4m6!3m5!1s0x357ca52619741251:0xb1322d7c8460d767!8m2!3d37.5446539!4d127.0872424!16s%2Fg%2F11bz7gf3z1?entry=ttu&g_ep=EgoyMDI2MDgxMi4wIKXMDSoASAFQAw%3D%3D"]
   }
 ]

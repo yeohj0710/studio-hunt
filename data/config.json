@@ -5,12 +5,13 @@
     "roadAddress": "서울 광진구 광나루로 520",
     "jibunAddress": "서울 광진구 구의동 233-2 신용보증기금빌딩",
     "phone": "02-2204-6200",
-    "geo": null,
-    "verified": false,
-    "note": "사무실 자리입니다. 여기서 걸어 다닐 거리에 스튜디오를 잡습니다. 위도·경도는 아직 확인하지 않았습니다.",
+    "geo": { "lat": 37.5446539, "lng": 127.0872424 },
+    "verified": true,
+    "note": "사무실 자리입니다. 여기서 걸어 다닐 거리에 스튜디오를 잡습니다. Google 지도에서 위도 37.5446539, 경도 127.0872424를 확인했습니다.",
     "sources": [
       "https://www.114.co.kr/search/detail?comp_id=976794&comp_tp_cd=INT&upjong_cd=769905",
-      "https://kbank.org/store/view.asp?SEQ=3505400"
+      "https://kbank.org/store/view.asp?SEQ=3505400",
+      "https://www.google.com/maps/place/%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C+%EA%B4%91%EC%A7%84%EA%B5%AC+%EA%B4%91%EB%82%98%EB%A3%A8%EB%A1%9C+520/data=!3m1!4b1!4m6!3m5!1s0x357ca52619741251:0xb1322d7c8460d767!8m2!3d37.5446539!4d127.0872424!16s%2Fg%2F11bz7gf3z1?entry=ttu&g_ep=EgoyMDI2MDgxMi4wIKXMDSoASAFQAw%3D%3D"
     ]
   },
   "limits": {
