@@ -181,7 +181,11 @@
     "models": ["시그마 30mm F1.4 DC DN", "소니 35mm F1.8", "번들 16-50mm"],
     "usedOk": true,
     "usedNote": "곰팡이와 조리개 유막을 봅니다. 렌즈는 중고 시세가 안정적이라 나중에 되팔기 쉽습니다.",
-    "quotes": [],
+    "quotes": [
+      { "condition": "new", "price": 479220, "site": "네이버쇼핑", "url": "https://smartstore.naver.com/gmstore81/products/11444145038", "model": "시그마 30mm F1.4 DC DN Contemporary 소니 SE", "note": "상품 가격 479,220원, 할인 전 가격 489,000원, 2% 할인, 상품 화면 상단 무료배송과 배송정보의 50,000원 이상 무료·기본 3,000원을 확인합니다.", "seenAt": "2026-08-15" },
+      { "condition": "used", "price": 330000, "site": "네이버쇼핑", "url": "https://smartstore.naver.com/dccamera/products/13497727792", "model": "시그마 C 30mm F1.4 DC DN 소니 E 마운트", "note": "상품 가격 330,000원과 무료배송을 확인합니다. 상품정보에 전시·리퍼·중고 상품이며 기계적 결함과 작동상 이상 없는 A급 제품이라고 표시합니다.", "seenAt": "2026-08-15" },
+      { "condition": "used", "price": 300000, "site": "번개장터", "url": "https://m.bunjang.co.kr/products/423544939?imp_id=35436a804144006478c8&content_position=0", "model": "시그마 30mm F1.4 DC DN (소니e마운트)", "note": "상품상태를 사용감 적음, 등록 시점을 3일 전, 일반 배송비 5,000원으로 표시합니다. 정품 WR필터와 프로텍터, 후드 포함, 전옥·후옥 상태 양호와 바디 사용감을 적습니다.", "seenAt": "2026-08-15" }
+    ],
     "chosen": null
   },
   {
