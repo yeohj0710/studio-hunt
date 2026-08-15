@@ -285,7 +285,11 @@
     "models": ["키라이트와 같은 기종", "흰색 폼보드 반사판"],
     "usedOk": true,
     "usedNote": "",
-    "quotes": [],
+    "quotes": [
+      { "condition": "new", "price": 185570, "site": "네이버쇼핑", "url": "https://search.shopping.naver.com/catalog/23461760497", "model": "고독스 SL-60W", "note": "네이버 가격비교 상세 화면에서 최저가 185,570원과 무료배송을 표시합니다. 평점 4.95점, 리뷰 116건, 60W 지속광 LED와 220~240V 제품 속성을 확인합니다.", "seenAt": "2026-08-15" },
+      { "condition": "used", "price": 190000, "site": "번개장터", "url": "https://m.bunjang.co.kr/products/423225691", "model": "고독스 TL60", "note": "사용감 없음으로 표시합니다. 고독스 TL60 풀박스와 구성품, 수납 가방을 포함해 190,000원에 판매하며 게시 시점은 9일 전이고 무료배송을 표시합니다.", "seenAt": "2026-08-15" },
+      { "condition": "used", "price": 200000, "site": "번개장터", "url": "https://m.bunjang.co.kr/products/423853543", "model": "고독스 SL60W 2대", "note": "사용감 적음으로 표시합니다. 고독스 SL60W 2대와 가방을 200,000원에 판매하며 스탠드와 리플렉터는 1개만 있고 작동이 잘된다고 적습니다. 게시 시점은 4일 전이며 일반 배송비 7,500원을 표시합니다.", "seenAt": "2026-08-15" }
+    ],
     "chosen": null
   },
   {
