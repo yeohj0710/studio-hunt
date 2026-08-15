@@ -163,7 +163,11 @@
     "models": ["메인과 같은 기종", "소니 a6000"],
     "usedOk": true,
     "usedNote": "메인과 같은 기종이면 배터리와 충전기를 같이 씁니다.",
-    "quotes": [],
+    "quotes": [
+      { "condition": "new", "price": 890000, "site": "네이버쇼핑", "url": "https://smartstore.naver.com/hiav/products/11853001783?nl-ts-pid=jos%2BKsqW7KTcrniPaGZ-147829&n_media=11068&n_query=%EC%86%8C%EB%8B%88A6400%EB%B3%B8%EC%B2%B4&n_rank=2&n_ad_group=grp-a001-02-000000043184555&n_ad=nad-a001-02-000000464595296&n_campaign_type=2&n_mall_id=histore&n_mall_pid=11853001783&n_ad_group_type=2&n_match=3&NaPm=ct%3Dmsu8awap%7Cci%3DER71c38767%2D9893%2D11f1%2Db44e%2D96706a7dac00%7Ctr%3Dpla%7Chk%3D221f2eb4ce331d47374474a680a98652c219b4d6%7Cnacn%3Dtsb7BEx0cQMG", "model": "소니 a6400", "note": "최대할인가 890,000원, 상품 가격 893,500원, 할인 전 가격 895,000원과 무료배송을 표시합니다.", "seenAt": "2026-08-15" },
+      { "condition": "used", "price": 455000, "site": "번개장터", "url": "https://m.bunjang.co.kr/products/423809454?imp_id=2a686a803f41007d2716&content_position=10", "model": "소니 a6000", "note": "상품상태를 사용감 없음, 등록 시점을 3일 전, 일반 배송비 5,000원과 GS·CU 반값 배송비 3,000원으로 표시합니다. 바디만 판매하며 충전기와 배터리 3개를 적습니다.", "seenAt": "2026-08-15" },
+      { "condition": "used", "price": 400000, "site": "번개장터", "url": "https://m.bunjang.co.kr/products/416369171?imp_id=2a686a803f41007d2722&content_position=24", "model": "소니 a6000", "note": "상품상태를 사용감 적음, 등록 시점을 1달 전, 무료배송으로 표시합니다. 바디만 판매하며 정품 배터리와 충전기를 함께 준다고 적습니다.", "seenAt": "2026-08-15" }
+    ],
     "chosen": null
   },
   {
