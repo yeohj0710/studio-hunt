@@ -112,7 +112,11 @@
     "models": ["오디오테크니카 ATH-M20x", "소니 MDR-7506", "슈어 SRH440"],
     "usedOk": true,
     "usedNote": "이어패드는 소모품이라 헐었으면 따로 사서 갈면 됩니다.",
-    "quotes": [],
+    "quotes": [
+      { "condition": "new", "price": 71500, "site": "쿠팡", "url": "https://www.coupang.com/vp/products/301650933?itemId=949202593&vendorItemId=5341646529&src=1042501&spec=10304968&addtag=400&ctag=301650933&lptag=I949202593&itime=20260815192056&pageType=PRODUCT&pageValue=301650933&wPcid=17841895381493159351384&wRef=&wTime=20260815192056&redirect=landing&mcid=caa6e93982344d91ab46c82cab5635db&n_ad_group=grp-a001-02-000000035884020&n_ad=nad-a001-02-000000565824769&n_rank=3&n_media=11068&n_query=%EC%98%A4%EB%94%94%EC%98%A4%ED%85%8C%ED%81%AC%EB%8B%88%EC%B9%B4ATH-M20X", "model": "오디오테크니카 ATH-M20x", "note": "상품 가격 71,500원과 무료배송을 표시합니다. 품명 및 모델명에 ATH-M20x를 표시합니다.", "seenAt": "2026-08-15" },
+      { "condition": "used", "price": 90000, "site": "번개장터", "url": "https://m.bunjang.co.kr/products/423781658?imp_id=2a686a803db600764ddb&content_position=0", "model": "소니 MDR-7506", "note": "상품상태를 사용감 없음, 등록 시점을 5일 전, 무료배송으로 표시하며 파우치 포함이라고 적습니다.", "seenAt": "2026-08-15" },
+      { "condition": "used", "price": 90000, "site": "번개장터", "url": "https://m.bunjang.co.kr/products/380157066?imp_id=2a686a803db600764dde&content_position=3", "model": "소니 MDR-7506", "note": "상품상태를 사용감 적음, 등록 시점을 7달 전, 일반 배송비 5,000원으로 표시하며 파우치 구성품을 적습니다.", "seenAt": "2026-08-15" }
+    ],
     "chosen": null
   },
   {
