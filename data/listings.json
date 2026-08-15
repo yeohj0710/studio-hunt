@@ -290,7 +290,7 @@
     "livable": "회색",
     "livableNote": "건축물 용도를 제2종근린생활시설로 표시합니다. 상세 설명에는 주거겸사무실·전입신고·사업자등록 가능이라는 광고 문구도 있지만 법적 가능 여부는 확인하지 않았습니다.",
     "noiseRisk": "미확인",
-    "commute": { "walkMin": null, "transitMin": null, "routeNote": "화면에 구의역 981m로 표시하지만 지점까지 걸리는 시간은 확인하지 않았습니다." },
+    "commute": { "walkMin": 5, "transitMin": null, "routeNote": "네이버지도 추천 도보 경로 5분, 326m, 509걸음, 횡단보도 2회로 표시합니다." },
     "contract": { "minMonths": null, "available": "즉시 입주" },
     "status": "candidate",
     "rejectReason": "",
