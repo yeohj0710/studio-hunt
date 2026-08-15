@@ -358,7 +358,11 @@
     "models": ["바닥용 몰딩", "가스파 테이프"],
     "usedOk": false,
     "usedNote": "다이소로 해결되는 품목입니다.",
-    "quotes": [],
+    "quotes": [
+      { "condition": "new", "price": 1800, "site": "네이버쇼핑", "url": "https://smartstore.naver.com/nanurishop/products/6473457702?nl-ts-pid=jot6XspVvvE%2FMY687R0-125142&n_media=11068&n_query=%EB%B0%94%EB%8B%A5%EC%BC%80%EC%9D%B4%EB%B8%94%EB%AA%B0%EB%94%A9&n_rank=1&n_ad_group=grp-a001-02-000000057607746&n_ad=nad-a001-02-000000437719309&n_campaign_type=2&n_mall_id=nanuri7000&n_mall_pid=6473457702&n_ad_group_type=2&n_match=3&NaPm=ct%3Dmsua7opd%7Cci%3DEReabac418%2D989a%2D11f1%2Daeac%2D421cfec2949a%7Ctr%3Dpla%7Chk%3Ddcf48d20300029e4568ac9f803f95188b3cd3c9e%7Cnacn%3Dtsb7BEx0cQMG", "model": "선바로 일체형 전선몰딩", "note": "상품 가격 1,800원과 배송비 3,000원을 표시합니다. 열고 닫는 일체형 전선몰드이며 옵션으로 색상, 사이즈와 연결캡·엘보캡을 선택합니다.", "seenAt": "2026-08-15" },
+      { "condition": "new", "price": 18050, "site": "네이버쇼핑", "url": "https://smartstore.naver.com/klcorp/products/6474127570?nl-ts-pid=jot6Gdqq5FAc1YgwCD8-089880&NaPm=ct%3Dmsua8hi0%7Cci%3DER00f9327f%2D989b%2D11f1%2Db915%2D56305bda6a30%7Ctr%3Dpla%7Chk%3D5ec31c26fe54def4b4a1c9ce917debcef85e07e0%7Cnacn%3Dtsb7BEx0cQMG", "model": "폭 2cm 양면벨크로 10m", "note": "상품 가격 19,000원, 최대할인가 18,050원과 배송비 3,000원을 표시합니다. 폭 2cm, 길이 10m, 국산 양면벨크로, 벨크로형 케이블 묶음 제품입니다.", "seenAt": "2026-08-15" },
+      { "condition": "new", "price": 5470, "site": "네이버쇼핑", "url": "https://smartstore.naver.com/cai4/products/13475056958?nl-ts-pid=jot7twqqc9%2BStQL842o-110674&n_media=11068&n_query=%EB%B0%94%EB%8B%A5%EC%BC%80%EC%9D%B4%EB%B8%94%ED%85%8C%EC%9D%B4%ED%94%84&n_rank=2&n_ad_group=grp-a001-02-000000071467673&n_ad=nad-a001-02-000000563413724&n_campaign_type=2&n_mall_id=ncp_i6xvh5_01&n_mall_pid=13475056958&n_ad_group_type=2&n_match=3&NaPm=ct%3Dmsua9ac9%7Cci%3DER174078b0%2D989b%2D11f1%2Db155%2D3acbcb443efa%7Ctr%3Dpla%7Chk%3D54d8962e5a9259af579040dae825e8545b10fb1f%7Cnacn%3Dtsb7BEx0cQMG", "model": "전선몰딩테이프", "note": "상품 가격 5,530원, 최대할인가 5,470원과 배송비 3,000원을 표시합니다. 상품명은 바닥 전선 선정리용 붙이는 정리 테이프이며 색상 옵션을 선택합니다.", "seenAt": "2026-08-15" }
+    ],
     "chosen": null
   },
   {
