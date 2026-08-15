@@ -103,7 +103,35 @@
     "alt": [],
     "usedOk": true,
     "usedNote": "",
-    "quotes": [],
+    "quotes": [
+      {
+        "condition": "new",
+        "price": 24900,
+        "site": "네이버쇼핑",
+        "url": "https://brand.naver.com/woodray/products/5195216434?nl-ts-pid=jotMkwqqMVTzDYc%2BEah-312030&NaPm=ct%3Dmsuarn10%7Cci%3DrBmVAgAAAaAFMmP1AUTBuQ%2E%2E02%7Ctr%3Dpmax%7Chk%3Dc614641999bbea68dc9c2f0fcf6b7153d2d7841c%7Cnacn%3Dtsb7BEx0cQMG",
+        "model": "도노 2단 낮은 아치형 선반 양념 미니선반",
+        "note": "상품 가격 24,900원과 무료배송을 표시합니다. 2단 낮은 아치형 선반이며 평점 4.83과 리뷰 996건을 표시합니다.",
+        "seenAt": "2026-08-15"
+      },
+      {
+        "condition": "used",
+        "price": 40000,
+        "site": "번개장터",
+        "url": "https://m.bunjang.co.kr/products/422098349",
+        "model": "스피드랙 철제선반 2단 화이트 600x700x1350",
+        "note": "상품 상태를 사용감 없음으로 표시합니다. 700x600x1,350mm 규격과 1개 수량, 40,000원 가격, 일반 배송비 13,000원을 표시합니다. 개봉 후 다시 포장한 제품이라고 적고 게시 시점은 18일 전이며 분당구 직거래를 표시합니다.",
+        "seenAt": "2026-08-15"
+      },
+      {
+        "condition": "used",
+        "price": 50000,
+        "site": "번개장터",
+        "url": "https://m.bunjang.co.kr/products/353477939",
+        "model": "철제 낮은 진열대 2개 한 세트",
+        "note": "상품 상태를 사용감 없음으로 표시합니다. 매장에서 사용하던 낮은형 철제 진열대 2개 한 세트를 50,000원에 판매하며 게시 시점은 11달 전입니다. 배송비 무료를 표시하지만 설명에는 직접 가져가야 하고 직거래만 가능하며 택배는 불가하다고 적습니다.",
+        "seenAt": "2026-08-15"
+      }
+    ],
     "chosen": null
   },
 
