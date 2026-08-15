@@ -274,6 +274,8 @@
     "commute": { "walkMin": null, "transitMin": null, "routeNote": "화면에 구의역 도보 약 15분으로 표시하지만 지점까지 걸리는 시간은 확인하지 않았습니다." },
     "contract": { "minMonths": null, "available": "2026-10-26" },
     "status": "candidate",
+    "unresolved": ["commute"],
+    "unresolvedNote": "사용자 요청에 따라 네이버부동산 기존 화면과 새 화면을 대조했지만 보증금 5,000만원·월세 45만원·24㎡·2층/5층 조건과 일치하는 네이버 매물을 찾지 못했습니다.",
     "rejectReason": "",
     "pros": ["월세와 관리비 합계가 52만원입니다.", "전용면적 24㎡입니다.", "주차 가능으로 표시합니다."],
     "cons": ["2026년 10월 26일 이후 입주 가능으로 표시합니다.", "지점까지 도보 시간은 확인하지 않았습니다."],
