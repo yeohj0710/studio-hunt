@@ -918,5 +918,14 @@
       "https://fin.land.naver.com/map?center=3zmhop-2AL1RW&realEstateTypes=A01-A04-B01-C03&zoom=17&layer=NobwRAlgJmBcYCcCGUIFcDOB9ADhAdmADRgYCmSCAxgBYAKlSAthnOMqpnQXMAIwAmAOwA6AAwAOCWIDMcojNEBWACwCBMgGwqAugF89OoA&showOnlySelectedRegion=false",
       "https://new.land.naver.com?ms=37.5422364,127.0880333,18"
     ]
+  },
+  {
+    "date":"2026-08-15","by":"codex","kind":"자리",
+    "summary":"네이버부동산 새 상세 화면에서 단독주택 용도를 확인하고 숙박 가능 여부는 회색으로 표시했습니다.",
+    "detail":"네이버부동산 매물번호 2643662595 새 상세 화면에서 건축물용도 단독주택을 확인했습니다. 전입신고 가능이라는 광고 문구는 표시하지만 법적 가능 여부와 스튜디오 영업 가능 여부는 확인하지 않았습니다.",
+    "refs":[
+      "https://new.land.naver.com/rooms?ms=2AL6pE,3zmibo,16&a=APT:OPST:ABYG:OBYG:GM:OR:DDDGG:JWJT:SGJT:VL&e=RETAIL&aa=SMALLSPCRENT&articleNo=2643662595",
+      "https://fin.land.naver.com/map?layer=NobwRAlgJmBcYEMBOAXCBjANgUwPpWxQQkzABowAHZBAWwGc5xk0tsBJGeAJgDYAWAMy9e3AKwBOMWAC%2BMgLpA&center=3zm5nt-2AL8s6&zoom=17&realEstateTypes=A01-A04-B01-C03"
+    ]
   }
 ]
