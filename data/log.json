@@ -977,5 +977,11 @@
     "summary":"30일 넘은 매물과 60일 넘은 시세가 없어 재확인 대상을 만들지 않았습니다.",
     "detail":"2026-08-15 기준으로 listings.source.seenAt를 확인했으며 2026-07-16 이전 매물이 없습니다. market.rates[].seenAt와 market.updatedAt도 모두 2026-08-15라서 60일 넘은 시세가 없습니다.",
     "refs":[]
+  },
+  {
+    "date":"2026-08-15","by":"codex","kind":"정리",
+    "summary":"정리 회차를 다시 확인했지만 30일 넘은 매물과 60일 넘은 시세가 없습니다.",
+    "detail":"2026-08-15 기준으로 listings.source.seenAt와 market.rates[].seenAt를 다시 확인했습니다. 재확인할 오래된 매물과 시세가 없어 상태를 바꾸지 않았습니다.",
+    "refs":[]
   }
 ]
