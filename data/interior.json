@@ -147,7 +147,35 @@
     "alt": [],
     "usedOk": true,
     "usedNote": "",
-    "quotes": [],
+    "quotes": [
+      {
+        "condition": "new",
+        "price": 48900,
+        "site": "네이버쇼핑",
+        "url": "https://smartstore.naver.com/the1living/products/5870244508?nl-ts-pid=jotnRwqWmRXu%2FnL2NiV-444462&n_media=11068&n_query=%EC%95%94%EB%A7%89%EC%BB%A4%ED%8A%BC2%EC%9E%A5&n_rank=1&n_ad_group=grp-a001-02-000000027247051&n_ad=nad-a001-02-000000184837037&n_campaign_type=2&n_mall_id=ncp_1o5why_01&n_mall_pid=5870244508&n_ad_group_type=2&n_match=3&NaPm=ct%3Dmsuawuel%7Cci%3DERa65c99fd%2D989d%2D11f1%2Dbfb3%2D4acd10d65935%7Ctr%3Dpla%7Chk%3Db1f08f714d9e109ad977c00c96f2a49486a4a698%7Cnacn%3Dtsb7BEx0cQMG",
+        "model": "느아르 형상기억 100% 암막커튼 핀형 130x165 2장",
+        "note": "상품 가격 49,900원과 최대할인가 48,900원, 무료배송을 표시합니다. 100% 암막커튼 130x165cm 2장 구성이고 핀형이며 평점 4.81과 리뷰 612건을 표시합니다.",
+        "seenAt": "2026-08-15"
+      },
+      {
+        "condition": "used",
+        "price": 16000,
+        "site": "번개장터",
+        "url": "https://m.bunjang.co.kr/products/423144539",
+        "model": "암막 커튼 그레이 175x230 1세트(2장)",
+        "note": "상품 상태를 사용감 적음으로 표시합니다. 175x230 규격 2장 한 세트가 16,000원이며 2~3개월 사용했다고 적습니다. 일반 배송비 4,500원과 반값택배 2,700원을 표시하며 게시 시점은 10일 전입니다.",
+        "seenAt": "2026-08-15"
+      },
+      {
+        "condition": "used",
+        "price": 50000,
+        "site": "번개장터",
+        "url": "https://m.bunjang.co.kr/products/423063992",
+        "model": "지나송 암막 커튼 특대형 그레이 투톤 220x230(-3cm)",
+        "note": "상품 상태를 사용감 없음으로 표시하지만 설명에는 2017년 생산 제품이라 사용감이 있다고 적습니다. 220x230(-3cm) 커튼 양쪽과 봉 세트가 50,000원이며 세탁 완료, 무료배송, 직거래 가능, 게시 시점 10일 전을 표시합니다.",
+        "seenAt": "2026-08-15"
+      }
+    ],
     "chosen": null
   },
   {
