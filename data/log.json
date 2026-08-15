@@ -312,5 +312,15 @@
       "https://new.land.naver.com/rooms?ms=2AL6pE,3zmibo,16&a=APT:OPST:ABYG:OBYG:GM:OR:DDDGG:JWJT:SGJT:VL&e=RETAIL&aa=SMALLSPCRENT&articleNo=2643983149",
       "https://map.naver.com/p/search/%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EA%B4%91%EC%A7%84%EA%B5%AC%20%EC%9E%90%EC%96%91%EB%A1%9C%20172"
     ]
+  },
+  {
+    "date": "2026-08-15",
+    "by": "codex",
+    "kind": "거리",
+    "summary": "직방 상세 화면에서 매물의 정확한 주소를 확인하지 못했습니다.",
+    "detail": "zigbang-49904282 상세 화면의 위치가 서울시 광진구 구의동까지만 표시되어 정확한 도로명·번지 주소와 네이버지도 도보 경로를 기록하지 않았습니다.",
+    "refs": [
+      "https://www.zigbang.com/home/oneroom/items/49904282?imageThumbnail=https%3A%2F%2Fic.zigbang.com%2Fic%2Fitems%2F49904282%2F1.jpg&hasVrKey=false"
+    ]
   }
 ]
