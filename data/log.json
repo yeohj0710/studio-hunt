@@ -70,5 +70,13 @@
     "summary": "다방에서 서울 광진구 구의동 원룸·투룸 상세 화면 3건을 확인하고 후보 2건과 거른 매물 1건을 기록했습니다.",
     "detail": "보증금은 1,000만원부터 2,000만원, 월세는 60만원부터 100만원, 관리비는 1만원부터 7만원으로 표시합니다. 제2종근린생활시설과 단독주택 용도를 기록하고, 월세와 관리비 합계가 102만원인 1건은 월 고정비 상한 100만원을 넘어 rejected로 남겼습니다.",
     "refs": ["https://www.dabangapp.com/map/onetwo?m_lat=37.54361914635132&m_lng=127.0932236640668&m_zoom=14&search_type=region&search_id=10178&detail_type=room&detail_id=6a7aa9ddf9bf35550b29df06", "https://www.dabangapp.com/map/onetwo?m_lat=37.54361914635132&m_lng=127.0932236640668&m_zoom=14&search_type=region&search_id=10178&detail_type=room&detail_id=6a7d25f32be3e5151bac2481", "https://www.dabangapp.com/map/onetwo?m_lat=37.54361914635132&m_lng=127.0932236640668&m_zoom=14&search_type=region&search_id=10178&detail_type=room&detail_id=6a76f9d5c7a9a35ad317e5f0"]
+  },
+  {
+    "date": "2026-08-15",
+    "by": "codex",
+    "kind": "매물",
+    "summary": "피터팬에서 서울 광진구 구의동 검색 목록을 확인했지만 상세 매물 화면을 열지 못해 새 매물을 추가하지 않았습니다.",
+    "detail": "검색 목록에는 구의동 매물 101건이 표시됐지만 상세 화면으로 전환되지 않았습니다. 브라우저 탭이 종료되어 source.url로 쓸 상세 주소를 확보하지 못했으므로 목록 수치와 광고 문구를 매물 데이터에 넣지 않았습니다.",
+    "refs": ["https://www.peterpanz.com/villa?zoomLevel=15&center=%7B%22y%22:37.5424736,%22_lat%22:37.5424736,%22x%22:127.0856867,%22_lng%22:127.0856867%7D&dong=%EA%B5%AC%EC%9D%98%EB%8F%99&gungu=%EA%B4%91%EC%A7%84%EA%B5%AC&filter=latitude:37.5324688~37.5524771%7C%7Clongitude:127.080966~127.11444%7C%7CbuildingType;%5B%22%EB%B9%8C%EB%9D%BC/%EC%A3%BC%ED%83%9D%22%5D&"]
   }
 ]
