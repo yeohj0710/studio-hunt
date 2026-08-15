@@ -15,7 +15,7 @@
     "livable": "회색",
     "livableNote": "건축물 용도를 제2종 근린생활시설로 표시합니다. 숙박·전입신고 가능 여부는 확인하지 않았습니다.",
     "noiseRisk": "미확인",
-    "commute": { "walkMin": null, "transitMin": null, "routeNote": "지점까지 걸리는 시간은 확인하지 않았습니다." },
+    "commute": { "walkMin": 7, "transitMin": null, "routeNote": "네이버지도 추천 도보 경로 7분, 477m, 745걸음으로 표시합니다." },
     "contract": { "minMonths": null, "available": null },
     "status": "candidate",
     "rejectReason": "",

@@ -254,5 +254,13 @@
     "summary": "네이버지도 도보 경로에서 네이버부동산 매물 1건의 지점까지 이동 시간을 확인했습니다.",
     "detail": "신용보증기금 광진지점에서 서울시 광진구 구의동 24-16까지 추천 도보 경로가 24분, 1.4km, 2,245걸음, 횡단보도 3회로 표시되어 naver-2643845730에 walkMin 24를 기록했습니다.",
     "refs": ["https://new.land.naver.com/rooms?ms=2AL6pE,3zmibo,16&a=APT:OPST:ABYG:OBYG:GM:OR:DDDGG:JWJT:SGJT:VL&e=RETAIL&aa=SMALLSPCRENT&articleNo=2643845730", "https://map.naver.com/p/search/%EC%84%9C%EC%9A%B8%20%EA%B4%91%EC%A7%84%EA%B5%AC%20%EA%B5%AC%EC%9D%98%EB%8F%99%2024-16"]
+  },
+  {
+    "date": "2026-08-15",
+    "by": "codex",
+    "kind": "거리",
+    "summary": "네이버지도에서 네이버부동산 매물 1건의 지점까지 이동 시간을 확인했습니다.",
+    "detail": "신용보증기금 광진지점에서 서울시 광진구 구의동 225-75까지 추천 도보 경로가 7분, 477m, 745걸음으로 표시되어 naver-2643950603에 walkMin 7을 기록했습니다.",
+    "refs": ["https://new.land.naver.com/rooms?ms=2AL6pE,3zmibo,16&a=APT:OPST:ABYG:OBYG:GM:OR:DDDGG:JWJT:SGJT:VL&e=RETAIL&aa=SMALLSPCRENT&articleNo=2643950603", "https://map.naver.com/p/search/%EC%84%9C%EC%9A%B8%20%EA%B4%91%EC%A7%84%EA%B5%AC%20%EA%B5%AC%EC%9D%98%EB%8F%99%20225-75"]
   }
 ]
