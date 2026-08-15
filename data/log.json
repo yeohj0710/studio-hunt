@@ -806,5 +806,14 @@
       "https://smartstore.naver.com/formlight/products/12677968116?nl-ts-pid=jotSelqqMVUk1Yc%2BzIR-402783&n_media=11068&n_query=LED%EC%A0%84%EA%B5%ACE2612W%EC%A3%BC%EA%B4%91%EC%83%89&n_rank=2&n_ad_group=grp-a001-02-000000059466689&n_ad=nad-a001-02-000000452355666&n_campaign_type=2&n_mall_id=ncp_1nrt7q_01&n_mall_pid=12677968116&n_ad_group_type=2&n_match=3&NaPm=ct%3Dmsubtjvx%7Cci%3DER33f02a00%2D98a1%2D11f1%2D8708%2Dd6e4c9222c93%7Ctr%3Dpla%7Chk%3Db7b3bc362bf129faa8c27534c53f6ead6001987e%7Cnacn%3Dtsb7BEx0cQMG",
       "https://smartstore.naver.com/drlux/products/10759899405?nl-ts-pid=jotSQdqqPn20WnDM380-081954&n_campaign=cmp-a001-02-000000009638052&n_ad_group=grp-a001-02-000000053030002&n_media=11068&n_ad=nad-a001-02-000000402226388&n_keyword=&n_keyword_id=&n_query=LED%EC%A0%84%EA%B5%ACE2612W%EC%A3%BC%EA%B4%91%EC%83%89&n_match=3&n_network=search&n_rank=1&n_campaign_type=2&n_mall_id=ifinder19&n_mall_pid=10759899405&n_ad_group_type=2&NaPm=ct%3Dmsubuc0c%7Cci%3DER49a98975-98a1-11f1-b898-96becdb1d642%7Ctr%3Dpla%7Chk%3Df7bcfb80589d58f70c513b250e6dafca1cb982a1%7Cnacn%3Dtsb7BEx0cQMG"
     ]
+  },
+  {
+    "date":"2026-08-15","by":"codex","kind":"자리",
+    "summary":"네이버부동산 매물의 도보 정보를 두 화면에서 재확인했지만 채우지 못했습니다.",
+    "detail":"네이버부동산 기존 상세 화면과 새 부동산 상세 화면에서 매물번호 2643983551의 보증금 1억 5,000만원, 월세 50만원, 관리비 4만원, 33㎡, 1층, 방 2개, 소재지 서울시 광진구 구의동을 확인했습니다. 두 화면 모두 정확한 주소·지점까지 도보 시간·지도 핀 좌표를 표시하지 않아 commute를 unresolved로 남깁니다.",
+    "refs":[
+      "https://new.land.naver.com/rooms?ms=2AL6pE,3zmibo,16&a=APT:OPST:ABYG:OBYG:GM:OR:DDDGG:JWJT:SGJT:VL&e=RETAIL&aa=SMALLSPCRENT&articleNo=2643983551",
+      "https://fin.land.naver.com/map?layer=NobwRAlgJmBcYEMBOAXCBjANgUwPpWxQQkzABowAHZBAWwGc5xk0tsBJGeAJgDYAWAMwBOAByCArBICMYAL5yAukA&realEstateTypes=A01-A04-B01-C03&center=3zmeYP-2ALgn4&zoom=15"
+    ]
   }
 ]

@@ -43,6 +43,8 @@
     "commute": { "walkMin": null, "transitMin": null, "routeNote": "상세 화면 소재지가 서울시 광진구 구의동까지만 표시되어 지점까지 도보 경로를 확인하지 않았습니다." },
     "contract": { "minMonths": null, "available": null },
     "status": "candidate",
+    "unresolved": ["commute"],
+    "unresolvedNote": "네이버부동산 두 상세 화면에서 소재지가 서울시 광진구 구의동까지만 표시되고 정확한 주소·도보 시간·지도 핀 좌표를 확인하지 못했습니다.",
     "rejectReason": "",
     "pros": ["월세와 관리비 합계가 54만원입니다.", "공급·전용면적을 모두 33㎡로 표시합니다.", "방 2개로 표시합니다."],
     "cons": ["2026년 9월 1일 협의가능으로 표시합니다.", "상세 화면에 정확한 주소가 없어 지점까지 도보 경로를 확인하지 않았습니다."],
