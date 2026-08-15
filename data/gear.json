@@ -217,7 +217,11 @@
     "models": ["기종별 커플러 어댑터", "USB-PD 급전 케이블"],
     "usedOk": false,
     "usedNote": "전원에 물리는 물건은 새 정품으로 삽니다.",
-    "quotes": [],
+    "quotes": [
+      { "condition": "new", "price": 168000, "site": "네이버쇼핑", "url": "https://smartstore.naver.com/btsolution/products/11292754847", "model": "소니 DC-C1", "note": "상품 가격 168,000원과 무료배송을 확인합니다. NP-FZ100·NP-FW50 상시전원 공급장치이며 추가 옵션으로 어댑터와 소니 배터리를 선택합니다.", "seenAt": "2026-08-15" },
+      { "condition": "new", "price": 23200, "site": "네이버쇼핑", "url": "https://smartstore.naver.com/56586535223/products/12510256594", "model": "USB-C NP-FW50 더미 배터리 AC-PW20 소니 호환 알파 A6400", "note": "상품 가격 23,200원과 무료배송을 확인합니다. USB-C QC/PD 입력, 7.6~9V 2~3A 출력, NP-FW50 더미 배터리 1개 구성과 8.4V 출력 정보를 표시합니다.", "seenAt": "2026-08-15" },
+      { "condition": "new", "price": 25200, "site": "네이버쇼핑", "url": "https://smartstore.naver.com/56586535223/products/12510275839", "model": "NP-FW50 더미 배터리 USB C타입 케이블 PD 어댑터", "note": "상품 가격 25,200원과 무료배송을 확인합니다. 18W 이상 PD USB-C 입력, DC 8.4V 2~3A 출력, PD 어댑터와 NP-FW50 DC 커넥터 구성 정보를 표시합니다.", "seenAt": "2026-08-15" }
+    ],
     "chosen": null
   },
   {
