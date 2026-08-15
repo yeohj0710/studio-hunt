@@ -303,7 +303,11 @@
     "models": ["고독스 TL60 튜브", "노브랜드 RGB LED 바"],
     "usedOk": true,
     "usedNote": "",
-    "quotes": [],
+    "quotes": [
+      { "condition": "new", "price": 1248000, "site": "네이버쇼핑", "url": "https://smartstore.naver.com/goprokorea_shop/products/8350504743?nl-ts-pid=jot4idqWfycIePYEp8C-492249&NaPm=ct%3Dmsu9ui4n%7Cci%3DrBhhVQAAAaAFGs7wAUlC9Q%2E%2E01%7Ctr%3Dpmax%7Chk%3Da410524162a72c4ac370d546c9e5afe49f30d07d%7Cnacn%3Dtsb7BEx0cQMG", "model": "고독스 TL60 K4", "note": "상품 가격 1,248,000원과 무료배송을 표시합니다. 상품명에 RGB 컬러 지속광조명, 모델명에 고독스 TL60-K4 라이트 패키지, 색온도 2700~6500K를 확인합니다.", "seenAt": "2026-08-15" },
+      { "condition": "used", "price": 190000, "site": "번개장터", "url": "https://m.bunjang.co.kr/products/423225691", "model": "고독스 TL60", "note": "사용감 없음으로 표시합니다. 고독스 TL60 풀박스와 구성품, 수납 가방을 포함해 190,000원에 판매하며 게시 시점은 9일 전이고 무료배송을 표시합니다.", "seenAt": "2026-08-15" },
+      { "condition": "used", "price": 200000, "site": "번개장터", "url": "https://m.bunjang.co.kr/products/423853543", "model": "고독스 SL60W 2대", "note": "사용감 적음으로 표시합니다. 고독스 SL60W 2대와 가방을 200,000원에 판매하며 스탠드와 리플렉터는 1개만 있고 작동이 잘된다고 적습니다. 게시 시점은 4일 전이며 일반 배송비 7,500원을 표시합니다.", "seenAt": "2026-08-15" }
+    ],
     "chosen": null
   },
   {
