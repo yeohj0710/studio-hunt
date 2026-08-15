@@ -95,7 +95,10 @@
     "models": ["폼 윈드스크린", "금속망 팝필터"],
     "usedOk": false,
     "usedNote": "몇천 원짜리라 새로 삽니다.",
-    "quotes": [],
+    "quotes": [
+      { "condition": "new", "price": 11990, "site": "다나와", "url": "https://prod.danawa.com/info/?pcode=2060338&keyword=%EC%8A%88%EC%96%B4+A58WS&cate=10214913", "model": "슈어 A58WS", "note": "선택배송비 포함 최저가 11,990원과 배송비 3,500원을 표시합니다.", "seenAt": "2026-08-15" },
+      { "condition": "new", "price": 84150, "site": "다나와", "url": "https://prod.danawa.com/info/?pcode=2261909&keyword=SHURE+PS-6+%ED%8C%9D%ED%95%84%ED%84%B0&cate=10214913", "model": "슈어 PS-6", "note": "선택배송비 포함 최저가 84,150원과 무료배송을 표시합니다. 4중스크린과 파열음방지를 표시합니다.", "seenAt": "2026-08-15" }
+    ],
     "chosen": null
   },
   {
