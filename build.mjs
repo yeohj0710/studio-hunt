@@ -305,7 +305,7 @@ function listingCard(l) {
   else if (COMFORT != null && monthly <= COMFORT) tags.push(["예산 안쪽", "on"]);
   if (l.status !== "candidate") tags.push([({ shortlist: "추림", contacted: "연락함", visited: "가봄", rejected: "거름", closed: "나감" })[l.status] ?? l.status, ""]);
 
-  return `<article class="rowc" data-walk="${walkish(l) ?? ""}" data-cost="${monthly}" data-live="${esc(l.livable)}" data-status="${esc(l.status)}">
+  return `<article class="rowc" data-walk="${walkish(l) ?? ""}" data-cost="${monthly}" data-dep="${l.deposit}" data-live="${esc(l.livable)}" data-status="${esc(l.status)}">
     <div class="hd">
       <div><h3>${esc(l.title)}</h3><p class="meta">${esc(l.kind)} · ${esc(l.address)}${l.addressDetail ? ` ${esc(l.addressDetail)}` : ""}</p></div>
       <div style="text-align:right">
@@ -363,6 +363,9 @@ ${live.length === 0 ? empty("아직 걷은 자리가 없습니다", "네이버�
     <div class="fgrp"><span class="fl">월 고정비</span>
       <button class="chip" data-f="cost" data-v="${COMFORT ?? LIMIT}" aria-pressed="false">${COMFORT ?? LIMIT}만원 안</button>
       <button class="chip" data-f="cost" data-v="${LIMIT}" aria-pressed="false">${LIMIT}만원 안</button></div>
+    <div class="fgrp"><span class="fl">보증금</span>
+      <button class="chip" data-f="dep" data-v="3000" aria-pressed="false">3,000만 안</button>
+      <button class="chip" data-f="dep" data-v="5000" aria-pressed="false">5,000만 안</button></div>
     <div class="fgrp"><span class="fl">잠</span>
       <button class="chip" data-f="live" data-v="가능" aria-pressed="false">잘 수 있는 곳만</button></div>
     <div class="fgrp"><span class="fl">진행</span>
@@ -388,6 +391,7 @@ ${d.listings.filter((l) => l.status === "rejected").length ? `
       var ok=true;
       if(f.walk&&(!c.dataset.walk||+c.dataset.walk>+f.walk))ok=false;
       if(f.cost&&+c.dataset.cost>+f.cost)ok=false;
+      if(f.dep&&+c.dataset.dep>+f.dep)ok=false;
       if(f.live&&c.dataset.live!==f.live)ok=false;
       if(f.status&&c.dataset.status!==f.status)ok=false;
       c.style.display=ok?'':'none'; if(ok)n++;
