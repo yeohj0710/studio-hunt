@@ -531,7 +531,7 @@
     "totalFloors": 3,
     "ceilingM": null,
     "livable": "미확인",
-    "livableNote": "상세 화면에 오픈형 원룸으로 표시하지만 건축물 용도와 스튜디오 영업 가능 여부는 확인하지 않았습니다.",
+    "livableNote": "사용자 요청에 따라 네이버부동산 기존·새 화면의 구의동 목록을 확인했지만 조건과 일치하는 상세 매물을 찾지 못해 건축물 용도를 확인하지 못했습니다.",
     "noiseRisk": "미확인",
     "commute": {
       "walkMin": null,
@@ -543,7 +543,7 @@
       "available": "2026-08-27 이후 (현 거주자와 합의)"
     },
     "status": "candidate",
-    "unresolved": ["commute"],
+    "unresolved": ["commute", "livable"],
     "unresolvedNote": "사용자 요청에 따라 네이버부동산 기존 화면과 새 화면을 대조했지만 보증금 1,000만원·월세 70만원·23.14㎡·2층/3층 조건과 일치하는 네이버 매물을 찾지 못했습니다.",
     "rejectReason": "",
     "pros": [
