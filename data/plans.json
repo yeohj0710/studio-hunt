@@ -1,0 +1,32 @@
+[
+  {
+    "id": "plan-a",
+    "name": "일단 찍는다",
+    "tagline": "배경천 한 장으로 시작",
+    "for": "이번 달 안에 첫 녹화를 올리는 게 목표일 때",
+    "gear": ["g-mic", "g-iface", "g-boom", "g-xlr", "g-pop", "g-hp", "g-cam-a", "g-lens", "g-tripod", "g-dummy", "g-sd", "g-key", "g-lstand", "g-power", "g-tape"],
+    "interior": ["i-backdrop", "i-curtain", "i-rug", "i-table", "i-chair"],
+    "note": "카메라가 한 대라 앵글이 하나입니다. 컷을 못 바꾸니 편집이 지루해지는 게 유일한 약점입니다. 대신 여기서 안 쓰는 물건이 뭔지 알게 되고, 다음 단계에서 살 것이 정확해집니다.",
+    "cut": ["서브 카메라를 안 삽니다", "가벽을 안 만듭니다", "흡음 패널을 안 삽니다"]
+  },
+  {
+    "id": "plan-b",
+    "name": "두 앵글로 만든다",
+    "tagline": "가벽을 세우고 카메라를 두 대로",
+    "for": "유튜브에 꾸준히 올릴 채널을 세우는 게 목표일 때",
+    "gear": ["g-mic", "g-iface", "g-boom", "g-xlr", "g-pop", "g-hp", "g-cam-a", "g-cam-b", "g-lens", "g-tripod", "g-dummy", "g-sd", "g-key", "g-fill", "g-back", "g-lstand", "g-power", "g-tape"],
+    "interior": ["i-partition", "i-props", "i-curtain", "i-rug", "i-door", "i-table", "i-chair", "i-bulb"],
+    "note": "여기까지가 팟캐스트 영상에 필요한 전부입니다. 이 위로 올라가면 화질이 아니라 편의가 좋아집니다.",
+    "cut": ["캡처보드를 안 삽니다", "현장 모니터를 안 삽니다", "흡음 패널은 녹음해 보고 정합니다"]
+  },
+  {
+    "id": "plan-c",
+    "name": "빌려줄 수 있게 만든다",
+    "tagline": "남이 와서 쓸 수 있는 상태까지",
+    "for": "빌려줘서 월세를 일부라도 메우려 할 때",
+    "gear": ["g-mic", "g-iface", "g-recorder", "g-boom", "g-xlr", "g-pop", "g-hp", "g-hpamp", "g-cam-a", "g-cam-b", "g-lens", "g-tripod", "g-dummy", "g-sd", "g-capture", "g-key", "g-fill", "g-back", "g-lstand", "g-power", "g-tape", "g-monitor"],
+    "interior": ["i-diy-wall", "i-paint", "i-props", "i-curtain", "i-rug", "i-absorb", "i-door", "i-table", "i-chair", "i-bulb"],
+    "note": "빌려주려면 사진이 잘 나와야 하고, 처음 온 사람이 혼자 켤 수 있어야 합니다. 장비가 늘어난 만큼 '이건 만지지 마세요'가 늘면 아무도 안 빌립니다. 조작 순서를 한 장으로 붙여 두는 것까지가 이 안에 들어갑니다.",
+    "cut": []
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "updatedAt": null,
+  "note": "광진구·성수·건대 일대 촬영 스튜디오 대관 시세. 월 고정비를 몇 시간 빌려주면 메우는지 계산하는 데 쓴다. 아직 조사 전이다.",
+  "rates": [],
+  "assumptions": {
+    "hourlyRate": null,
+    "hourlyRateBasis": "조사한 rates 의 중앙값을 넣는다",
+    "occupancyHoursPerMonth": null,
+    "occupancyBasis": "현실적으로 팔 수 있는 월 대관 시간. 처음에는 낮게 잡는다."
+  }
+}

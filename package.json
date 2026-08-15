@@ -1,0 +1,13 @@
+{
+  "name": "studio-hunt",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "신용보증기금 광진지점 근처에 팟캐스트 스튜디오를 잡는 계획",
+  "scripts": {
+    "validate": "node validate.mjs",
+    "build": "node validate.mjs && node build.mjs",
+    "next": "node next.mjs",
+    "deploy": "npm run build && vercel deploy --prod --yes"
+  }
+}
