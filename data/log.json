@@ -38,5 +38,13 @@
     "summary": "스페이스클라우드 광진·건대·구의·군자 권역에서 촬영 스튜디오 8곳의 시간당 가격을 확인했습니다.",
     "detail": "확인한 시간당 가격은 14,900원부터 55,000원까지입니다. 8곳 가격의 중앙값 20,000원을 market.assumptions.hourlyRate에 반영했습니다. 화면에 주중·주말 가격 차이가 따로 표시되지 않은 곳은 차이를 추정하지 않았습니다.",
     "refs": ["https://www.spacecloud.kr/space/73980", "https://www.spacecloud.kr/space/71758", "https://www.spacecloud.kr/space/79045", "https://www.spacecloud.kr/space/52276", "https://www.spacecloud.kr/space/65866", "https://www.spacecloud.kr/space/39612", "https://www.spacecloud.kr/space/66626", "https://www.spacecloud.kr/space/74002"]
+  },
+  {
+    "date": "2026-08-15",
+    "by": "codex",
+    "kind": "확인",
+    "summary": "촬영 스튜디오 대관 시세 확인 결과를 config.openQuestions에 연결했습니다.",
+    "detail": "스페이스클라우드 광진·건대·구의·군자 권역 8곳의 시간당 가격 14,900원부터 55,000원과 중앙값 20,000원을 확인 결과로 기록하고 q-rate 상태를 확인으로 바꿨습니다.",
+    "refs": ["https://www.spacecloud.kr/space/73980", "https://www.spacecloud.kr/space/71758", "https://www.spacecloud.kr/space/79045", "https://www.spacecloud.kr/space/52276", "https://www.spacecloud.kr/space/65866", "https://www.spacecloud.kr/space/39612", "https://www.spacecloud.kr/space/66626", "https://www.spacecloud.kr/space/74002"]
   }
 ]
