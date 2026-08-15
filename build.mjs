@@ -141,6 +141,23 @@ tr:last-child td{border-bottom:0}
 
 footer{border-top:1px solid var(--stroke);padding:26px 0 60px;font-size:12.5px;color:var(--muted)}
 footer a{color:var(--body)}
+
+@media(max-width:680px){
+  .wrap{padding:0 18px}
+  /* 좁은 화면에서 머리말이 붙어 있으면 화면을 너무 많이 먹는다. 그냥 흘려보낸다. */
+  .top{position:static}
+  .top .wrap{height:auto;min-height:52px;flex-wrap:wrap;gap:4px 14px;padding-top:11px;padding-bottom:11px}
+  .mark b{white-space:nowrap}
+  .mark span{display:none}
+  nav a{padding:4px 9px;font-size:13px}
+  main{padding:34px 0 72px}
+  section{margin-bottom:42px}
+  .card,.rowc{padding:18px}
+  .rowc .hd{gap:10px}
+  .rowc .hd>div:last-child{text-align:left !important}
+  .rowc .hd .big{justify-content:flex-start !important}
+  .qbox{width:100%}
+}
 `;
 
 function page({ title, path, body }) {
