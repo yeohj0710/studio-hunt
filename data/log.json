@@ -54,5 +54,13 @@
     "summary": "네이버부동산에서 서울 광진구 구의동 원룸·단독·다가구·오피스텔·상가주택 8건의 상세 화면을 확인하고 매물 후보에 담았습니다.",
     "detail": "보증금은 500만원부터 1억5,000만원, 월세는 40만원부터 85만원, 관리비는 2만원부터 10만원으로 표시합니다. 건축물 용도는 단독주택·공동주택·제1종 및 제2종 근린생활시설·업무시설로 각각 기록하고, 지점까지 도보 시간은 확인하지 않아 null로 두었습니다.",
     "refs": ["https://new.land.naver.com/rooms?ms=2AL6pE,3zmibo,16&a=APT:OPST:ABYG:OBYG:GM:OR:DDDGG:JWJT:SGJT:VL&e=RETAIL&aa=SMALLSPCRENT&articleNo=2643950603", "https://new.land.naver.com/rooms?ms=2AL6pE,3zmibo,16&a=APT:OPST:ABYG:OBYG:GM:OR:DDDGG:JWJT:SGJT:VL&e=RETAIL&aa=SMALLSPCRENT&articleNo=2643983551", "https://new.land.naver.com/rooms?ms=2AL6pE,3zmibo,16&a=APT:OPST:ABYG:OBYG:GM:OR:DDDGG:JWJT:SGJT:VL&e=RETAIL&aa=SMALLSPCRENT&articleNo=2643669294", "https://new.land.naver.com/rooms?ms=2AL6pE,3zmibo,16&a=APT:OPST:ABYG:OBYG:GM:OR:DDDGG:JWJT:SGJT:VL&e=RETAIL&aa=SMALLSPCRENT&articleNo=2643983149", "https://new.land.naver.com/rooms?ms=2AL6pE,3zmibo,16&a=APT:OPST:ABYG:OBYG:GM:OR:DDDGG:JWJT:SGJT:VL&e=RETAIL&aa=SMALLSPCRENT&articleNo=2643798750", "https://new.land.naver.com/rooms?ms=2AL6pE,3zmibo,16&a=APT:OPST:ABYG:OBYG:GM:OR:DDDGG:JWJT:SGJT:VL&e=RETAIL&aa=SMALLSPCRENT&articleNo=2643812573", "https://new.land.naver.com/rooms?ms=2AL6pE,3zmibo,16&a=APT:OPST:ABYG:OBYG:GM:OR:DDDGG:JWJT:SGJT:VL&e=RETAIL&aa=SMALLSPCRENT&articleNo=2643845730", "https://new.land.naver.com/rooms?ms=2AL6pE,3zmibo,16&a=APT:OPST:ABYG:OBYG:GM:OR:DDDGG:JWJT:SGJT:VL&e=RETAIL&aa=SMALLSPCRENT&articleNo=2643325080"]
+  },
+  {
+    "date": "2026-08-15",
+    "by": "codex",
+    "kind": "매물",
+    "summary": "직방에서 서울 광진구 구의동 원룸 상세 화면 3건을 확인하고 매물 후보에 담았습니다.",
+    "detail": "보증금은 5,000만원부터 1억5,399만원, 월세는 14만원부터 70만원, 관리비는 없음부터 8만원으로 표시합니다. 비주거·근린생활시설 표시와 입주 가능일을 기록하고, 지점까지 도보 시간은 확인하지 않아 null로 두었습니다.",
+    "refs": ["https://www.zigbang.com/home/oneroom/items/50032425?imageThumbnail=https%3A%2F%2Fic.zigbang.com%2Fic%2Fitems%2F50032425%2F1.jpg&hasVrKey=false", "https://www.zigbang.com/home/oneroom/items/49904282?imageThumbnail=https%3A%2F%2Fic.zigbang.com%2Fic%2Fitems%2F49904282%2F1.jpg&hasVrKey=false", "https://www.zigbang.com/home/oneroom/items/50021445?imageThumbnail=https%3A%2F%2Fic.zigbang.com%2Fic%2Fitems%2F50021445%2F1.jpg&hasVrKey=false"]
   }
 ]
