@@ -158,5 +158,13 @@
     "summary": "카카오맵에서 신용보증기금 광진지점의 기준 주소를 확인했지만 매물 도보 시간은 채우지 못했습니다.",
     "detail": "카카오맵에 신용보증기금 광진지점(서울 광진구 광나루로 520)을 출발지로 지정했습니다. 매물 주소가 구의동까지만 표시되어 정확한 목적지를 지정할 수 없으므로 도보 시간은 추정하지 않고 null로 유지했습니다.",
     "refs": ["https://map.kakao.com/"]
+  },
+  {
+    "date": "2026-08-15",
+    "by": "codex",
+    "kind": "거리",
+    "summary": "네이버부동산 상세 화면에서 매물 1건의 실제 소재지를 확인해 주소를 보강했습니다.",
+    "detail": "naver-2643950603 상세 화면에 소재지 서울시 광진구 구의동 225-75가 표시됐습니다. 지도 경로 결과에 지점까지 도보 시간이 표시되지 않아 commute.walkMin과 transitMin은 null로 유지했습니다.",
+    "refs": ["https://new.land.naver.com/rooms?ms=2AL6pE,3zmibo,16&a=APT:OPST:ABYG:OBYG:GM:OR:DDDGG:JWJT:SGJT:VL&e=RETAIL&aa=SMALLSPCRENT&articleNo=2643950603", "https://map.kakao.com/"]
   }
 ]
