@@ -900,5 +900,14 @@
       "https://new.land.naver.com/rooms?ms=37.547811,127.0871059,16&a=OPST:OR&e=RETAIL&aa=SMALLSPCRENT",
       "https://fin.land.naver.com/map?center=127.0871059-37.547811&zoom=15"
     ]
+  },
+  {
+    "date":"2026-08-15","by":"codex","kind":"자리",
+    "summary":"네이버부동산 기존·새 화면에서 일치하는 상세 매물을 찾지 못해 건축물 용도를 미확인으로 남겼습니다.",
+    "detail":"사용자 요청에 따라 네이버부동산 구의동 목록을 두 화면에서 확인했지만 보증금 1,000만원·월세 68만원·23.14㎡·3층/4층 조건과 일치하는 상세 매물을 찾지 못했습니다. 건축물 용도와 숙박·전입신고 가능 여부를 확인하지 못해 livable을 미확인으로 남겼습니다.",
+    "refs":[
+      "https://new.land.naver.com/rooms?ms=37.54361914635132,127.0932236640668,16&a=APT:OPST:ABYG:OBYG:GM:OR:DDDGG:JWJT:SGJT:VL&e=RETAIL&aa=SMALLSPCRENT",
+      "https://fin.land.naver.com/map?center=127.0932237-37.5436191&zoom=15"
+    ]
   }
 ]
