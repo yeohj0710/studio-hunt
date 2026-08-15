@@ -841,5 +841,14 @@
       "https://new.land.naver.com/rooms?ms=37.547811,127.0871059,16&a=OPST:OR&e=RETAIL&aa=SMALLSPCRENT",
       "https://fin.land.naver.com/map?center=127.0871059-37.547811&zoom=15"
     ]
+  },
+  {
+    "date":"2026-08-15","by":"codex","kind":"자리",
+    "summary":"네이버부동산에서 기존 직방 매물과 일치하는 화면을 두 번 찾지 못했습니다.",
+    "detail":"네이버부동산 기존 화면과 새 화면에서 구의동 원룸·오피스텔 목록을 확인했습니다. 기존 기록의 보증금 1억 7,700만원, 월세 10만원, 관리비 6만원, 20.25㎡, 5층/5층 조건과 일치하는 매물이 없어 도보 시간이나 좌표를 추정하지 않고 commute를 unresolved로 남깁니다.",
+    "refs":[
+      "https://new.land.naver.com/rooms?ms=37.547811,127.0871059,16&a=OPST:OR&e=RETAIL&aa=SMALLSPCRENT",
+      "https://fin.land.naver.com/map?center=127.0871059-37.547811&zoom=15"
+    ]
   }
 ]
