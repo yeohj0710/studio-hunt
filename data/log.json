@@ -46,5 +46,13 @@
     "summary": "촬영 스튜디오 대관 시세 확인 결과를 config.openQuestions에 연결했습니다.",
     "detail": "스페이스클라우드 광진·건대·구의·군자 권역 8곳의 시간당 가격 14,900원부터 55,000원과 중앙값 20,000원을 확인 결과로 기록하고 q-rate 상태를 확인으로 바꿨습니다.",
     "refs": ["https://www.spacecloud.kr/space/73980", "https://www.spacecloud.kr/space/71758", "https://www.spacecloud.kr/space/79045", "https://www.spacecloud.kr/space/52276", "https://www.spacecloud.kr/space/65866", "https://www.spacecloud.kr/space/39612", "https://www.spacecloud.kr/space/66626", "https://www.spacecloud.kr/space/74002"]
+  },
+  {
+    "date": "2026-08-15",
+    "by": "codex",
+    "kind": "매물",
+    "summary": "네이버부동산에서 서울 광진구 구의동 원룸·단독·다가구·오피스텔·상가주택 8건의 상세 화면을 확인하고 매물 후보에 담았습니다.",
+    "detail": "보증금은 500만원부터 1억5,000만원, 월세는 40만원부터 85만원, 관리비는 2만원부터 10만원으로 표시합니다. 건축물 용도는 단독주택·공동주택·제1종 및 제2종 근린생활시설·업무시설로 각각 기록하고, 지점까지 도보 시간은 확인하지 않아 null로 두었습니다.",
+    "refs": ["https://new.land.naver.com/rooms?ms=2AL6pE,3zmibo,16&a=APT:OPST:ABYG:OBYG:GM:OR:DDDGG:JWJT:SGJT:VL&e=RETAIL&aa=SMALLSPCRENT&articleNo=2643950603", "https://new.land.naver.com/rooms?ms=2AL6pE,3zmibo,16&a=APT:OPST:ABYG:OBYG:GM:OR:DDDGG:JWJT:SGJT:VL&e=RETAIL&aa=SMALLSPCRENT&articleNo=2643983551", "https://new.land.naver.com/rooms?ms=2AL6pE,3zmibo,16&a=APT:OPST:ABYG:OBYG:GM:OR:DDDGG:JWJT:SGJT:VL&e=RETAIL&aa=SMALLSPCRENT&articleNo=2643669294", "https://new.land.naver.com/rooms?ms=2AL6pE,3zmibo,16&a=APT:OPST:ABYG:OBYG:GM:OR:DDDGG:JWJT:SGJT:VL&e=RETAIL&aa=SMALLSPCRENT&articleNo=2643983149", "https://new.land.naver.com/rooms?ms=2AL6pE,3zmibo,16&a=APT:OPST:ABYG:OBYG:GM:OR:DDDGG:JWJT:SGJT:VL&e=RETAIL&aa=SMALLSPCRENT&articleNo=2643798750", "https://new.land.naver.com/rooms?ms=2AL6pE,3zmibo,16&a=APT:OPST:ABYG:OBYG:GM:OR:DDDGG:JWJT:SGJT:VL&e=RETAIL&aa=SMALLSPCRENT&articleNo=2643812573", "https://new.land.naver.com/rooms?ms=2AL6pE,3zmibo,16&a=APT:OPST:ABYG:OBYG:GM:OR:DDDGG:JWJT:SGJT:VL&e=RETAIL&aa=SMALLSPCRENT&articleNo=2643845730", "https://new.land.naver.com/rooms?ms=2AL6pE,3zmibo,16&a=APT:OPST:ABYG:OBYG:GM:OR:DDDGG:JWJT:SGJT:VL&e=RETAIL&aa=SMALLSPCRENT&articleNo=2643325080"]
   }
 ]
