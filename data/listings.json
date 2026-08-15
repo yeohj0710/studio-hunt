@@ -373,5 +373,30 @@
     "cons": ["건축물 용도를 단독주택으로 표시합니다.", "위반건축물은 해당으로 표시합니다.", "지점까지 도보 시간은 확인하지 않았습니다."],
     "notes": "상세 화면에 단독주택, 위반건축물 해당, 분리형 원룸으로 표시합니다. 방문객을 받는 스튜디오 영업 가능 여부와 위반건축물 관련 사항을 계약 전에 확인해야 합니다.",
     "source": { "site": "당근", "url": "https://realty.daangn.com/articles/4244017", "listingId": "4244017", "seenAt": "2026-08-15" }
+  },
+  {
+    "id": "naver-2643662595",
+    "title": "다가구 3층 베란다 원룸",
+    "kind": "원룸",
+    "address": "서울 광진구 구의동",
+    "addressDetail": "3층 / 3층",
+    "deposit": 500,
+    "rent": 55,
+    "maintenance": 5,
+    "areaM2": 18,
+    "floor": 3,
+    "totalFloors": 3,
+    "ceilingM": null,
+    "livable": "미확인",
+    "livableNote": "건축물 용도를 단독주택으로 표시하고 전입신고 가능이라는 매물 설명을 표시합니다. 스튜디오 영업 가능 여부는 확인하지 않았습니다.",
+    "noiseRisk": "미확인",
+    "commute": { "walkMin": null, "transitMin": null, "routeNote": "지점까지 걸리는 시간은 확인하지 않았습니다." },
+    "contract": { "minMonths": null, "available": "즉시입주" },
+    "status": "candidate",
+    "rejectReason": "",
+    "pros": ["월세와 관리비 합계가 60만원입니다.", "전용면적 18㎡입니다.", "에어컨·냉장고·세탁기·인덕션레인지·신발장을 표시합니다."],
+    "cons": ["건축물 용도를 단독주택으로 표시합니다.", "주차 불가능으로 표시합니다.", "지점까지 도보 시간은 확인하지 않았습니다."],
+    "notes": "상세 화면에 단독주택 용도, 위반건축물 해당없음, 관리비 5만원, 주차 불가능으로 표시합니다. 방문객을 받는 스튜디오 영업 가능 여부와 소음 조건을 계약 전에 확인해야 합니다.",
+    "source": { "site": "네이버부동산", "url": "https://new.land.naver.com/rooms?ms=2AL6pE,3zmibo,16&a=APT:OPST:ABYG:OBYG:GM:OR:DDDGG:JWJT:SGJT:VL&e=RETAIL&aa=SMALLSPCRENT&articleNo=2643662595", "listingId": "2643662595", "seenAt": "2026-08-15" }
   }
 ]

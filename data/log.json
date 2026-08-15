@@ -94,5 +94,13 @@
     "summary": "중고나라에서 구의동 스튜디오와 사무실 검색 결과를 확인했지만 공간 매물을 추가하지 않았습니다.",
     "detail": "구의동 스튜디오 검색에는 16건이 표시됐고 스튜디오 조명·소품·인테리어 상품이 보였습니다. 구의동 사무실 검색에는 3건이 표시됐지만 가구와 장비 매입 글만 보였습니다. 실제 공간 상세 화면을 열어 확인한 매물이 없어 listings.json에는 추가하지 않았습니다.",
     "refs": ["https://web.joongna.com/search/%EA%B5%AC%EC%9D%98%EB%8F%99%20%EC%8A%A4%ED%8A%9C%EB%94%94%EC%98%A4", "https://web.joongna.com/search/%EA%B5%AC%EC%9D%98%EB%8F%99%20%EC%82%AC%EB%AC%B4%EC%8B%A4"]
+  },
+  {
+    "date": "2026-08-15",
+    "by": "codex",
+    "kind": "매물",
+    "summary": "네이버부동산에서 서울 광진구 구의동 원룸 상세 화면 2건을 열어 중복 1건과 새 후보 1건을 확인했습니다.",
+    "detail": "기존 매물번호 2643325080은 이미 등록된 매물이라 추가하지 않았습니다. 새 매물번호 2643662595 상세 화면에는 보증금 500만원, 월세 55만원, 관리비 5만원, 전용면적 18㎡, 3층/3층, 단독주택, 위반건축물 해당없음, 즉시입주, 주차 불가능으로 표시했습니다. 지점까지 걸리는 시간과 스튜디오 영업 가능 여부는 확인하지 않았습니다.",
+    "refs": ["https://new.land.naver.com/rooms?ms=2AL6pE,3zmibo,16&a=APT:OPST:ABYG:OBYG:GM:OR:DDDGG:JWJT:SGJT:VL&e=RETAIL&aa=SMALLSPCRENT&articleNo=2643662595"]
   }
 ]
