@@ -142,5 +142,13 @@
     "summary": "네이버부동산에서 서울 광진구 구의동 원룸 상세 화면 1건을 확인해 후보 1건을 추가했습니다.",
     "detail": "상세 화면에 보증금 5,000만원, 월세 80만원, 관리비 9만원, 전용면적 27.01㎡, 4층/5층, 단독주택, 위반건축물 해당, 주차 가능, 2026년 10월 30일 입주 가능으로 표시했습니다. 월세와 관리비 합계는 89만원이며 지점까지 도보 시간은 확인하지 않았습니다.",
     "refs": ["https://new.land.naver.com/rooms?ms=2AL6pE,3zmibo,16&a=APT:OPST:ABYG:OBYG:GM:OR:DDDGG:JWJT:SGJT:VL&e=RETAIL&aa=SMALLSPCRENT&articleNo=2643603437"]
+  },
+  {
+    "date": "2026-08-15",
+    "by": "codex",
+    "kind": "매물",
+    "summary": "직방에서 서울 광진구 구의동 원룸 상세 화면 1건을 확인해 후보 1건을 추가했습니다.",
+    "detail": "상세 화면에 보증금 1,000만원, 월세 70만원, 관리비 10만원, 전용면적 23.14㎡, 2층/3층, 주차 불가능, 2026년 8월 27일 이후 입주 가능으로 표시했습니다. 월세와 관리비 합계는 80만원이며 지점까지 도보 시간은 확인하지 않았습니다.",
+    "refs": ["https://www.zigbang.com/home/oneroom/items/49931126?itemDetailType=ZIGBANG&imageThumbnail=https%3A%2F%2Fic.zigbang.com%2Fic%2Fitems%2F49931126%2F1.jpg&hasVrKey=false"]
   }
 ]

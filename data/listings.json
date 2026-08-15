@@ -498,5 +498,50 @@
     "cons": ["위반건축물 해당으로 표시합니다.", "주차 가능 여부는 협의로 표시합니다.", "2026년 10월 30일 입주 가능으로 표시합니다."],
     "notes": "상세 화면에 단독주택 용도, 위반건축물 해당, 관리비 9만원, 주차 가능으로 표시합니다. 위반건축물 관련 사항과 방문객을 받는 스튜디오 영업 가능 여부를 계약 전에 확인해야 합니다.",
     "source": { "site": "네이버부동산", "url": "https://new.land.naver.com/rooms?ms=2AL6pE,3zmibo,16&a=APT:OPST:ABYG:OBYG:GM:OR:DDDGG:JWJT:SGJT:VL&e=RETAIL&aa=SMALLSPCRENT&articleNo=2643603437", "listingId": "2643603437", "seenAt": "2026-08-15" }
+  },
+  {
+    "id": "zigbang-49931126",
+    "title": "아차산역 도보 3분 빠른입주 베란다o 넓은 풀옵션 원룸",
+    "kind": "원룸",
+    "address": "서울시 광진구 구의동",
+    "addressDetail": "단일동 2층/3층",
+    "deposit": 1000,
+    "rent": 70,
+    "maintenance": 10,
+    "areaM2": 23.14,
+    "floor": 2,
+    "totalFloors": 3,
+    "ceilingM": null,
+    "livable": "미확인",
+    "livableNote": "상세 화면에 오픈형 원룸으로 표시하지만 건축물 용도와 스튜디오 영업 가능 여부는 확인하지 않았습니다.",
+    "noiseRisk": "미확인",
+    "commute": {
+      "walkMin": null,
+      "transitMin": null,
+      "routeNote": "상세 화면에서 지점까지 걸리는 시간은 확인하지 않았습니다."
+    },
+    "contract": {
+      "minMonths": null,
+      "available": "2026-08-27 이후 (현 거주자와 합의)"
+    },
+    "status": "candidate",
+    "rejectReason": "",
+    "pros": [
+      "월세와 관리비 합계가 80만원입니다.",
+      "전용면적 23.14㎡입니다.",
+      "아차산역 도보 3분과 에어컨·세탁기·냉장고·가스레인지를 표시합니다."
+    ],
+    "cons": [
+      "주차 불가능으로 표시합니다.",
+      "2026년 8월 27일 이후 현 거주자와 합의해 입주할 수 있습니다.",
+      "지점까지 도보 시간은 확인하지 않았습니다."
+    ],
+    "notes": "상세 화면에 오픈형 원룸, 주차 불가능, 2026년 8월 27일 이후 입주 가능으로 표시합니다. 방문객을 받는 스튜디오 영업 가능 여부와 소음 조건을 계약 전에 확인해야 합니다.",
+    "source": {
+      "site": "직방",
+      "url": "https://www.zigbang.com/home/oneroom/items/49931126?itemDetailType=ZIGBANG&imageThumbnail=https%3A%2F%2Fic.zigbang.com%2Fic%2Fitems%2F49931126%2F1.jpg&hasVrKey=false",
+      "listingId": "49931126",
+      "seenAt": "2026-08-15"
+    }
   }
 ]
