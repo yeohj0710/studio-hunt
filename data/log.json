@@ -166,5 +166,13 @@
     "summary": "네이버부동산 상세 화면에서 매물 1건의 실제 소재지를 확인해 주소를 보강했습니다.",
     "detail": "naver-2643950603 상세 화면에 소재지 서울시 광진구 구의동 225-75가 표시됐습니다. 지도 경로 결과에 지점까지 도보 시간이 표시되지 않아 commute.walkMin과 transitMin은 null로 유지했습니다.",
     "refs": ["https://new.land.naver.com/rooms?ms=2AL6pE,3zmibo,16&a=APT:OPST:ABYG:OBYG:GM:OR:DDDGG:JWJT:SGJT:VL&e=RETAIL&aa=SMALLSPCRENT&articleNo=2643950603", "https://map.kakao.com/"]
+  },
+  {
+    "date": "2026-08-15",
+    "by": "codex",
+    "kind": "거리",
+    "summary": "직방 상세 화면에서 매물 위치가 구의동까지만 표시되어 도보 시간을 채우지 못했습니다.",
+    "detail": "zigbang-50032425 상세 화면의 위치는 서울시 광진구 구의동으로 표시됐고 정확한 번지와 지점까지 도보 시간은 표시되지 않았습니다. 추정값을 넣지 않고 commute.walkMin과 transitMin을 null로 유지했습니다.",
+    "refs": ["https://www.zigbang.com/home/oneroom/items/50032425?imageThumbnail=https%3A%2F%2Fic.zigbang.com%2Fic%2Fitems%2F50032425%2F1.jpg&hasVrKey=false"]
   }
 ]
