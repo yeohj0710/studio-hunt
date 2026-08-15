@@ -30,5 +30,13 @@
     "summary": "국세청과 국가법령정보센터에서 주거용 원룸·오피스텔 대관 영업의 확인 항목을 확인했습니다.",
     "detail": "국세청은 임차 사업장의 사업자등록에 임대차계약서를 요구하고 전대에는 전대동의서를 안내합니다. 집합건물법은 주거 용도로 분양된 전유부분의 용도 외 사용과 관리규약을 확인할 근거를 두므로, 계약 전에 임대차계약·전대 동의·건축물 용도·관리규약을 각각 확인해야 한다고 기록했습니다.",
     "refs": ["https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=7778&mi=2445", "https://www.nts.go.kr/taxpayer_advocate/na/ntt/selectNttInfo.do?bbsId=50728&mi=40396&nttSn=1302746", "https://law.go.kr/LSW/lsInfoP.do?lsiSeq=68739", "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=254889"]
+  },
+  {
+    "date": "2026-08-15",
+    "by": "codex",
+    "kind": "대관시세",
+    "summary": "스페이스클라우드 광진·건대·구의·군자 권역에서 촬영 스튜디오 8곳의 시간당 가격을 확인했습니다.",
+    "detail": "확인한 시간당 가격은 14,900원부터 55,000원까지입니다. 8곳 가격의 중앙값 20,000원을 market.assumptions.hourlyRate에 반영했습니다. 화면에 주중·주말 가격 차이가 따로 표시되지 않은 곳은 차이를 추정하지 않았습니다.",
+    "refs": ["https://www.spacecloud.kr/space/73980", "https://www.spacecloud.kr/space/71758", "https://www.spacecloud.kr/space/79045", "https://www.spacecloud.kr/space/52276", "https://www.spacecloud.kr/space/65866", "https://www.spacecloud.kr/space/39612", "https://www.spacecloud.kr/space/66626", "https://www.spacecloud.kr/space/74002"]
   }
 ]

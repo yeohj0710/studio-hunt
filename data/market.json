@@ -1,9 +1,82 @@
 {
-  "updatedAt": null,
-  "note": "광진구·성수·건대 일대 촬영 스튜디오 대관 시세. 월 고정비를 몇 시간 빌려주면 메우는지 계산하는 데 쓴다. 아직 조사 전이다.",
-  "rates": [],
+  "updatedAt": "2026-08-15",
+  "note": "광진구·성수·건대 일대 촬영 스튜디오 대관 시세를 스페이스클라우드에서 확인합니다. 8곳의 시간당 가격 중앙값을 hourlyRate에 넣었습니다.",
+  "rates": [
+    {
+      "name": "스틸 스튜디오",
+      "area": "구의동",
+      "hourlyKRW": 20000,
+      "sizeM2": 99,
+      "note": "30평 단독 공간, 3시간 기본 60,000원으로 안내합니다. 평일 8시~20시 30분, 주말 9시 30분~19시로 안내하며 페이지에는 단일 시간당 가격만 표시합니다.",
+      "url": "https://www.spacecloud.kr/space/73980",
+      "seenAt": "2026-08-15"
+    },
+    {
+      "name": "건대,구의,성수 플랫화이트스튜디오",
+      "area": "구의동",
+      "hourlyKRW": 20000,
+      "sizeM2": null,
+      "note": "301호는 20,000원/시간, 302호는 25,000원/시간으로 안내합니다. 24시 이용 가능하며 페이지에는 공간면적을 표시하지 않습니다.",
+      "url": "https://www.spacecloud.kr/space/71758",
+      "seenAt": "2026-08-15"
+    },
+    {
+      "name": "녹터널 2049",
+      "area": "구의동",
+      "hourlyKRW": 15000,
+      "sizeM2": 83,
+      "note": "0시~24시, 휴무 없음, 최소 2시간으로 안내합니다. 페이지에는 단일 시간당 가격만 표시합니다.",
+      "url": "https://www.spacecloud.kr/space/79045",
+      "seenAt": "2026-08-15"
+    },
+    {
+      "name": "방과후교실 스튜디오",
+      "area": "군자동",
+      "hourlyKRW": 55000,
+      "sizeM2": 132,
+      "note": "0시~24시, 휴무 없음, 최소 4시간으로 안내합니다. 9.4m × 6.5m × 2.85m 교실 세트이며 페이지에는 단일 시간당 가격만 표시합니다.",
+      "url": "https://www.spacecloud.kr/space/52276",
+      "seenAt": "2026-08-15"
+    },
+    {
+      "name": "1h무료,건대 자연광 렌탈스튜디오",
+      "area": "중곡동",
+      "hourlyKRW": 20000,
+      "sizeM2": 89,
+      "note": "오프투 스튜디오로 안내합니다. 2.8m 이상 층고와 27평 A·B·C룸 단독대관을 안내하고 포토리뷰 1시간 서비스 문구를 표시합니다.",
+      "url": "https://www.spacecloud.kr/space/65866",
+      "seenAt": "2026-08-15"
+    },
+    {
+      "name": "군자 자연광 렌탈 촬영스튜디오",
+      "area": "중곡동",
+      "hourlyKRW": 18000,
+      "sizeM2": null,
+      "note": "A룸은 45,000원/시간과 18평, S룸은 18,000원/시간과 5평으로 안내합니다. 페이지에는 평만 표시하므로 sizeM2는 null로 둡니다.",
+      "url": "https://www.spacecloud.kr/space/39612",
+      "seenAt": "2026-08-15"
+    },
+    {
+      "name": "자연광 단독 테라스 스튜디오일리",
+      "area": "중곡동",
+      "hourlyKRW": 24900,
+      "sizeM2": 132,
+      "note": "40평 단독대관, 최소 2시간, 3인 기준으로 안내합니다. 기준인원 초과 시 1인당 5,500원/시간 추가로 안내하며 페이지에는 단일 시간당 가격만 표시합니다.",
+      "url": "https://www.spacecloud.kr/space/66626",
+      "seenAt": "2026-08-15"
+    },
+    {
+      "name": "8월 할인 홍콩, 공주방 자양건대",
+      "area": "자양동",
+      "hourlyKRW": 14900,
+      "sizeM2": 76,
+      "note": "23평 공간에 두 가지 컨셉을 구성하고 최소 3시간으로 안내합니다. 8월 할인 문구를 표시하며 페이지에는 단일 시간당 가격만 표시합니다.",
+      "url": "https://www.spacecloud.kr/space/74002",
+      "seenAt": "2026-08-15"
+    }
+  ],
   "assumptions": {
-    "hourlyRate": null,
+    "hourlyRate": 20000,
     "hourlyRateBasis": "조사한 rates 의 중앙값을 넣는다",
     "occupancyHoursPerMonth": null,
     "occupancyBasis": "현실적으로 팔 수 있는 월 대관 시간. 처음에는 낮게 잡는다."
