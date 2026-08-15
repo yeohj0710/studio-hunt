@@ -503,5 +503,15 @@
     "refs": [
       "https://www.zigbang.com/home/oneroom/items/49931126?itemDetailType=ZIGBANG&imageThumbnail=https%3A%2F%2Fic.zigbang.com%2Fic%2Fitems%2F49931126%2F1.jpg&hasVrKey=false"
     ]
+  },
+  {
+    "date": "2026-08-15",
+    "by": "codex",
+    "kind": "거리",
+    "summary": "네이버부동산 매물 상세 화면이 열리지 않아 소재지를 확인하지 못했습니다.",
+    "detail": "naver-2643983551 실제 매물 URL을 열었지만 articleNo가 제거된 검색 화면으로 돌아가 매물 상세 소재지와 네이버지도 도보 경로를 확인하지 못했습니다. 기존 address와 commute 값은 바꾸지 않았습니다.",
+    "refs": [
+      "https://new.land.naver.com/rooms?ms=2AL6pE,3zmibo,16&a=APT:OPST:ABYG:OBYG:GM:OR:DDDGG:JWJT:SGJT:VL&e=RETAIL&aa=SMALLSPCRENT&articleNo=2643983551"
+    ]
   }
 ]
