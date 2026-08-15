@@ -34,6 +34,7 @@ const LISTING_KIND = ["원룸", "투룸", "쓰리룸", "오피스텔", "상가",
 const LISTING_STATUS = ["candidate", "shortlist", "contacted", "visited", "rejected", "closed"];
 const LIVABLE = ["가능", "불가", "회색", "미확인"];
 const NOISE = ["낮음", "중간", "높음", "미확인"];
+const UNRESOLVABLE = ["commute", "livable", "area", "ceiling", "noise"];
 // 매물을 걷는 곳. 새 사이트를 쓰려면 여기에 먼저 적는다.
 const LISTING_SITES = ["네이버부동산", "직방", "다방", "피터팬", "당근", "부동산114", "디스코", "공실클럽", "스페이스클라우드", "현장", "그 밖"];
 
@@ -69,7 +70,25 @@ function checkListings(rows) {
     for (const k of ["walkMin", "transitMin"]) {
       if (c[k] != null && !isNum(c[k])) bad(`${at}: commute.${k} 는 숫자이거나 null 이어야 한다.`);
     }
-    if (c.walkMin == null && c.transitMin == null) warn(`${at}: 지점까지 걸리는 시간이 하나도 없다. 거를 수가 없다.`);
+
+    // 지도 핀 좌표. 주소가 동까지만 나오는 사이트(직방 원룸 등)에서 거리를 재는 유일한 길이다.
+    if (r.geo != null) {
+      if (!isNum(r.geo.lat) || !isNum(r.geo.lng)) bad(`${at}: geo 는 {lat,lng} 숫자여야 한다.`);
+      else if (r.geo.lat < 37.4 || r.geo.lat > 37.7 || r.geo.lng < 126.7 || r.geo.lng > 127.3) bad(`${at}: geo 가 서울 범위 밖이다.`);
+    }
+
+    // 확인해도 안 나오는 칸. 여기 적힌 것은 할 일 목록에서 빠진다.
+    // 이게 없으면 못 채우는 칸 하나가 영원히 1순위로 올라와 루프가 같은 자리를 맴돈다.
+    if (r.unresolved != null) {
+      if (!Array.isArray(r.unresolved)) bad(`${at}: unresolved 는 배열이어야 한다.`);
+      else r.unresolved.forEach((u) => {
+        if (!UNRESOLVABLE.includes(u)) bad(`${at}: unresolved 에 모르는 칸이 들어 있다 — ${u}`);
+        if (!isStr(r.unresolvedNote)) bad(`${at}: unresolved 를 쓰면 unresolvedNote 에 왜 못 채웠는지 적는다.`);
+      });
+    }
+    if (c.walkMin == null && c.transitMin == null && r.geo == null && !(r.unresolved ?? []).includes("commute")) {
+      warn(`${at}: 지점까지 걸리는 시간도 좌표도 없다. 거를 수가 없다.`);
+    }
 
     if (r.noiseRisk != null && !NOISE.includes(r.noiseRisk)) bad(`${at}: noiseRisk 가 목록에 없다 — ${r.noiseRisk}`);
 

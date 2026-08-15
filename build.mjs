@@ -5,7 +5,7 @@
  * 데이터가 비어 있어도 페이지는 나온다 — 빈 칸에는 "아직 없다" 와 무엇을 채워야 하는지가 뜬다.
  */
 import { readFileSync, writeFileSync, mkdirSync, rmSync, existsSync } from "node:fs";
-import { loadAll, buildTasks, unitPrice, itemTotal, planCost } from "./tasks.mjs";
+import { loadAll, buildTasks, unitPrice, itemTotal, planCost, distanceM } from "./tasks.mjs";
 
 const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) =>
   ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
@@ -281,10 +281,20 @@ const indexBody = `
 
 /* ── 자리 ─────────────────────────────────────────────────────── */
 
+const ANCHOR = d.config.anchor.geo;
+const distOf = (l) => distanceM(ANCHOR, l.geo);
+// 좌표만 있는 자리도 거를 수 있어야 한다. 사람이 보통 분당 70m 정도 걷는다.
+const walkish = (l) => l.commute?.walkMin ?? (distOf(l) != null ? Math.round(distOf(l) / 70) : null);
+
 function listingCard(l) {
   const monthly = l.rent + (l.maintenance ?? 0);
   const over = monthly > LIMIT;
   const walk = l.commute?.walkMin;
+  const dist = distOf(l);
+  const reach = walk != null ? `걸어서 ${walk}분`
+    : dist != null ? `직선 ${dist >= 1000 ? `${(dist / 1000).toFixed(1)}km` : `${dist}m`}`
+    : l.commute?.transitMin != null ? `${l.commute.transitMin}분`
+    : "—";
   const tags = [];
   if (l.livable === "가능") tags.push(["잘 수 있음", "on"]);
   else if (l.livable === "불가") tags.push(["잘 수 없음", "flag"]);
@@ -295,7 +305,7 @@ function listingCard(l) {
   else if (COMFORT != null && monthly <= COMFORT) tags.push(["예산 안쪽", "on"]);
   if (l.status !== "candidate") tags.push([({ shortlist: "추림", contacted: "연락함", visited: "가봄", rejected: "거름", closed: "나감" })[l.status] ?? l.status, ""]);
 
-  return `<article class="rowc" data-walk="${walk ?? ""}" data-cost="${monthly}" data-live="${esc(l.livable)}" data-status="${esc(l.status)}">
+  return `<article class="rowc" data-walk="${walkish(l) ?? ""}" data-cost="${monthly}" data-live="${esc(l.livable)}" data-status="${esc(l.status)}">
     <div class="hd">
       <div><h3>${esc(l.title)}</h3><p class="meta">${esc(l.kind)} · ${esc(l.address)}${l.addressDetail ? ` ${esc(l.addressDetail)}` : ""}</p></div>
       <div style="text-align:right">
@@ -304,19 +314,20 @@ function listingCard(l) {
       </div>
     </div>
     <div class="facts">
-      <div><div class="k">지점까지</div><div class="v">${walk != null ? `걸어서 ${walk}분` : l.commute?.transitMin != null ? `${l.commute.transitMin}분` : "—"}</div></div>
+      <div><div class="k">지점까지</div><div class="v">${esc(reach)}</div></div>
       <div><div class="k">면적</div><div class="v">${l.areaM2 != null ? `${l.areaM2}㎡` : "—"}</div></div>
       <div><div class="k">층</div><div class="v">${l.floor != null ? `${esc(String(l.floor))}층${l.totalFloors ? ` / ${l.totalFloors}` : ""}` : "—"}</div></div>
       <div><div class="k">천장</div><div class="v">${l.ceilingM != null ? `${l.ceilingM}m` : "—"}</div></div>
     </div>
     <div class="tags">${tags.map(([t, c]) => `<span class="tag ${c}">${esc(t)}</span>`).join("")}</div>
     ${l.notes ? `<p class="why">${esc(l.notes)}</p>` : ""}
+    ${(l.unresolved ?? []).length ? `<p class="meta" style="margin-top:8px">못 채운 칸 — ${esc(l.unresolvedNote ?? "")}</p>` : ""}
     ${l.rejectReason ? `<p class="why" style="color:var(--flag)">거른 이유 — ${esc(l.rejectReason)}</p>` : ""}
     ${l.source?.url ? `<a class="src" href="${esc(l.source.url)}" target="_blank" rel="noreferrer noopener">${esc(l.source.site)}에서 본 화면 (${esc(l.source.seenAt)})</a>` : ""}
   </article>`;
 }
 
-const walks = live.map((l) => l.commute?.walkMin).filter((n) => Number.isFinite(n));
+const walks = live.map(walkish).filter((n) => Number.isFinite(n));
 const STRIP_MAX = 30;
 const strip = walks.length ? `
 <div class="strip"><div class="track">
@@ -325,13 +336,15 @@ const strip = walks.length ? `
     const tx = i === 0 ? "translateX(0)" : i === a.length - 1 ? "translateX(-100%)" : "translateX(-50%)";
     return `<div class="mk" style="left:${(m / STRIP_MAX) * 100}%;transform:${tx}">${m === 0 ? "지점" : `${m}분`}</div>`;
   }).join("")}
-  ${live.filter((l) => Number.isFinite(l.commute?.walkMin)).map((l) => {
-    const p = Math.min(l.commute.walkMin / STRIP_MAX, 1) * 100;
+  ${live.filter((l) => Number.isFinite(walkish(l))).map((l) => {
+    const m = walkish(l);
+    const p = Math.min(m / STRIP_MAX, 1) * 100;
     const over = l.rent + (l.maintenance ?? 0) > LIMIT;
-    return `<div class="dot${over ? " over" : ""}" style="left:${p}%" title="${esc(l.title)} · 걸어서 ${l.commute.walkMin}분"></div>`;
+    return `<div class="dot${over ? " over" : ""}" style="left:${p}%" title="${esc(l.title)} · ${l.commute?.walkMin != null ? `걸어서 ${m}분` : `직선거리로 약 ${m}분`}"></div>`;
   }).join("")}
 </div></div>
-<p class="meta" style="margin:0 0 24px">점 하나가 자리 하나입니다. 왼쪽일수록 사무실에서 가깝고, 붉은 점은 월 ${LIMIT}만원을 넘습니다.</p>` : "";
+<p class="meta" style="margin:0 0 24px">점 하나가 자리 하나입니다. 왼쪽일수록 사무실에서 가깝고, 붉은 점은 월 ${LIMIT}만원을 넘습니다.
+길찾기 시간이 없는 자리는 직선거리를 분당 70m로 환산해 찍습니다.</p>` : "";
 
 const listingsBody = `
 <section>
@@ -355,7 +368,7 @@ ${live.length === 0 ? empty("아직 걷은 자리가 없습니다", "네이버�
     <div class="fgrp"><span class="fl">진행</span>
       <button class="chip" data-f="status" data-v="shortlist" aria-pressed="false">추린 것만</button></div>
   </div>
-  <div class="rows" id="list">${live.slice().sort((a, b) => (a.commute?.walkMin ?? 999) - (b.commute?.walkMin ?? 999)).map(listingCard).join("")}</div>
+  <div class="rows" id="list">${live.slice().sort((a, b) => (walkish(a) ?? 999) - (walkish(b) ?? 999)).map(listingCard).join("")}</div>
   <p class="meta" id="cnt" style="margin-top:14px"></p>`}
 </section>
 ${d.listings.filter((l) => l.status === "rejected").length ? `

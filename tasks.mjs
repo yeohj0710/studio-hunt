@@ -15,6 +15,16 @@ export function loadAll() {
 }
 
 const LIVE = (l) => l.status !== "rejected" && l.status !== "closed";
+const stuck = (l, field) => (l.unresolved ?? []).includes(field);
+
+/* 두 점 사이 직선거리(m). 좌표만 있으면 잰다 — 추정이 아니라 계산이다. */
+export function distanceM(a, b) {
+  if (!a || !b) return null;
+  const R = 6371000, r = Math.PI / 180;
+  const dLat = (b.lat - a.lat) * r, dLng = (b.lng - a.lng) * r;
+  const s = Math.sin(dLat / 2) ** 2 + Math.cos(a.lat * r) * Math.cos(b.lat * r) * Math.sin(dLng / 2) ** 2;
+  return Math.round(2 * R * Math.asin(Math.sqrt(s)));
+}
 
 export function buildTasks(d) {
   const t = [];
@@ -32,21 +42,28 @@ export function buildTasks(d) {
   }
 
   const live = d.listings.filter(LIVE);
+
+  // 자리가 스무 곳 넘게 모이면 자리 일의 순위를 내린다.
+  // 안 그러면 못 채우는 칸 몇 개가 계속 1순위를 차지해서 시세는 영영 0건이 된다.
+  const enough = live.length >= 20;
+  const w = (before, after) => (enough ? after : before);
+
   if (live.length < 20) {
     add("자리", `매물을 더 걷습니다 (지금 ${live.length}건)`,
       "네이버부동산·직방·다방·피터팬·당근을 돌아가며 봅니다. 한 번에 한 사이트만 보고, 새로 담은 건마다 source 에 그 화면 주소를 그대로 남깁니다. 스무 건은 모여야 비교가 됩니다.", 90);
   }
 
-  const noCommute = live.filter((l) => l.commute?.walkMin == null && l.commute?.transitMin == null);
+  const noCommute = live.filter((l) =>
+    l.commute?.walkMin == null && l.commute?.transitMin == null && l.geo == null && !stuck(l, "commute"));
   if (noCommute.length) {
-    add("자리", `지점까지 걸리는 시간을 채웁니다 (${noCommute.length}건)`,
-      `시간이 없으면 거를 수가 없습니다. 대상 — ${noCommute.slice(0, 6).map((l) => l.id).join(", ")}${noCommute.length > 6 ? " 외" : ""}`, 85);
+    add("자리", `지점까지 걸리는 시간이나 좌표를 채웁니다 (${noCommute.length}건)`,
+      `길찾기로 도보 시간을 읽거나, 주소가 동까지만 나오면 지도 핀 좌표를 geo 에 담습니다. 둘 다 두 번 시도해서 안 되면 unresolved 에 "commute" 를 넣고 넘어갑니다. 대상 — ${noCommute.slice(0, 6).map((l) => l.id).join(", ")}${noCommute.length > 6 ? " 외" : ""}`, w(85, 55));
   }
 
-  const unknownUse = live.filter((l) => l.livable === "미확인");
+  const unknownUse = live.filter((l) => l.livable === "미확인" && !stuck(l, "livable"));
   if (unknownUse.length) {
     add("자리", `잘 수 있는 자리인지 확인합니다 (${unknownUse.length}건)`,
-      `건축물대장 용도를 봅니다. 근린생활시설이면 전입신고가 막힐 수 있습니다. 대상 — ${unknownUse.slice(0, 6).map((l) => l.id).join(", ")}${unknownUse.length > 6 ? " 외" : ""}`, 80);
+      `건축물대장 용도를 봅니다. 근린생활시설이면 전입신고가 막힐 수 있습니다. 번지가 없어 대장을 못 떼면 unresolved 에 "livable" 을 넣고 넘어갑니다. 대상 — ${unknownUse.slice(0, 6).map((l) => l.id).join(", ")}${unknownUse.length > 6 ? " 외" : ""}`, w(80, 50));
   }
 
   const needPrice = (rows, label, area) => {
