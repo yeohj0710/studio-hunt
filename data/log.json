@@ -954,5 +954,13 @@
       "https://fin.land.naver.com/map?center=3zmhop-2AL1RW&realEstateTypes=A01-A04-B01-C03&zoom=17&layer=NobwRAlgJmBcYCcCGUIFcDOB9ADhAdmADRgYCmSCAxgBYAKlSAthnOMqpnQXMAIwAmAOwA6AAwAOCWIDMcojNEBWACwCBMgGwqAugF89OoA&showOnlySelectedRegion=false",
       "https://new.land.naver.com/rooms?ms=37.5446539,127.0872424,16&a=APT:OPST:ABYG:OBYG:GM:OR:DDDGG:JWJT:SGJT:VL&e=RETAIL&aa=SMALLSPCRENT"
     ]
+  },
+  {
+    "date":"2026-08-15","by":"codex","kind":"자리",
+    "summary":"네이버부동산 상세 화면에서 건축물대장 주용도 단독주택을 확인하고 숙박 가능 여부는 회색으로 표시했습니다.",
+    "detail":"네이버부동산 매물번호 2643603437 상세 화면의 건축물 대장 정보에서 주용도 단독주택을 확인했습니다. 숙박·전입신고 가능 여부와 스튜디오 영업 가능 여부는 화면에서 확인하지 않았습니다.",
+    "refs":[
+      "https://new.land.naver.com/rooms?ms=2AL6pE,3zmibo,16&a=APT:OPST:ABYG:OBYG:GM:OR:DDDGG:JWJT:SGJT:VL&e=RETAIL&aa=SMALLSPCRENT&articleNo=2643603437"
+    ]
   }
 ]
