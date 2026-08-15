@@ -348,5 +348,30 @@
     "cons": ["월세와 관리비 합계가 102만원입니다.", "주차 불가능으로 표시합니다.", "지점까지 도보 시간은 확인하지 않았습니다."],
     "notes": "월 고정비 상한을 넘어서 비교 대상에서 거릅니다. 화면에는 단독주택 용도와 구의역 도보 10분 이내를 표시합니다.",
     "source": { "site": "다방", "url": "https://www.dabangapp.com/map/onetwo?m_lat=37.54361914635132&m_lng=127.0932236640668&m_zoom=14&search_type=region&search_id=10178&detail_type=room&detail_id=6a76f9d5c7a9a35ad317e5f0", "listingId": "6a76f9d5c7a9a35ad317e5f0", "seenAt": "2026-08-15" }
+  },
+  {
+    "id": "daangn-4244017",
+    "title": "구의동 분리형 원룸 3,000/45",
+    "kind": "원룸",
+    "address": "서울 광진구 구의동",
+    "addressDetail": "저층 / 5층",
+    "deposit": 3000,
+    "rent": 45,
+    "maintenance": 0,
+    "areaM2": 19.83,
+    "floor": null,
+    "totalFloors": 5,
+    "ceilingM": null,
+    "livable": "미확인",
+    "livableNote": "건축물 용도를 단독주택으로 표시하고 위반건축물은 해당으로 표시합니다. 스튜디오 영업과 방문객 수용 가능 여부는 확인하지 않았습니다.",
+    "noiseRisk": "미확인",
+    "commute": { "walkMin": null, "transitMin": null, "routeNote": "화면에 구의역 도보 12분으로 표시하지만 지점까지 걸리는 시간은 확인하지 않았습니다." },
+    "contract": { "minMonths": null, "available": "2026-09-20 이후 (협의 가능)" },
+    "status": "candidate",
+    "rejectReason": "",
+    "pros": ["월세와 관리비 합계가 45만원입니다.", "전용면적 19.83㎡입니다.", "분리형 원룸과 주차 가능으로 표시합니다."],
+    "cons": ["건축물 용도를 단독주택으로 표시합니다.", "위반건축물은 해당으로 표시합니다.", "지점까지 도보 시간은 확인하지 않았습니다."],
+    "notes": "상세 화면에 단독주택, 위반건축물 해당, 분리형 원룸으로 표시합니다. 방문객을 받는 스튜디오 영업 가능 여부와 위반건축물 관련 사항을 계약 전에 확인해야 합니다.",
+    "source": { "site": "당근", "url": "https://realty.daangn.com/articles/4244017", "listingId": "4244017", "seenAt": "2026-08-15" }
   }
 ]
