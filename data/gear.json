@@ -47,7 +47,9 @@
     "usedOk": true,
     "usedNote": "인터페이스와 택일입니다. 자리와 인원이 정해진 뒤에 고릅니다.",
   "quotes": [
-    { "condition": "new", "price": 230000, "site": "쿠팡", "url": "https://www.coupang.com/vp/products/6483792744", "model": "ZOOM 줌 4마이크 입력 4헤드폰 출력 4트랙 동록 퐁출 가능 사운드 패드PodTrak P4", "note": "상품 화면에서 230,000원, 무료배송, 단 2개 남음 표기를 확인합니다. 반품비는 50,000원으로 표시합니다.", "seenAt": "2026-08-17" }
+    { "condition": "new", "price": 230000, "site": "쿠팡", "url": "https://www.coupang.com/vp/products/6483792744", "model": "ZOOM 줌 4마이크 입력 4헤드폰 출력 4트랙 동록 퐁출 가능 사운드 패드PodTrak P4", "note": "상품 화면에서 230,000원, 무료배송, 단 2개 남음 표기를 확인합니다. 반품비는 50,000원으로 표시합니다.", "seenAt": "2026-08-17" },
+    { "condition": "used", "price": 100000, "site": "중고나라", "url": "https://web.joongna.com/product/226134411", "model": "Zoom PodTrak P4", "note": "검색 화면에 5개월 전 게시물로 표시합니다. 중고·구성품 일부 포함, 정상 작동, 사용감 있음, 본체와 박스 없음으로 적혀 있습니다. 배송비 3,000원과 직거래를 표시합니다.", "seenAt": "2026-08-17" },
+    { "condition": "used", "price": 140000, "site": "중고나라", "url": "https://web.joongna.com/product/212551463", "model": "Zoom PodTrak P4", "note": "검색 화면에 1.2년 전 게시물로 표시합니다. 중고·직거래 및 택배, 배송비 별도, 안전거래 미사용으로 표시합니다.", "seenAt": "2026-08-17" }
   ],
     "chosen": null
   },
