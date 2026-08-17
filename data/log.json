@@ -1140,5 +1140,19 @@
       "https://prod.danawa.com/bridge/go_link_goods.php?cate_c1=57906&cate_c2=59499&cate_c3=60106&cate_c4=60115&cmpny_c=TP40F&link_prod_c=I27076007140&keyword=%EC%88%98%EC%84%B1%ED%8E%98%EC%9D%B8%ED%8A%B8+4L+%EB%A1%A4%EB%9F%AC+%ED%8A%B8%EB%A0%88%EC%9D%B4&r=17869661764652&cate=14239772",
       "https://store.ohou.se/goods/1866251?option_id=19217619&utm_source=danawa_shop&bp_sub_id_2=search&bp_sub_id_3=inorganic&utm_medium=cpc&utm_campaign=uc_web-all-web_all-danawa_shop&utm_content=1866251-19217619"
     ]
+  },
+  {
+    "date":"2026-08-17","by":"codex","kind":"시세",
+    "summary":"흡음 패널 후보를 확인했지만 규격이 부족해 가격을 넣지 않았습니다.",
+    "detail":"다나와 화면에서 플랜맥스 SZ-1012NC 흡음판넬 143,000원 무료배송 상품을 확인했습니다. 검색 화면에서 50mm·600x600을 함께 검색했지만 상품 자체의 두께와 크기를 확인하지 못해 i-absorb 견적에는 넣지 않았습니다.",
+    "refs":[
+      "https://search.danawa.com/dsearch.php?query=%ED%94%8C%EB%9E%9C%EB%A7%A5%EC%8A%A4+SZ-1012NC+50mm+600x600"
+    ]
+  },
+  {
+    "date":"2026-08-17","by":"codex","kind":"시세",
+    "summary":"3m XLR 케이블의 실제 판매 가격을 확인했습니다.",
+    "detail":"쿠팡 상품 화면에서 카나레 2T2S XLRF-XLRM 3m 마이크 케이블(리안 실버) 30,000원, 1개당 30,000원, 내일 도착 보장 표기를 확인해 g-xlr에 넣었습니다. 배송비는 화면에서 확인하지 못했습니다.",
+    "refs":["https://www.coupang.com/vp/products/8850375776?itemId=25799943790&searchId=feed-60e694a7a7b041808a26a9bf3c22e44b-3.3.37%3Aview_together_ads-P2001526138&vendorItemId=92787545794&sourceType=SDP_ADS&clickEventId=60a7e680-9a30-11f1-ba81-672c7e541160"]
   }
 ]
