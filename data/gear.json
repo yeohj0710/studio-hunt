@@ -135,7 +135,9 @@
     "models": ["베링거 HA400"],
     "usedOk": true,
     "usedNote": "",
-    "quotes": [],
+    "quotes": [
+      { "condition": "new", "price": 44290, "site": "다나와", "url": "https://prod.danawa.com/info/?pcode=1674519", "model": "베링거 HA400 (정품)", "note": "다나와 상품 화면에서 4채널·채널별 볼륨조절 사양과 최저가 44,290원(상품 41,290원과 배송비 3,000원)을 확인합니다.", "seenAt": "2026-08-17" }
+    ],
     "chosen": null
   },
 
