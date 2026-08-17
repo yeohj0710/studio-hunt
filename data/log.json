@@ -1154,5 +1154,11 @@
     "summary":"3m XLR 케이블의 실제 판매 가격을 확인했습니다.",
     "detail":"쿠팡 상품 화면에서 카나레 2T2S XLRF-XLRM 3m 마이크 케이블(리안 실버) 30,000원, 1개당 30,000원, 내일 도착 보장 표기를 확인해 g-xlr에 넣었습니다. 배송비는 화면에서 확인하지 못했습니다.",
     "refs":["https://www.coupang.com/vp/products/8850375776?itemId=25799943790&searchId=feed-60e694a7a7b041808a26a9bf3c22e44b-3.3.37%3Aview_together_ads-P2001526138&vendorItemId=92787545794&sourceType=SDP_ADS&clickEventId=60a7e680-9a30-11f1-ba81-672c7e541160"]
+  },
+  {
+    "date":"2026-08-17","by":"codex","kind":"정리",
+    "summary":"오래된 매물과 시세가 없는지 다시 확인했습니다.",
+    "detail":"2026-08-17 기준 30일 초과 매물과 60일 초과 시세가 없습니다. 상태를 바꿀 데이터가 없어 처리 원장만 갱신했습니다.",
+    "refs":[]
   }
 ]
