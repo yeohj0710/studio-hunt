@@ -3,17 +3,17 @@
   "goal": "광진구 신용보증기금 광진지점 도보권 팟캐스트 스튜디오 조사",
   "queue": {
     "source": "node next.mjs",
-    "current": "cleanup",
+    "current": "gear:g-sd",
     "status": "완료",
     "backoff": 0
   },
   "counters": {
-    "loops": 6,
-    "processed": 6,
+    "loops": 7,
+    "processed": 7,
     "rejected": 0,
-    "dataChanges": 3
+    "dataChanges": 4
   },
   "lastSync": "2026-08-17",
-  "nextAction": "g-pop에서 새 팝필터 제품 가격을 한 사이트에서 확인합니다.",
+  "nextAction": "g-power의 추가 멀티탭·연장선 제품 가격을 한 사이트에서 확인합니다.",
   "updatedAt": "2026-08-17"
 }
