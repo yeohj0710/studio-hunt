@@ -1166,5 +1166,11 @@
     "summary":"128GB SD카드의 실제 판매 가격을 추가 확인했습니다.",
     "detail":"네이버쇼핑 화면은 공유 브라우저 사용권을 확보하지 못해 확인하지 못하고 다나와 상품 상세 화면으로 전환했습니다. SanDisk SD Pro UHS-I U3 V30 95MB 128GB의 최저가 66,770원(상품 63,770원과 배송비 3,000원), 읽기 95MB/s, 쓰기 90MB/s를 확인해 g-sd에 넣었습니다.",
     "refs":["https://prod.danawa.com/info/?pcode=115870055"]
+  },
+  {
+    "date":"2026-08-17","by":"codex","kind":"시세",
+    "summary":"규격을 확인할 수 있는 흡음 패널 두 제품의 가격을 기록했습니다.",
+    "detail":"다나와 화면에서 600x600x50mm 유공보드 흡음판 22,000원 무료배송과 600x600x60mm 유공보드 흡음판 23,500원 무료배송을 확인해 i-absorb에 넣었습니다. 두 제품은 50mm 이상과 60x60cm 조건을 충족하지만 해외 상품으로 표시됩니다.",
+    "refs":["https://search.danawa.com/dsearch.php?query=%EC%9C%A0%EA%B3%B5%ED%9D%A1%EC%9D%8C%ED%8C%90","https://prod.danawa.com/bridge/go_link_goods.php?cate=14239776&cate_c1=57906&cate_c2=59499&cate_c3=59565&cate_c4=0&cmpny_c=TP40F&keyword=%EC%9C%A0%EA%B3%B5%ED%9D%A1%EC%9D%8C%ED%8C%90&link_prod_c=I17440336301&r=17869673168030","https://prod.danawa.com/bridge/go_link_goods.php?cate=14239776&cate_c1=57906&cate_c2=59499&cate_c3=59565&cate_c4=0&cmpny_c=TP40F&keyword=%EC%9C%A0%EA%B3%B5%ED%9D%A1%EC%9D%8C%ED%8C%90&link_prod_c=I17440336300&r=17869673165991"]
   }
 ]

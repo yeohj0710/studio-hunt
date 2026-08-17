@@ -1,5 +1,6 @@
 cleanup|2026-08-17|oldListings=0|oldRates=0
 gear:g-sd|2026-08-17|newQuotes=1|source=danawa|result=recorded
+interior:i-absorb|2026-08-17|newQuotes=2|source=danawa|result=recorded
 interior:i-diy-wall|2026-08-17|componentQuotes=2|source=danawa+smartstore|result=recorded
 interior:i-paint|2026-08-17|newQuotes=2|source=danawa|result=recorded
 interior:i-absorb|2026-08-17|candidate=143000|result=not-recorded-size-unverified

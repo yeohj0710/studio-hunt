@@ -271,7 +271,10 @@
     "alt": ["책이 꽂힌 책장 하나가 흡음 패널 몇 장 몫을 합니다"],
     "usedOk": true,
     "usedNote": "",
-    "quotes": [],
+    "quotes": [
+      { "condition": "new", "price": 22000, "site": "다나와", "url": "https://prod.danawa.com/bridge/go_link_goods.php?cate=14239776&cate_c1=57906&cate_c2=59499&cate_c3=59565&cate_c4=0&cmpny_c=TP40F&keyword=%EC%9C%A0%EA%B3%B5%ED%9D%A1%EC%9D%8C%ED%8C%90&link_prod_c=I17440336301&r=17869673168030", "model": "[해외] 유공보드 흡음판 방음재 패널 천장 데코톤 펀칭 600x600x50mm 사양 1개", "note": "다나와 상품 화면에서 600x600x50mm 규격, 구매가격 22,000원, 무료배송을 확인합니다.", "seenAt": "2026-08-17" },
+      { "condition": "new", "price": 23500, "site": "다나와", "url": "https://prod.danawa.com/bridge/go_link_goods.php?cate=14239776&cate_c1=57906&cate_c2=59499&cate_c3=59565&cate_c4=0&cmpny_c=TP40F&keyword=%EC%9C%A0%EA%B3%B5%ED%9D%A1%EC%9D%8C%ED%8C%90&link_prod_c=I17440336300&r=17869673165991", "model": "[해외] 유공보드 흡음판 방음재 패널 천장 데코톤 펀칭 600x600x60mm 사양 1개", "note": "다나와 상품 화면에서 600x600x60mm 규격, 구매가격 23,500원, 무료배송을 확인합니다.", "seenAt": "2026-08-17" }
+    ],
     "chosen": null
   },
   {
