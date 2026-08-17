@@ -46,7 +46,9 @@
     "models": ["줌 PodTrak P4", "로데캐스터 듀오"],
     "usedOk": true,
     "usedNote": "인터페이스와 택일입니다. 자리와 인원이 정해진 뒤에 고릅니다.",
-    "quotes": [],
+  "quotes": [
+    { "condition": "new", "price": 230000, "site": "쿠팡", "url": "https://www.coupang.com/vp/products/6483792744", "model": "ZOOM 줌 4마이크 입력 4헤드폰 출력 4트랙 동록 퐁출 가능 사운드 패드PodTrak P4", "note": "상품 화면에서 230,000원, 무료배송, 단 2개 남음 표기를 확인합니다. 반품비는 50,000원으로 표시합니다.", "seenAt": "2026-08-17" }
+  ],
     "chosen": null
   },
   {
