@@ -260,7 +260,11 @@
     "models": ["엘가토 캠링크 4K", "노브랜드 HDMI 캡처"],
     "usedOk": true,
     "usedNote": "",
-    "quotes": [],
+    "quotes": [
+      { "condition": "new", "price": 112240, "site": "다나와", "url": "https://prod.danawa.com/info/?pcode=6811585", "model": "Elgato CAM LINK 4K", "note": "다나와 상품 화면에서 HDMI 입력·USB 외장형·4K 30fps 사양과 최저가 112,240원(상품 109,240원과 배송비 3,000원)을 확인합니다.", "seenAt": "2026-08-17" },
+      { "condition": "used", "price": 110000, "site": "중고나라", "url": "https://web.joongna.com/product/226800213", "model": "Elgato CAM LINK 4K", "note": "중고나라 상품 화면에서 중고·구성품 전체 포함·배송비 4,000원을 확인합니다. 사용 20회 미만과 S급 상태, 박스를 찾으면 보내겠다는 설명을 표시합니다.", "seenAt": "2026-08-17" },
+      { "condition": "used", "price": 70000, "site": "중고나라", "url": "https://web.joongna.com/product/168554468", "model": "Elgato CAM LINK 4K", "note": "중고나라 상품 화면에서 중고·판매완료·배송비 별도·직거래를 표시합니다. 게시 시점은 6개월 전으로 표시합니다.", "seenAt": "2026-08-17" }
+    ],
     "chosen": null
   },
 
