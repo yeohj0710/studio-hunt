@@ -388,7 +388,11 @@
     "models": ["노브랜드 5인치 필드 모니터"],
     "usedOk": true,
     "usedNote": "",
-    "quotes": [],
+    "quotes": [
+      { "condition": "new", "price": 207480, "site": "쿠팡", "url": "https://www.coupang.com/vp/products/8550130002?sourceType=sdp_buybox_winner_offer&vendorItemId=92657712764", "model": "FEELWORLD F5 PRO V4", "note": "상품 화면에서 6인치·4K UHD·HDMI 입력 필드 모니터와 207,480원·무료배송을 확인합니다.", "seenAt": "2026-08-17" },
+      { "condition": "used", "price": 100000, "site": "중고나라", "url": "https://web.joongna.com/product/220778163", "model": "OSEE T5+", "note": "중고나라 상품 화면에서 5인치·1000nit 필드 모니터, 중고·구성품 일부 포함·직거래·100,000원을 확인합니다. 택배비 3,000원을 표시하고 몇 번 테스트한 거의 새것이라고 적습니다.", "seenAt": "2026-08-17" },
+      { "condition": "used", "price": 150000, "site": "중고나라", "url": "https://web.joongna.com/product/227190717", "model": "bon 5인치 필드모니터", "note": "중고나라 상품 화면에서 5인치 필드 모니터, 중고·구성품 없음·150,000원과 일반택배 5,000원을 확인합니다. 몇 번 사용 후 보관했다고 적습니다.", "seenAt": "2026-08-17" }
+    ],
     "chosen": null
   }
 ]

@@ -1238,5 +1238,17 @@
     "summary":"캡처보드 신품과 중고 시세를 기록했습니다.",
     "detail":"다나와에서 Elgato CAM LINK 4K 신품 112,240원과 HDMI 입력·USB 외장형·4K 30fps 사양을 확인했습니다. 중고나라에서 같은 모델 110,000원과 70,000원 두 건을 확인하고 배송비·상품 상태·판매완료 여부를 함께 기록했습니다.",
     "refs":["https://prod.danawa.com/info/?pcode=6811585","https://web.joongna.com/product/226800213","https://web.joongna.com/product/168554468"]
+  },
+  {
+    "date":"2026-08-17","by":"codex","kind":"시세",
+    "summary":"흡음 패널 중고 견적을 찾았지만 조건을 만족하는 상품이 없습니다.",
+    "detail":"중고나라에서 600×600mm·두께 50mm 이상인 중고 흡음 패널 2건을 찾지 못했습니다. 600×600mm·207mm 제품은 새상품으로 표시해 중고 견적에서 제외하고, 30T 흡음재와 흡음재가 아닌 판넬도 제외합니다.",
+    "refs":["https://web.joongna.com/product/218032962","https://web.joongna.com/product/211155022","https://web.joongna.com/product/176224162"]
+  },
+  {
+    "date":"2026-08-17","by":"codex","kind":"시세",
+    "summary":"현장 확인 모니터 신품과 중고 시세를 기록했습니다.",
+    "detail":"쿠팡에서 FEELWORLD F5 PRO V4 6인치·4K UHD·HDMI 입력 신품 207,480원을 확인했습니다. 중고나라에서 OSEE T5+ 100,000원과 bon 5인치 필드모니터 150,000원 두 건을 확인하고 배송비·구성품·상태를 기록했습니다.",
+    "refs":["https://www.coupang.com/vp/products/8550130002?sourceType=sdp_buybox_winner_offer&vendorItemId=92657712764","https://web.joongna.com/product/220778163","https://web.joongna.com/product/227190717"]
   }
 ]
