@@ -273,7 +273,9 @@
     "usedNote": "",
     "quotes": [
       { "condition": "new", "price": 22000, "site": "다나와", "url": "https://prod.danawa.com/bridge/go_link_goods.php?cate=14239776&cate_c1=57906&cate_c2=59499&cate_c3=59565&cate_c4=0&cmpny_c=TP40F&keyword=%EC%9C%A0%EA%B3%B5%ED%9D%A1%EC%9D%8C%ED%8C%90&link_prod_c=I17440336301&r=17869673168030", "model": "[해외] 유공보드 흡음판 방음재 패널 천장 데코톤 펀칭 600x600x50mm 사양 1개", "note": "다나와 상품 화면에서 600x600x50mm 규격, 구매가격 22,000원, 무료배송을 확인합니다.", "seenAt": "2026-08-17" },
-      { "condition": "new", "price": 23500, "site": "다나와", "url": "https://prod.danawa.com/bridge/go_link_goods.php?cate=14239776&cate_c1=57906&cate_c2=59499&cate_c3=59565&cate_c4=0&cmpny_c=TP40F&keyword=%EC%9C%A0%EA%B3%B5%ED%9D%A1%EC%9D%8C%ED%8C%90&link_prod_c=I17440336300&r=17869673165991", "model": "[해외] 유공보드 흡음판 방음재 패널 천장 데코톤 펀칭 600x600x60mm 사양 1개", "note": "다나와 상품 화면에서 600x600x60mm 규격, 구매가격 23,500원, 무료배송을 확인합니다.", "seenAt": "2026-08-17" }
+      { "condition": "new", "price": 23500, "site": "다나와", "url": "https://prod.danawa.com/bridge/go_link_goods.php?cate=14239776&cate_c1=57906&cate_c2=59499&cate_c3=59565&cate_c4=0&cmpny_c=TP40F&keyword=%EC%9C%A0%EA%B3%B5%ED%9D%A1%EC%9D%8C%ED%8C%90&link_prod_c=I17440336300&r=17869673165991", "model": "[해외] 유공보드 흡음판 방음재 패널 천장 데코톤 펀칭 600x600x60mm 사양 1개", "note": "다나와 상품 화면에서 600x600x60mm 규격, 구매가격 23,500원, 무료배송을 확인합니다.", "seenAt": "2026-08-17" },
+      { "condition": "used", "price": 40000, "site": "중고나라", "url": "https://web.joongna.com/product/186227280", "model": "자작 어쿠스틱 패널 95x107x19cm, 암면 6장", "note": "중고나라 상품 화면에서 중고 자작 패널 95x107x19cm, 암면 6장 사용, 개당 40,000원과 직거래를 확인합니다. 190mm 두께로 50mm 조건을 충족하지만 600x600mm보다 큽니다.", "seenAt": "2026-08-17" },
+      { "condition": "used", "price": 20000, "site": "중고나라", "url": "https://web.joongna.com/product/186227280", "model": "자작 어쿠스틱 패널 95x107x19cm, 전면부 소나무 마감 없음", "note": "중고나라 상품 화면에서 암면 6장을 사용한 95x107x19cm 패널의 전면부 소나무 마감 없음 변형을 개당 20,000원에 판매하고 직거래만 가능하다고 표시합니다. 190mm 두께로 50mm 조건을 충족하지만 600x600mm보다 큽니다.", "seenAt": "2026-08-17" }
     ],
     "chosen": null
   },
