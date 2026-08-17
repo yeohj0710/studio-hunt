@@ -107,7 +107,26 @@
     "alt": [],
     "usedOk": false,
     "usedNote": "",
-    "quotes": [],
+    "quotes": [
+      {
+        "condition": "new",
+        "price": 39900,
+        "site": "다나와",
+        "url": "https://prod.danawa.com/bridge/go_link_goods.php?cate_c1=57906&cate_c2=59499&cate_c3=60106&cate_c4=60115&cmpny_c=TP40F&link_prod_c=I27076007140&keyword=%EC%88%98%EC%84%B1%ED%8E%98%EC%9D%B8%ED%8A%B8+4L+%EB%A1%A4%EB%9F%AC+%ED%8A%B8%EB%A0%88%EC%9D%B4&r=17869661764652&cate=14239772",
+        "model": "삼화페인트 아이생각 친환경 페인트 벽지 수성 내부 롤러7인치 붓 트레이세트 1세트 4L 0124B",
+        "note": "다나와 화면에서 쿠팡 구매가격 39,900원과 무료배송을 확인합니다. 4L 페인트와 롤러·붓·트레이 세트이며 마스킹테이프 포함 여부는 화면에서 확인하지 못합니다.",
+        "seenAt": "2026-08-17"
+      },
+      {
+        "condition": "new",
+        "price": 44460,
+        "site": "오늘의집",
+        "url": "https://store.ohou.se/goods/1866251?option_id=19217619&utm_source=danawa_shop&bp_sub_id_2=search&bp_sub_id_3=inorganic&utm_medium=cpc&utm_campaign=uc_web-all-web_all-danawa_shop&utm_content=1866251-19217619",
+        "model": "노루 친환경 벽지 벽면 수성 셀프 페인트 4L 롤러/붓/커버링/마스킹/트레이 도구 세트 아이보리1 NR7009",
+        "note": "다나와 화면에서 오늘의집 구매가격 44,460원과 배송비 3,000원을 확인합니다. 4L 페인트와 롤러·붓·커버링·마스킹·트레이 세트입니다.",
+        "seenAt": "2026-08-17"
+      }
+    ],
     "chosen": null
   },
   {
