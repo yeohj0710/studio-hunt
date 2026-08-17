@@ -73,7 +73,26 @@
     "alt": ["석고보드는 무겁고 부서져서 이동식으로는 안 맞습니다"],
     "usedOk": false,
     "usedNote": "자재는 새로 삽니다.",
-    "quotes": [],
+    "quotes": [
+      {
+        "condition": "new",
+        "price": 5890,
+        "site": "다나와",
+        "url": "https://prod.danawa.com/bridge/go_link_goods.php?cate_c1=57906&cate_c2=59499&cate_c3=59566&cate_c4=0&cmpny_c=TH201&link_prod_c=2521714270&keyword=30x69+%EA%B0%81%EC%9E%AC&r=17869658963500&cate=14239774",
+        "model": "소송각재 30 x 69 x 1800mm (1개)",
+        "note": "다나와 화면에서 11번가 가격 5,890원을 확인합니다. 가벽 프레임 부품 1개 가격이며 필요한 총수량과 절단비는 포함하지 않습니다.",
+        "seenAt": "2026-08-17"
+      },
+      {
+        "condition": "new",
+        "price": 14500,
+        "site": "네이버쇼핑",
+        "url": "https://smartstore.naver.com/wood1st/products/6316261827?NaPm=ct%3Dmsx5dssj%7Cci%3Dshopn%7Ctr%3Ddana%7Chk%3D51e430ca92015d252218403a814292944909e252%7Ctrx%3Dundefined",
+        "model": "퍼스트우드 오에스비(OSB)합판 9X1220X2440mm",
+        "note": "상품 화면에서 구매가격 14,500원과 배송비 20,000원을 확인합니다. 합판 1장 가격이며 필요한 장수와 절단비는 포함하지 않습니다.",
+        "seenAt": "2026-08-17"
+      }
+    ],
     "chosen": null
   },
   {

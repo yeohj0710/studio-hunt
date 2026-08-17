@@ -983,5 +983,152 @@
     "summary":"정리 회차를 다시 확인했지만 30일 넘은 매물과 60일 넘은 시세가 없습니다.",
     "detail":"2026-08-15 기준으로 listings.source.seenAt와 market.rates[].seenAt를 다시 확인했습니다. 재확인할 오래된 매물과 시세가 없어 상태를 바꾸지 않았습니다.",
     "refs":[]
+  },
+  {
+    "date":"2026-08-15","by":"codex","kind":"정리",
+    "summary":"오래된 매물과 시세가 없는지 다시 확인했습니다.",
+    "detail":"2026-07-16 이전 listings.source.seenAt 매물과 60일이 지난 market.rates 항목이 없습니다. 상태를 바꿀 데이터가 없어 일지만 남겼습니다.",
+    "refs":[]
+  },
+  {
+    "date":"2026-08-15","by":"codex","kind":"정리",
+    "summary":"정리 회차에서 오래된 매물과 시세가 없는지 다시 확인했습니다.",
+    "detail":"2026-07-16 이전 listings.source.seenAt 매물과 60일이 지난 market.rates 항목이 없습니다. 상태를 바꿀 데이터가 없어 일지만 남겼습니다.",
+    "refs":[]
+  },
+  {
+    "date":"2026-08-15","by":"codex","kind":"정리",
+    "summary":"오래된 매물과 시세가 없는지 다시 확인했습니다.",
+    "detail":"2026-07-16 이전 listings.source.seenAt 매물과 60일이 지난 market.rates 항목이 없습니다. 상태를 바꿀 데이터가 없어 일지만 남겼습니다.",
+    "refs":[]
+  },
+  {
+    "date":"2026-08-15","by":"codex","kind":"정리",
+    "summary":"오래된 매물과 시세가 없는지 다시 확인했습니다.",
+    "detail":"2026-07-16 이전 listings.source.seenAt 매물과 60일이 지난 market.rates 항목이 없습니다. 상태를 바꿀 데이터가 없어 일지만 남겼습니다.",
+    "refs":[]
+  },
+  {
+    "date":"2026-08-15","by":"codex","kind":"정리",
+    "summary":"오래된 매물과 시세가 없는지 다시 확인했습니다.",
+    "detail":"2026-07-16 이전 listings.source.seenAt 매물과 60일이 지난 market.rates 항목이 없습니다. 상태를 바꿀 데이터가 없어 일지만 남겼습니다.",
+    "refs":[]
+  },
+  {
+    "date":"2026-08-15","by":"codex","kind":"정리",
+    "summary":"오래된 매물과 시세가 없는지 다시 확인했습니다.",
+    "detail":"2026-07-16 이전 listings.source.seenAt 매물과 60일이 지난 market.rates 항목이 없습니다. 상태를 바꿀 데이터가 없어 일지만 남겼습니다.",
+    "refs":[]
+  },
+  {
+    "date":"2026-08-15","by":"codex","kind":"정리",
+    "summary":"오래된 매물과 시세가 없는지 다시 확인했습니다.",
+    "detail":"2026-07-16 이전 listings.source.seenAt 매물과 60일이 지난 market.rates 항목이 없습니다. 상태를 바꿀 데이터가 없어 일지만 남겼습니다.",
+    "refs":[]
+  },
+  {
+    "date":"2026-08-15","by":"codex","kind":"정리",
+    "summary":"오래된 매물과 시세가 없는지 다시 확인했습니다.",
+    "detail":"2026-07-16 이전 listings.source.seenAt 매물과 60일이 지난 market.rates 항목이 없습니다. 상태를 바꿀 데이터가 없어 일지만 남겼습니다.",
+    "refs":[]
+  },
+  {
+    "date":"2026-08-15","by":"codex","kind":"정리",
+    "summary":"오래된 매물과 시세가 없는지 다시 확인했습니다.",
+    "detail":"2026-07-16 이전 listings.source.seenAt 매물과 60일이 지난 market.rates 항목이 없습니다. 상태를 바꿀 데이터가 없어 일지만 남겼습니다.",
+    "refs":[]
+  },
+  {
+    "date":"2026-08-15","by":"codex","kind":"정리",
+    "summary":"오래된 매물과 시세가 없는지 다시 확인했습니다.",
+    "detail":"2026-07-16 이전 listings.source.seenAt 매물과 60일이 지난 market.rates 항목이 없습니다. 상태를 바꿀 데이터가 없어 일지만 남겼습니다.",
+    "refs":[]
+  },
+  {
+    "date":"2026-08-15","by":"codex","kind":"정리",
+    "summary":"오래된 매물과 시세가 없는지 다시 확인했습니다.",
+    "detail":"2026-07-16 이전 listings.source.seenAt 매물과 60일이 지난 market.rates 항목이 없습니다. 상태를 바꿀 데이터가 없어 일지만 남겼습니다.",
+    "refs":[]
+  },
+  {
+    "date":"2026-08-15","by":"codex","kind":"정리",
+    "summary":"오래된 매물과 시세가 없는지 다시 확인했습니다.",
+    "detail":"2026-07-16 이전 listings.source.seenAt 매물과 60일이 지난 market.rates 항목이 없습니다. 상태를 바꿀 데이터가 없어 일지만 남겼습니다.",
+    "refs":[]
+  },
+  {
+    "date":"2026-08-15","by":"codex","kind":"정리",
+    "summary":"오래된 매물과 시세가 없는지 다시 확인했습니다.",
+    "detail":"2026-07-16 이전 listings.source.seenAt 매물과 60일이 지난 market.rates 항목이 없습니다. 상태를 바꿀 데이터가 없어 일지만 남겼습니다.",
+    "refs":[]
+  },
+  {
+    "date":"2026-08-15","by":"codex","kind":"정리",
+    "summary":"오래된 매물과 시세가 없는지 다시 확인했습니다.",
+    "detail":"2026-07-16 이전 listings.source.seenAt 매물과 60일이 지난 market.rates 항목이 없습니다. 상태를 바꿀 데이터가 없어 일지만 남겼습니다.",
+    "refs":[]
+  },
+  {
+    "date":"2026-08-15","by":"codex","kind":"정리",
+    "summary":"오래된 매물과 시세가 없는지 다시 확인했습니다.",
+    "detail":"2026-07-16 이전 listings.source.seenAt 매물과 60일이 지난 market.rates 항목이 없습니다. 같은 정리 작업이 반복되어 상태를 바꿀 데이터가 없어 일지만 남겼습니다.",
+    "refs":[]
+  },
+  {
+    "date":"2026-08-16","by":"codex","kind":"시세",
+    "summary":"DIY 가벽 자재의 실제 단가를 확인했지만 완성 견적으로 합치지 않았습니다.",
+    "detail":"다나와 화면에서 30x69x1800mm 소송각재 1개 5,890원과 OSB 합판 9x1220x2440mm 14,500원을 확인했습니다. 두 상품은 부품 단가이고 가벽에 필요한 수량·절단·배송 범위를 화면에서 확인하지 못해 i-diy-wall 견적에는 넣지 않았습니다. 네이버쇼핑은 CAPTCHA 화면에서 멈췄습니다.",
+    "refs":[
+      "https://search.danawa.com/dsearch.php?query=30x69+%EA%B0%81%EC%9E%AC",
+      "https://prod.danawa.com/bridge/go_link_goods.php?cate_c1=57906&cate_c2=59499&cate_c3=59566&cate_c4=0&cmpny_c=TH201&link_prod_c=2521714270&keyword=30x69+%EA%B0%81%EC%9E%AC&r=17868545791495&cate=14239774",
+      "https://search.danawa.com/dsearch.php?query=OSB+%ED%95%A9%ED%8C%90+9mm+1220x2440",
+      "https://prod.danawa.com/bridge/go_link_goods.php?cate_c1=57906&cate_c2=59499&cate_c3=59566&cate_c4=0&cmpny_c=TU86F&link_prod_c=6316261827&keyword=OSB%ED%95%A9%ED%8C%909mm1220x2440&r=17868546047645&cate=14239774"
+    ]
+  },
+  {
+    "date":"2026-08-16","by":"codex","kind":"정리",
+    "summary":"오래된 매물과 시세가 없는지 다시 확인했습니다.",
+    "detail":"2026-07-17 이전 listings.source.seenAt 매물과 60일이 지난 market.rates 항목이 없습니다. 상태를 바꿀 데이터가 없어 일지만 남겼습니다.",
+    "refs":[]
+  },
+  {
+    "date":"2026-08-16","by":"codex","kind":"정리",
+    "summary":"오래된 매물과 시세가 없는지 다시 확인했습니다.",
+    "detail":"현재 기준 30일이 지난 listings.source.seenAt 매물과 60일이 지난 market.rates 항목이 없습니다. 상태를 바꿀 데이터가 없어 일지만 남겼습니다.",
+    "refs":[]
+  },
+  {
+    "date":"2026-08-16","by":"codex","kind":"정리",
+    "summary":"오래된 매물과 시세가 없는지 다시 확인했습니다.",
+    "detail":"2026-08-16 기준 30일 초과 매물과 60일 초과 시세가 없습니다. 상태를 바꿀 데이터가 없어 일지만 남겼습니다.",
+    "refs":[]
+  },
+  {
+    "date":"2026-08-16","by":"codex","kind":"정리",
+    "summary":"오래된 매물과 시세가 없는지 다시 확인했습니다.",
+    "detail":"이번 회차에도 30일 초과 매물과 60일 초과 시세가 없습니다. 상태를 바꿀 데이터가 없어 일지만 남겼습니다.",
+    "refs":[]
+  },
+  {
+    "date":"2026-08-16","by":"codex","kind":"정리",
+    "summary":"정리 작업이 반복되어 오래된 매물과 시세를 다시 확인했습니다.",
+    "detail":"30일 초과 매물과 60일 초과 시세가 세 회차 이상 연속으로 없습니다. 상태를 바꿀 데이터가 없어 같은 작업을 더 반복하지 않습니다.",
+    "refs":[]
+  },
+  {
+    "date":"2026-08-17","by":"codex","kind":"정리",
+    "summary":"오래된 매물과 시세가 없는지 다시 확인했습니다.",
+    "detail":"2026-08-17 기준 30일 초과 매물과 60일 초과 시세가 없습니다. 상태를 바꿀 데이터가 없어 처리 원장만 갱신했습니다.",
+    "refs":[]
+  },
+  {
+    "date":"2026-08-17","by":"codex","kind":"시세",
+    "summary":"각재와 합판 DIY 가벽의 실제 부품 단가를 확인했습니다.",
+    "detail":"네이버쇼핑은 보안 확인 화면에서 멈췄습니다. 다나와 화면에서 30x69x1800mm 소송각재 1개 5,890원과 OSB 합판 9X1220X2440mm 14,500원, 배송비 20,000원을 확인해 i-diy-wall에 부품 견적으로 넣었습니다. 필요한 수량·절단비·완성 가벽 총액은 확인하지 않아 추정하지 않았습니다.",
+    "refs":[
+      "https://search.shopping.naver.com/search/all?query=30x69%20%EA%B0%81%EC%9E%AC%20OSB%20%ED%95%A9%ED%8C%90%209mm%201220x2440",
+      "https://prod.danawa.com/bridge/go_link_goods.php?cate_c1=57906&cate_c2=59499&cate_c3=59566&cate_c4=0&cmpny_c=TH201&link_prod_c=2521714270&keyword=30x69+%EA%B0%81%EC%9E%AC&r=17869658963500&cate=14239774",
+      "https://smartstore.naver.com/wood1st/products/6316261827?NaPm=ct%3Dmsx5dssj%7Cci%3Dshopn%7Ctr%3Ddana%7Chk%3D51e430ca92015d252218403a814292944909e252%7Ctrx%3Dundefined"
+    ]
   }
 ]
