@@ -38,6 +38,41 @@ const RATE_DEFAULT = 3.5;
 const RATE_OPTIONS = [2.5, 3.5, 4.5, 6.0];
 const realMonthly = (l, rate = RATE_DEFAULT) => l.rent + (l.maintenance ?? 0) + (l.deposit * rate / 100) / 12;
 
+/* ── 바깥으로 나가는 링크 ─────────────────────────────────────────
+   조사한 화면 주소가 데이터에 400개 넘게 들어 있다. 접어 두면 아무도 안 연다.
+   숫자와 제목 자체를 링크로 만들어서 한 번에 원문으로 가게 한다. */
+
+const SITE_NAME = {
+  "new.land.naver.com": "네이버부동산", "fin.land.naver.com": "네이버부동산", "land.naver.com": "네이버부동산",
+  "www.zigbang.com": "직방", "zigbang.com": "직방",
+  "www.dabangapp.com": "다방", "dabangapp.com": "다방",
+  "www.daangn.com": "당근", "realty.daangn.com": "당근",
+  "www.peterpanz.com": "피터팬",
+  "map.naver.com": "네이버지도", "map.kakao.com": "카카오맵", "www.google.com": "구글 지도",
+  "prod.danawa.com": "다나와", "search.danawa.com": "다나와",
+  "smartstore.naver.com": "네이버쇼핑", "search.shopping.naver.com": "네이버쇼핑", "brand.naver.com": "네이버쇼핑",
+  "www.coupang.com": "쿠팡", "store.ohou.se": "오늘의집",
+  "m.bunjang.co.kr": "번개장터", "mercari.bunjang.co.kr": "번개장터",
+  "web.joongna.com": "중고나라",
+  "www.spacecloud.kr": "스페이스클라우드",
+  "www.law.go.kr": "국가법령정보센터", "law.go.kr": "국가법령정보센터",
+  "www.gov.kr": "정부24", "m.gov.kr": "정부24",
+  "www.nts.go.kr": "국세청",
+  "all4sound.com": "올포사운드", "jgagu.co.kr": "제이가구",
+  "www.114.co.kr": "전화번호부", "kbank.org": "은행 찾기",
+};
+const siteName = (url) => {
+  try { const h = new URL(url).hostname; return SITE_NAME[h] ?? h.replace(/^(www|m)\./, ""); }
+  catch { return "원문"; }
+};
+const link = (url, text, cls = "go") =>
+  url ? `<a class="${cls}" href="${esc(url)}" target="_blank" rel="noreferrer noopener">${esc(text)}</a>` : esc(text);
+
+/* 카카오맵 주소 검색. sName·eName 을 넘기는 길찾기 주소는 값이 조용히 버려져서 빈 화면이 뜬다.
+   ?q= 로 넘기면 번지를 도로명과 건물 이름까지 풀어 주고, 그 화면에서 길찾기 단추를 바로 누를 수 있다. */
+const mapLink = (addr) =>
+  addr ? { url: `https://map.kakao.com/?q=${encodeURIComponent(addr)}`, label: "지도에서 보기" } : null;
+
 /* ── 값 고르기 ─────────────────────────────────────────────────── */
 
 const minBy = (arr) => (arr.length ? arr.reduce((a, b) => (b.price < a.price ? b : a)) : null);
@@ -213,11 +248,30 @@ table.data td.r,table.data th.r{text-align:right}
 table.data td.name{white-space:normal;min-width:200px}
 table.data td.name b{color:var(--title);font-weight:600}
 table.data tbody tr.pick{background:#F7FBFB}
+/* 다른 쪽에서 #l-아이디 로 건너오면 그 줄을 물들여 준다. 머리말에 가리지 않게 여백도 준다. */
+table.data tbody tr[id]{scroll-margin-top:84px}
+table.data tbody tr:target{background:var(--accent-soft);box-shadow:inset 3px 0 0 var(--accent)}
 table.data tbody tr:hover{background:#F3F8F9}
 table.data .rank{font-family:Inter,sans-serif;color:var(--muted);font-size:12px}
 table.data .strong{color:var(--title);font-weight:600}
 table.data .over{color:var(--flag)}
 table.data a.go{color:var(--accent);text-decoration:none;border-bottom:1px solid rgba(14,116,144,.3);font-size:12.5px}
+table.data a.go:hover{border-bottom-color:var(--accent)}
+/* 제목과 숫자 자체를 링크로 쓴다. 접힌 데 넣어 두면 아무도 안 연다. */
+a.tl{color:var(--title);text-decoration:none;border-bottom:1px solid rgba(15,38,44,.22)}
+a.tl:hover{border-bottom-color:var(--accent);color:var(--accent)}
+a.q{display:inline-block;color:var(--title);text-decoration:none;text-align:right}
+a.q .p{border-bottom:1px solid rgba(14,116,144,.32)}
+a.q:hover .p{border-bottom-color:var(--accent);color:var(--accent)}
+a.q .s{display:block;font-size:11px;color:var(--muted);font-family:Pretendard,sans-serif;letter-spacing:0}
+.linkline{display:flex;flex-wrap:wrap;gap:4px 12px;margin-top:6px}
+.linkline a{font-size:12px;color:var(--accent);text-decoration:none;border-bottom:1px solid rgba(14,116,144,.28);white-space:nowrap}
+.linkline a:hover{border-bottom-color:var(--accent)}
+.hub{display:flex;flex-wrap:wrap;gap:8px}
+.hub a{display:inline-flex;align-items:baseline;gap:7px;background:#fff;border:1px solid var(--stroke);border-radius:99px;
+  padding:7px 15px;font-size:13px;color:var(--title);text-decoration:none}
+.hub a:hover{border-color:var(--accent);color:var(--accent)}
+.hub a span{font-size:11.5px;color:var(--muted)}
 /* 좁은 화면에서는 실부담이 옆으로 밀려 안 보인다. 이름 밑에 한 줄로 같이 적는다. */
 .monly{display:none}
 @media(max-width:760px){
@@ -367,6 +421,34 @@ const bigDeposit = live.filter((l) => l.deposit >= 10000);
 const bigDepRents = bigDeposit.map((l) => l.rent + (l.maintenance ?? 0)).sort((a, b) => a - b);
 const cheapReal = Math.round(Math.min(...live.map((l) => realMonthly(l))));
 
+/* 데이터에 든 화면 주소가 몇 개인지 세어 둔다. 링크가 있다는 걸 알려야 누른다. */
+const LINK_TOTAL = (() => {
+  let n = 0;
+  const walk = (o) => {
+    if (typeof o === "string") { if (/^https?:/.test(o)) n++; return; }
+    if (o && typeof o === "object") Object.values(o).forEach(walk);
+  };
+  walk([d.config, d.listings, d.gear, d.interior, d.market, d.log]);
+  return n;
+})();
+
+/* 사이트 뿌리 주소만 쓴다. 검색 주소를 지어내면 다음 달에 죽는다.
+   건축물대장은 config 의 확인거리에서 이미 확인한 주소를 그대로 가져온다. */
+const DAEJANG = (d.config.openQuestions.find((q) => q.id === "q-usage")?.sources ?? [])
+  .find((s) => /gov\.kr/.test(s));
+const HUB = [
+  ["https://new.land.naver.com", "네이버부동산", `자리 ${d.listings.filter((l) => l.source?.site === "네이버부동산").length}곳`],
+  ["https://www.zigbang.com", "직방", `${d.listings.filter((l) => l.source?.site === "직방").length}곳`],
+  ["https://www.dabangapp.com", "다방", `${d.listings.filter((l) => l.source?.site === "다방").length}곳`],
+  ["https://www.daangn.com/kr/realty", "당근 부동산", `${d.listings.filter((l) => (l.source?.site ?? "").includes("당근")).length}곳`],
+  ["https://www.peterpanz.com", "피터팬", "아직 0곳"],
+  ["https://www.spacecloud.kr", "스페이스클라우드", `대관 시세 ${d.market.rates.length}곳`],
+  ["https://prod.danawa.com", "다나와", "새것 최저가"],
+  ["https://m.bunjang.co.kr", "번개장터", "중고 시세"],
+  ["https://web.joongna.com", "중고나라", "중고 시세"],
+  ...(DAEJANG ? [[DAEJANG, "정부24 건축물대장", "용도와 전입신고 확인"]] : []),
+];
+
 const HOWTO = [
   ["/listings", "자리",
     `광진구 원룸과 상가 ${live.length}곳을 한 표에 놓고 보증금, 월세, 걸어가는 시간으로 거릅니다. 보러 갈 세 곳을 여기서 고릅니다.`,
@@ -457,13 +539,18 @@ const indexBody = `
     <table class="data" style="min-width:620px">
       <thead><tr><th></th><th>자리</th><th class="r">보증금</th><th class="r">월세 + 관리비</th><th class="r">실부담</th><th class="r">걸어서</th></tr></thead>
       <tbody>
-        ${top3.map((l, i) => `<tr class="pick">
+        ${top3.map((l, i) => {
+          const map = mapLink(l.address);
+          return `<tr class="pick">
           <td class="rank">${i + 1}</td>
-          <td class="name"><b>${esc(l.title)}</b><br><span class="meta">${esc(l.address)}</span></td>
+          <td class="name">${l.source?.url ? link(l.source.url, l.title, "tl") : `<b>${esc(l.title)}</b>`}
+            <br><span class="meta">${esc(l.address)}</span>
+            <span class="linkline">${l.source?.url ? link(l.source.url, `${siteName(l.source.url)}에서 보기`) : ""}${map ? link(map.url, map.label) : ""}<a href="/listings#l-${esc(l.id)}">표에서 보기</a></span></td>
           <td class="r mono">${eok(l.deposit)}</td>
           <td class="r mono">${man(l.rent + (l.maintenance ?? 0))}</td>
           <td class="r mono strong"><span class="calc" title="월세 + 관리비 + 보증금 × 연 ${RATE_DEFAULT}% ÷ 12">${man(Math.round(realMonthly(l)))}</span></td>
-          <td class="r mono">${walkish(l) != null ? `${walkish(l)}분` : "미확인"}</td></tr>`).join("")}
+          <td class="r mono">${walkish(l) != null ? `${walkish(l)}분` : "미확인"}</td></tr>`;
+        }).join("")}
       </tbody>
     </table>
   </div>
@@ -507,13 +594,23 @@ const indexBody = `
       <div class="hd"><h3>${esc(q.q)}</h3><span class="tag${q.status === "확인" ? " good" : " flag"}">${esc(q.status)}</span></div>
       <p class="why">${esc(q.why)}</p>
       ${q.answer ? `<p class="why" style="color:var(--title)"><b>${esc(q.answer)}</b></p>` : ""}
-      ${(q.sources ?? []).length ? `<div class="tags">${q.sources.map((s, i) => `<a class="tag" href="${esc(s)}" target="_blank" rel="noreferrer noopener" style="text-decoration:none">근거 ${i + 1}</a>`).join("")}</div>` : ""}
+      ${(q.sources ?? []).length ? `<div class="tags">${q.sources.map((s) => `<a class="tag" href="${esc(s)}" target="_blank" rel="noreferrer noopener" style="text-decoration:none">${esc(siteName(s))}</a>`).join("")}</div>` : ""}
     </div>`).join("")}
   </div>
 </section>
 
 <section>
-  ${sec("09", "조사 루프가 할 일")}
+  ${sec("09", "자주 여는 곳")}
+  <h2>여기서 걷은 것들입니다</h2>
+  <p class="note" style="margin-bottom:16px">데이터에 든 화면 주소가 ${LINK_TOTAL}개입니다.
+  표의 제목과 값이 전부 그 화면으로 가는 링크라 따로 찾을 일이 없습니다. 아래는 새로 걷을 때 여는 곳입니다.</p>
+  <div class="hub">
+    ${HUB.map(([url, name, note]) => `<a href="${esc(url)}" target="_blank" rel="noreferrer noopener">${esc(name)}<span>${esc(note)}</span></a>`).join("")}
+  </div>
+</section>
+
+<section>
+  ${sec("10", "조사 루프가 할 일")}
   <p class="note" style="margin-bottom:14px">이 목록은 데이터의 빈 칸에서 저절로 나옵니다. 사람이 손대는 목록이 아닙니다.</p>
   <div class="rows">
     ${tasks.slice(0, 4).map((t) => `<div class="rowc">
@@ -533,12 +630,14 @@ function listingRow(l, i) {
   const monthly = l.rent + (l.maintenance ?? 0);
   const walk = walkish(l);
   const [lt, lc] = livableTag(l);
-  return `<tr data-id="${esc(l.id)}" data-dep="${l.deposit}" data-rent="${monthly}" data-walk="${walk ?? ""}"
+  const map = mapLink(l.address);
+  return `<tr id="l-${esc(l.id)}" data-id="${esc(l.id)}" data-dep="${l.deposit}" data-rent="${monthly}" data-walk="${walk ?? ""}"
       data-area="${l.areaM2 ?? ""}" data-live="${esc(l.livable)}" data-kind="${esc(l.kind)}"${isDup(l) ? ' data-dup="1"' : ""}>
     <td class="rank">${i + 1}</td>
-    <td class="name"><b>${esc(l.title)}</b>${isDup(l) ? ` <span class="tag flag">중복 의심</span>` : ""}
+    <td class="name">${l.source?.url ? link(l.source.url, l.title, "tl ttl") : `<b class="ttl">${esc(l.title)}</b>`}${isDup(l) ? ` <span class="tag flag">중복 의심</span>` : ""}
       <br><span class="meta">${esc(l.kind)}<span class="sep"></span>${esc(l.address)}${l.addressDetail ? ` ${esc(l.addressDetail)}` : ""}</span>
-      <span class="monly">실부담 <b class="real2">${man(Math.round(realMonthly(l)))}</b>, ${walk != null ? `걸어서 ${walk}분` : "거리 미확인"}, ${lt}</span></td>
+      <span class="monly">실부담 <b class="real2">${man(Math.round(realMonthly(l)))}</b>, ${walk != null ? `걸어서 ${walk}분` : "거리 미확인"}, ${lt}</span>
+      <span class="linkline">${l.source?.url ? link(l.source.url, `${siteName(l.source.url)}에서 보기`) : ""}${map ? link(map.url, map.label) : ""}</span></td>
     <td class="r mono">${eok(l.deposit)}</td>
     <td class="r mono${monthly > LIMIT ? " over" : ""}">${man(monthly)}</td>
     <td class="r mono strong real">${man(Math.round(realMonthly(l)))}</td>
@@ -684,7 +783,7 @@ ${dropped.length ? `
 
   function real(r){ return +r.dataset.rent + (+r.dataset.dep*rate/100)/12 }
   function val(r,k){
-    if(k==='name') return r.querySelector('b').textContent;
+    if(k==='name') return r.querySelector('.ttl').textContent;
     if(k==='real') return real(r);
     var v=r.dataset[k];
     return v===''?Infinity:+v;
@@ -715,7 +814,7 @@ ${dropped.length ? `
     pairs.forEach(function(p){ if(!p[0].hidden){ n++; p[0].cells[0].textContent=n; p[0].classList.toggle('pick',n<=3);} });
     cnt.innerHTML = shown===0
       ? '조건에 맞는 자리가 없습니다. 손잡이를 풀어 보세요.'
-      : shown+'곳 보이는 중 (전체 '+pairs.length+'곳)'+(best?', 실부담이 제일 낮은 자리는 <b>'+best.querySelector('b').textContent+'</b> 월 '+fmt(Math.round(real(best)))+'만원':'');
+      : shown+'곳 보이는 중 (전체 '+pairs.length+'곳)'+(best?', 실부담이 제일 낮은 자리는 <b>'+best.querySelector('.ttl').textContent+'</b> 월 '+fmt(Math.round(real(best)))+'만원':'');
   }
   function sortNow(){
     pairs.sort(function(a,b){
@@ -753,6 +852,15 @@ ${dropped.length ? `
 
 /* ── 물건(장비·인테리어) ───────────────────────────────────────── */
 
+/* 값 자체가 링크다. 그 값을 본 화면으로 바로 간다. */
+function quoteCell(q) {
+  if (!q) return "못 찾음";
+  const inner = `<span class="p">${won(q.price)}</span><span class="s">${esc(siteName(q.url))}</span>`;
+  return q.url
+    ? `<a class="q" href="${esc(q.url)}" target="_blank" rel="noreferrer noopener" title="${esc(q.model ?? "")}">${inner}</a>`
+    : `<span class="q">${inner}</span>`;
+}
+
 function itemRow(it) {
   const n = qNew(it), u = qUsed(it);
   const plans = planOf.get(it.id) ?? [];
@@ -763,8 +871,8 @@ function itemRow(it) {
       <br><span class="meta">${esc(it.spec)}</span></td>
     <td><span class="tag${["필수", "1안"].includes(it.need) ? " on" : ""}">${esc(it.need)}</span></td>
     <td><span class="tag${it.usedOk ? "" : " flag"}">${it.usedOk ? "중고 가능" : "새것으로"}</span></td>
-    <td class="r mono">${n ? won(n.price) : "못 찾음"}</td>
-    <td class="r mono">${u ? won(u.price) : (it.usedOk ? "못 찾음" : "안 삽니다")}</td>
+    <td class="r mono">${quoteCell(n)}</td>
+    <td class="r mono">${u ? quoteCell(u) : (it.usedOk ? "못 찾음" : "안 삽니다")}</td>
     <td class="r mono strong sub">${q ? won(q.price * it.qty) : "값 모름"}</td>
     <td><button class="expand" data-x="${esc(it.id)}">왜?</button></td>
   </tr>
@@ -776,7 +884,7 @@ function itemRow(it) {
     ${it.usedNote ? `<p class="meta" style="margin-top:10px">중고로 살 때: ${esc(it.usedNote)}</p>` : ""}
     <div class="tags" style="margin-top:12px">
       ${(it.quotes ?? []).map((qq) => `<a class="tag" href="${esc(qq.url)}" target="_blank" rel="noreferrer noopener" style="text-decoration:none">
-        ${qq.condition === "used" ? "중고" : "새것"} ${num(qq.price)}원<span class="sep"></span>${esc(qq.site)}${qq.model ? `<span class="sep"></span>${esc(qq.model)}` : ""}</a>`).join("")}
+        ${qq.condition === "used" ? "중고" : "새것"} ${num(qq.price)}원<span class="sep"></span>${esc(qq.site || siteName(qq.url))}${qq.model ? `<span class="sep"></span>${esc(qq.model)}` : ""}</a>`).join("")}
     </div>
     ${(it.quotes ?? []).some((qq) => qq.note) ? `<p class="meta" style="margin-top:8px">${esc(it.quotes.find((qq) => qq.note).note)}</p>` : ""}
   </td></tr>`;
@@ -873,7 +981,10 @@ function itemsPage(rows, { label, h1, lede, tail, allNote }) {
     var t=document.getElementById('x-'+b.dataset.x); if(!t) return;
     t.hidden=!t.hidden; b.textContent=t.hidden?'왜?':'접기';
   });
-  apply();
+  // 예산 쪽에서 /gear#plan-b 로 건너오면 그 안이 이미 골라져 있게 한다
+  var h=(location.hash||'').slice(1);
+  var pre=h && document.querySelector('#pf .chip[data-plan="'+h+'"]');
+  if(pre) pre.click(); else apply();
 })();
 </script>`;
 }
@@ -902,6 +1013,8 @@ const CALCDATA = {
     id: l.id,
     label: `${l.title} (보증금 ${eok(l.deposit)}, 월 ${man(l.rent + (l.maintenance ?? 0))}, ${walkish(l) != null ? `걸어서 ${walkish(l)}분` : "거리 미확인"})`,
     dep: l.deposit, rent: l.rent, maint: l.maintenance ?? 0, walk: walkish(l), area: l.areaM2,
+    url: l.source?.url ?? null, site: l.source?.url ? siteName(l.source.url) : null,
+    map: mapLink(l.address),
   })),
   plans: d.plans.map((p) => ({
     id: p.id, name: p.name,
@@ -928,6 +1041,7 @@ const planBody = `
       <div class="fld" style="flex:1 1 320px">
         <span class="fl">어느 자리</span>
         <select id="cl">${CALCDATA.listings.map((l, i) => `<option value="${i}"${i === CALC_DEFAULT ? " selected" : ""}>${esc(l.label)}</option>`).join("")}</select>
+        <span class="linkline" id="cllinks"></span>
         <span class="note">실부담이 낮은 순으로 세워 뒀습니다. 처음 뜨는 자리는 걸어서 ${WALK_OK}분 안에서 실부담이 가장 낮은 곳입니다.</span>
       </div>
       <div class="fld" style="min-width:auto">
@@ -1019,6 +1133,10 @@ const planBody = `
         </table>
         <p class="why" style="margin-top:14px">${esc(p.note)}</p>
         ${p.cut.length ? `<div class="tags">${p.cut.map((x) => `<span class="tag">${esc(x)}</span>`).join("")}</div>` : ""}
+        <span class="linkline" style="margin-top:14px">
+          <a href="/gear#${esc(p.id)}">이 안의 장비 ${(p.gear ?? []).length}개</a>
+          <a href="/interior#${esc(p.id)}">인테리어 ${(p.interior ?? []).length}개</a>
+        </span>
       </div>`;
     }).join("")}
   </div>
@@ -1062,6 +1180,11 @@ const planBody = `
   function calc(){
     var l=D.listings[li], p=D.plans[pi];
     var gear=p[mode];
+    var a=function(u,t){return '<a href="'+u+'" target="_blank" rel="noreferrer noopener">'+t+'</a>'};
+    $('cllinks').innerHTML =
+      (l.url? a(l.url, l.site+'에서 보기') : '')
+      + (l.map? a(l.map.url, l.map.label) : '')
+      + '<a href="/listings#l-'+l.id+'">자리 표에서 보기</a>';
     var util=+$('util').value, home=+$('home').value;
     var dep=l.dep*10000, rent=l.rent*10000, maint=l.maint*10000;
     var mon=rent+maint+util*10000-home*10000;
@@ -1132,7 +1255,7 @@ const logBody = `
       <div><div class="dt">${esc(e.date)}</div><div class="meta">${esc(e.by)}${e.kind ? `<span class="sep"></span>${esc(e.kind)}` : ""}</div></div>
       <div><h3 style="font-size:15px">${esc(e.summary)}</h3>
       ${e.detail ? `<p class="why">${esc(e.detail)}</p>` : ""}
-      ${(e.refs ?? []).length ? `<div class="tags">${e.refs.map((r, j) => `<a class="tag" href="${esc(r)}" target="_blank" rel="noreferrer noopener" style="text-decoration:none">본 화면 ${j + 1}</a>`).join("")}</div>` : ""}
+      ${(e.refs ?? []).length ? `<div class="tags">${e.refs.map((r) => `<a class="tag" href="${esc(r)}" target="_blank" rel="noreferrer noopener" style="text-decoration:none">${esc(siteName(r))}</a>`).join("")}</div>` : ""}
       </div></div>`).join("")}
   </div>
   <p style="text-align:center;margin-top:18px"><button class="chip" id="more">나머지 ${Math.max(0, logEntries.length - SHOW_FIRST)}줄 더 보기</button></p>
