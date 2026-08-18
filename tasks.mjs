@@ -48,7 +48,22 @@ export function buildTasks(d) {
   const enough = live.length >= 20;
   const w = (before, after) => (enough ? after : before);
 
-  if (live.length < 20) {
+  /* 찍을 수 있는 넓이인지부터 본다. 좁은 원룸은 스무 곳을 모아도 쓸 자리가 없다. */
+  const sh = d.config.shooting;
+  const minShoot = sh
+    ? Math.ceil(sh.zone.find((z) => z.id === "z-width").m
+        * (sh.zone.filter((z) => z.id !== "z-width").reduce((s, z) => s + z.m, 0))
+        + sh.otherAreaM2)
+    : 0;
+  const usable = live.filter((l) =>
+    l.areaM2 != null && l.areaM2 >= minShoot && (sh?.goodKinds ?? []).includes(l.kind));
+
+  if (usable.length < 8) {
+    add("자리", `찍을 수 있는 자리를 걷습니다 (지금 ${usable.length}건)`,
+      `상가와 사무실, 단독 1층, 투룸을 봅니다. ${minShoot}㎡ 미만이거나 원룸이면 담지 않습니다. 배경 폭 2.4m 앞으로 4.4m가 비어야 두 사람이 찍히는데, 원룸은 네 면 중 한 면이 창, 한 면이 현관과 화장실, 한 면이 주방이라 벽이 안 나옵니다. 여덟 곳은 모여야 고를 수 있습니다.`, 92);
+  }
+
+  if (live.length < 20 && usable.length >= 8) {
     add("자리", `매물을 더 걷습니다 (지금 ${live.length}건)`,
       "네이버부동산·직방·다방·피터팬·당근을 돌아가며 봅니다. 한 번에 한 사이트만 보고, 새로 담은 건마다 source 에 그 화면 주소를 그대로 남깁니다. 스무 건은 모여야 비교가 됩니다.", 90);
   }

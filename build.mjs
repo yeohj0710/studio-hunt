@@ -112,6 +112,28 @@ const dupKey = (l) => `${(l.address || "").replace(/\s/g, "")}|${l.deposit}|${l.
 const dupCount = live.reduce((m, l) => (m.set(dupKey(l), (m.get(dupKey(l)) ?? 0) + 1), m), new Map());
 const isDup = (l) => dupCount.get(dupKey(l)) > 1;
 
+/* ── 찍을 수 있는 자리인가 ─────────────────────────────────────────
+   장비 치수에서 촬영 구역을 재고, 거기에 화장실·주방과 침대 자리를 더해
+   최소 넓이를 뽑는다. 조사한 값이 아니라 계산이라 화면에 그렇게 적는다. */
+const SH = d.config.shooting;
+const zoneM = (id) => SH.zone.find((z) => z.id === id)?.m ?? 0;
+const ZONE_W = zoneM("z-width");
+const ZONE_D = zoneM("z-back") + zoneM("z-desk") + zoneM("z-cam") + zoneM("z-back-cam");
+const ZONE_A = ZONE_W * ZONE_D;
+const MIN_SHOOT = Math.ceil(ZONE_A + SH.otherAreaM2);              /* 찍기만 할 때 */
+const MIN_LIVE = Math.ceil(ZONE_A + SH.otherAreaM2 + SH.sleepAreaM2); /* 자면서 찍을 때 */
+const goodKind = (l) => SH.goodKinds.includes(l.kind);
+
+/** 넓이로 1차 판정. 빈 벽 길이는 데이터에 없어서 여기서 못 가른다. */
+function shootFit(l) {
+  const a = l.areaM2;
+  if (a == null) return { key: "unknown", label: "넓이 미확인", cls: "", rank: 2 };
+  if (a >= MIN_LIVE) return { key: "ok", label: "자면서도 됨", cls: "good", rank: 0 };
+  if (a >= MIN_SHOOT) return { key: "tight", label: "찍기만 빠듯", cls: "", rank: 1 };
+  return { key: "no", label: "좁음", cls: "flag", rank: 3 };
+}
+const fitOK = (l) => ["ok", "tight"].includes(shootFit(l).key);
+
 /* 매물 사진은 그 사이트 서버에서 그대로 불러온다. 받아서 우리 저장소에 넣지 않는다.
    네이버 매물 열 곳은 사진을 못 걷었다. 네이버가 이 컴퓨터를 막고 있어서 화면 자체를 못 열었다. */
 const shotsOf = (l) => l.images ?? [];
@@ -397,7 +419,7 @@ footer a{color:var(--body)}
   .monly b{font-weight:700}
   #tbl{min-width:600px}
   #tbl td.name{min-width:160px}
-  #tbl th:nth-child(7),#tbl td:nth-child(7),#tbl th:nth-child(9),#tbl td:nth-child(9){display:none}
+  #tbl th:nth-child(7),#tbl td:nth-child(7),#tbl th:nth-child(10),#tbl td:nth-child(10){display:none}
 }
 @media(max-width:700px){
   .wrap{padding:0 20px}
@@ -515,10 +537,52 @@ const HUB = [
   ...(DAEJANG ? [[DAEJANG, "정부24 건축물대장", "용도와 전입신고 확인"]] : []),
 ];
 
+/* 촬영 구역을 위에서 내려다본 그림. 치수는 config.shooting 에서 그대로 온다. */
+function zoneSVG() {
+  const S = 76;                                  /* 1m 를 몇 px 로 그릴까 */
+  const PAD = 46;
+  const W = ZONE_W * S, D = ZONE_D * S;
+  const w = D + PAD * 2, h = W + PAD * 2;        /* 깊이를 가로로 눕혀 그린다 */
+  const x = (m) => PAD + m * S;
+  const yTop = PAD, yBot = PAD + W;
+  const dBack = zoneM("z-back"), dDesk = zoneM("z-desk"), dCam = zoneM("z-cam");
+  const px = { wall: x(0), person: x(dBack), desk: x(dBack + dDesk), cam: x(dBack + dDesk + dCam) };
+  const midY = PAD + W / 2;
+  const seg = (x1, x2, label) => {
+    const cx = (x1 + x2) / 2;
+    return `<g>
+      <line x1="${x1}" y1="${yBot + 20}" x2="${x2}" y2="${yBot + 20}" stroke="#94A3B8" stroke-width="1"/>
+      <line x1="${x1}" y1="${yBot + 15}" x2="${x1}" y2="${yBot + 25}" stroke="#94A3B8" stroke-width="1"/>
+      <line x1="${x2}" y1="${yBot + 15}" x2="${x2}" y2="${yBot + 25}" stroke="#94A3B8" stroke-width="1"/>
+      <text x="${cx}" y="${yBot + 38}" text-anchor="middle" font-size="12" fill="#64748B">${label}</text></g>`;
+  };
+  return `<div style="overflow-x:auto">
+  <svg viewBox="0 0 ${w} ${h + 52}" width="100%" style="max-width:${w}px;display:block" role="img"
+       aria-label="촬영 구역을 위에서 내려다본 그림. 배경 폭 ${ZONE_W}m, 깊이 ${ZONE_D.toFixed(1)}m">
+    <rect x="${x(0)}" y="${yTop}" width="${D}" height="${W}" fill="#F5F8FF" stroke="#C8D2FF" stroke-width="1" rx="6"/>
+    <rect x="${px.wall - 9}" y="${yTop}" width="9" height="${W}" fill="#3B5BFF" rx="2"/>
+    <text x="${px.wall - 16}" y="${midY}" text-anchor="end" font-size="12" fill="#3B5BFF" font-weight="700"
+          transform="rotate(-90 ${px.wall - 16} ${midY})">배경 ${ZONE_W}m</text>
+    <circle cx="${px.person}" cy="${midY - 30}" r="13" fill="#0F1222"/>
+    <circle cx="${px.person}" cy="${midY + 30}" r="13" fill="#0F1222"/>
+    <rect x="${px.person + 18}" y="${midY - 34}" width="${px.desk - px.person - 18}" height="68" fill="#CBD5E1" rx="4"/>
+    <text x="${(px.person + px.desk) / 2 + 8}" y="${midY + 4}" text-anchor="middle" font-size="11" fill="#475569">테이블</text>
+    <polygon points="${px.cam},${midY} ${px.person + 14},${midY - 44} ${px.person + 14},${midY + 44}"
+             fill="#3B5BFF" opacity="0.10"/>
+    <rect x="${px.cam - 4}" y="${midY - 13}" width="26" height="26" fill="#3B5BFF" rx="4"/>
+    <text x="${px.cam + 30}" y="${midY + 4}" font-size="12" fill="#3B5BFF" font-weight="700">카메라</text>
+    ${seg(px.wall, px.person, `${dBack}m`)}
+    ${seg(px.person, px.desk, `${dDesk}m`)}
+    ${seg(px.desk, px.cam, `${dCam}m`)}
+    ${seg(px.cam, x(ZONE_D), `${zoneM("z-back-cam")}m`)}
+    <text x="${x(ZONE_D / 2)}" y="${yTop - 16}" text-anchor="middle" font-size="12.5" fill="#0F1222" font-weight="700">깊이 ${ZONE_D.toFixed(1)}m</text>
+  </svg></div>`;
+}
+
 const HOWTO = [
   ["/listings", "자리",
-    `광진구 원룸과 상가 ${live.length}곳을 한 표에 놓고 보증금, 월세, 걸어가는 시간으로 거릅니다. 보러 갈 세 곳을 여기서 고릅니다.`,
-    "조사 끝, 고르는 건 사람"],
+    `광진구 ${live.length}곳을 한 표에 놓고 넓이, 보증금, 월세, 걸어가는 시간으로 거릅니다. 찍을 수 있는 넓이인지 칸이 따로 있습니다.`,
+    `${live.filter((l) => goodKind(l) && fitOK(l)).length}곳만 쓸 만함`],
   ["/gear", "장비",
     `녹음과 촬영에 필요한 ${d.gear.length}개 품목입니다. 물건마다 새것 최저가와 중고 시세를 붙여 뒀습니다.`,
     `${d.gear.length}개 값 확인`],
@@ -538,8 +602,8 @@ const STEPS = [
     `이걸 안 정하면 후보가 안 줄어듭니다. 지금 ${live.length}곳 중 ${bigDeposit.length}곳은 보증금이 1억을 넘고, 그중 가장 비싼 자리가 ${eok(Math.max(...live.map((l) => l.deposit)))}입니다. 이런 자리는 월세가 ${man(bigDepRents[0])}에서 ${man(bigDepRents[bigDepRents.length - 1])}이라 표에서 싸 보이지만 목돈이 통째로 묶입니다. <a class="src" style="margin:0" href="/listings">자리 표</a>의 보증금 손잡이를 움직이면 그 자리에서 몇 곳이 남는지 보입니다.`],
   ["남은 자리에 전화해서 다섯 가지를 묻습니다", "사용자",
     "촬영하고 빌려줘도 되는지, 전입신고가 되는지, 최소 계약이 몇 달인지, 전기 용량이 얼마인지, 배경 세울 빈 벽이 한 면 있는지. 전화는 사람이 겁니다. 조사 루프는 임대인과 중개사에게 연락하지 않습니다."],
-  ["가서 소리를 들어 봅니다", "사용자",
-    "말소리만 담는 팟캐스트라 방음 공사는 안 합니다. 대신 큰길 소리, 지하철 진동, 실외기 소리가 방에 들어오는지는 가 봐야 압니다. 휴대폰 녹음기를 켜고 30초만 서 있으면 됩니다."],
+  ["가서 줄자로 벽을 재고 소리를 들어 봅니다", "사용자",
+    `줄자를 가져갑니다. 창도 문도 싱크대도 없는 벽 한 면이 <b>${ZONE_W}m</b> 나오는지, 그 벽 앞으로 <b>${ZONE_D.toFixed(1)}m</b>가 비는지를 봅니다. 이게 안 되면 나머지 조건이 다 좋아도 못 씁니다. 소리는 휴대폰 녹음기를 켜고 30초만 서 있으면 됩니다. 큰길 소리, 지하철 진동, 실외기 소리가 들어오는지 그때 다 잡힙니다.`],
   ["만드는 수준을 고르고 장비를 삽니다", "사용자",
     `세 가지 안이 있습니다. 지금 시세로 ${wonMan(sumA.sum)}, ${wonMan(sumB.sum)}, ${wonMan(sumC.sum)}입니다. 자리를 정하기 전에도 소리 장비는 먼저 사도 됩니다. 어느 방에서든 똑같이 씁니다.`],
 ];
@@ -596,7 +660,42 @@ const indexBody = `
 </section>
 
 <section>
-  ${sec("05", "지금 순위")}
+  ${sec("05", "얼마나 넓어야 하나")}
+  <h2>원룸으로는 대부분 안 됩니다</h2>
+  <p class="lede" style="margin-bottom:22px">배경을 세우고 두 사람을 담으려면 벽 하나와 그 앞 깊이가 필요합니다.
+  장비 목록에 적힌 치수로 재 보면 <b>${ZONE_W}m × ${ZONE_D.toFixed(1)}m</b>, ${ZONE_A.toFixed(1)}㎡짜리 자리가 통째로 비어 있어야 합니다.
+  여기에 화장실과 주방 ${SH.otherAreaM2}㎡를 더하면 <b>${MIN_SHOOT}㎡</b>, 침대까지 놓으려면 <b>${MIN_LIVE}㎡</b>가 최소입니다.</p>
+
+  <div class="card" style="padding:30px">
+    ${zoneSVG()}
+    <div class="grid g2" style="margin-top:24px;gap:14px 32px">
+      ${SH.zone.map((z) => `<div>
+        <div style="display:flex;justify-content:space-between;gap:12px;align-items:baseline">
+          <b style="color:var(--title);font-size:14.5px">${esc(z.label)}</b>
+          <span class="mono" style="color:var(--accent);font-weight:700">${z.m}m</span>
+        </div>
+        <p class="note" style="margin-top:2px">${esc(z.why)}</p>
+      </div>`).join("")}
+    </div>
+  </div>
+
+  <div class="warnbox" style="margin-top:20px">
+    <b>넓이가 맞아도 벽이 안 나올 수 있습니다.</b> ${esc(SH.wallWarning.replace(/^넓이가 맞아도 벽이 안 나올 수 있습니다\. /, ""))}
+  </div>
+
+  <div class="grid g3" style="margin-top:20px">
+    ${statCard("넓이가 되는 곳", String(live.filter(fitOK).length), `/ ${live.length}곳`, `${MIN_SHOOT}㎡를 넘는 자리입니다`)}
+    ${statCard("원룸이 아닌 곳", String(live.filter(goodKind).length), `/ ${live.length}곳`, esc(SH.goodKindsNote))}
+    ${statCard("둘 다 되는 곳", String(live.filter((l) => goodKind(l) && fitOK(l)).length), "곳", "넓이도 되고 벽도 나올 만한 종류")}
+  </div>
+  <p class="note" style="margin-top:14px">지금 모은 ${live.length}곳은 ${live.filter((l) => l.kind === "원룸").length}곳이 원룸입니다.
+  넓이만 보면 ${live.filter(fitOK).length}곳이 통과하지만, 원룸은 벽이 안 나올 확률이 높아서 실제로 믿을 만한 건
+  ${live.filter((l) => goodKind(l) && fitOK(l)).length}곳입니다. 다음 조사는 상가와 사무실, 단독 1층 쪽으로 틀어야 합니다.
+  <a class="src" style="margin:0" href="/listings">자리 표에서 넓이로 걸러 보기</a></p>
+</section>
+
+<section>
+  ${sec("06", "지금 순위")}
   <h2>월세만 보면 순위가 뒤집힙니다</h2>
   <p class="lede" style="margin-bottom:16px">보증금 ${eok(Math.max(...live.map((l) => l.deposit)))}짜리 자리가 월 ${man(cheapestMonthly)}으로 표에서 제일 싸게 뜹니다.
   목돈이 묶이는 값을 안 세서 그렇습니다. 월세와 관리비에, 보증금에 연 ${RATE_DEFAULT}%를 매겨 12로 나눈 값을 얹은 것이 <b>실부담</b>입니다.
@@ -630,7 +729,7 @@ const indexBody = `
 </section>
 
 <section>
-  ${sec("06", "세 가지 안")}
+  ${sec("07", "세 가지 안")}
   <h2>어디까지 만들지 먼저 정합니다</h2>
   <p class="lede" style="margin-bottom:18px">셋 다 팟캐스트를 찍을 수 있습니다. 차이는 카메라 대수와, 남이 와서 쓸 수 있느냐입니다.</p>
   <div class="grid g3">
@@ -646,7 +745,7 @@ const indexBody = `
 </section>
 
 <section>
-  ${sec("07", "자리에 거는 조건")}
+  ${sec("08", "자리에 거는 조건")}
   <div class="rows">
     ${d.config.requirements.map((r) => `<div class="rowc">
       <div class="hd"><h3>${esc(r.label)}</h3><span class="tag${r.level === "필수" ? " on" : ""}">${esc(r.level)}</span></div>
@@ -655,7 +754,7 @@ const indexBody = `
 </section>
 
 <section>
-  ${sec("08", "계약 전에 확인할 것")}
+  ${sec("09", "계약 전에 확인할 것")}
   <h2>여기서 걸리면 자리를 바꿔야 합니다</h2>
   <p class="note" style="margin-bottom:16px">법 해석을 지어내지 않았습니다. 아래 답은 전부 공식 문서에서 확인한 것이고, 출처를 달아 뒀습니다.</p>
   <div class="rows">
@@ -679,7 +778,7 @@ const indexBody = `
 </section>
 
 <section>
-  ${sec("09", "자주 여는 곳")}
+  ${sec("10", "자주 여는 곳")}
   <h2>여기서 걷은 것들입니다</h2>
   <p class="note" style="margin-bottom:16px">데이터에 든 화면 주소가 ${LINK_TOTAL}개입니다.
   표의 제목과 값이 전부 그 화면으로 가는 링크라 따로 찾을 일이 없습니다. 아래는 새로 걷을 때 여는 곳입니다.</p>
@@ -689,7 +788,7 @@ const indexBody = `
 </section>
 
 <section>
-  ${sec("10", "조사 루프가 할 일")}
+  ${sec("11", "조사 루프가 할 일")}
   <p class="note" style="margin-bottom:14px">이 목록은 데이터의 빈 칸에서 저절로 나옵니다. 사람이 손대는 목록이 아닙니다.</p>
   <div class="rows">
     ${tasks.slice(0, 4).map((t) => `<div class="rowc">
@@ -710,9 +809,10 @@ function listingRow(l, i) {
   const walk = walkish(l);
   const [lt, lc] = livableTag(l);
   const map = mapLink(l.address);
+  const fit = shootFit(l);
   return `<tr id="l-${esc(l.id)}" data-id="${esc(l.id)}" data-dep="${l.deposit}" data-rent="${monthly}" data-walk="${walk ?? ""}"
       data-area="${l.areaM2 ?? ""}" data-live="${esc(l.livable)}" data-kind="${esc(l.kind)}"
-      data-site="${esc(l.source?.site ?? "미상")}"${isDup(l) ? ' data-dup="1"' : ""}>
+      data-site="${esc(l.source?.site ?? "미상")}" data-fit="${fit.key}" data-fitrank="${fit.rank}" data-kindok="${goodKind(l) ? 1 : 0}"${isDup(l) ? ' data-dup="1"' : ""}>
     <td class="rank">${i + 1}</td>
     <td class="pic">${shotsOf(l).length
       ? `<a href="${esc(l.itemUrl ?? l.source?.url ?? "#")}" target="_blank" rel="noreferrer noopener">${img(shotsOf(l)[0], "thumb", `${l.title} 사진`)}</a>`
@@ -725,11 +825,12 @@ function listingRow(l, i) {
     <td class="r mono${monthly > LIMIT ? " over" : ""}">${man(monthly)}</td>
     <td class="r mono strong real">${man(Math.round(realMonthly(l)))}</td>
     <td class="r mono">${l.areaM2 != null ? `${l.areaM2}㎡` : "미확인"}</td>
+    <td><span class="tag ${fit.cls}">${esc(fit.label)}</span>${goodKind(l) ? "" : `<span class="meta" style="display:block;margin-top:3px">원룸이라 벽 확인 필요</span>`}</td>
     <td class="r mono">${walk != null ? `${walk}분` : "미확인"}</td>
     <td><span class="tag ${lc}">${esc(lt)}</span></td>
     <td><button class="expand" data-x="${esc(l.id)}">자세히</button></td>
   </tr>
-  <tr class="detail" id="x-${esc(l.id)}" hidden><td colspan="10">
+  <tr class="detail" id="x-${esc(l.id)}" hidden><td colspan="11">
     ${shotsOf(l).length
       ? `<div class="shots">${shotsOf(l).map((s) => `<a href="${esc(l.itemUrl ?? l.source?.url ?? "#")}" target="_blank" rel="noreferrer noopener">${img(s, "", `${l.title} 사진`)}</a>`).join("")}</div>`
       : `<p class="meta" style="margin:0 0 16px">${esc(noShotWhy(l))}</p>`}
@@ -825,6 +926,14 @@ ${live.length === 0 ? empty("아직 걷은 자리가 없습니다", "네이버�
           <button class="chip" data-site="네이버부동산" aria-pressed="false">네이버부동산만 ${live.filter((l) => l.source?.site === "네이버부동산").length}곳</button>
         </div>
       </div>
+      <div class="fld" style="min-width:auto">
+        <span class="fl">찍을 수 있는 넓이</span>
+        <div class="chips" id="ff">
+          <button class="chip" data-fit="" aria-pressed="true">전부</button>
+          <button class="chip" data-fit="area" aria-pressed="false">${MIN_SHOOT}㎡ 넘는 곳 ${live.filter(fitOK).length}곳</button>
+          <button class="chip" data-fit="kind" aria-pressed="false">원룸 빼고 ${live.filter((l) => goodKind(l) && fitOK(l)).length}곳</button>
+        </div>
+      </div>
     </div>
     <p class="note" style="margin-top:16px">네이버부동산은 중개사가 올리고 검증 절차를 거칩니다.
     직방과 다방, 당근은 개인이 바로 올릴 수 있어서 이미 나간 방이 남아 있거나 조건이 실제와 다른 글이 섞입니다.
@@ -839,6 +948,7 @@ ${live.length === 0 ? empty("아직 걷은 자리가 없습니다", "네이버�
         <th class="s r" data-k="rent">월세 + 관리비</th>
         <th class="s r" data-k="real" aria-sort="ascending">실부담</th>
         <th class="s r" data-k="area">면적</th>
+        <th class="s" data-k="fitrank">찍을 수 있나</th>
         <th class="s r" data-k="walk">걸어서</th>
         <th>잘 수 있나</th><th></th>
       </tr></thead>
@@ -883,7 +993,7 @@ ${dropped.length ? `
   var pairs=[]; // [행, 자세히 행]
   var rows=[].slice.call(body.rows);
   for(var i=0;i<rows.length;i+=2) pairs.push([rows[i],rows[i+1]]);
-  var rate=${RATE_DEFAULT}, sortKey='real', asc=true, site='';
+  var rate=${RATE_DEFAULT}, sortKey='real', asc=true, site='', fit='';
   var dep=document.getElementById('dep'), rent=document.getElementById('rent'), walk=document.getElementById('walk');
   var depv=document.getElementById('depv'), rentv=document.getElementById('rentv'), walkv=document.getElementById('walkv');
   var cnt=document.getElementById('cnt');
@@ -915,6 +1025,8 @@ ${dropped.length ? `
       if(+r.dataset.rent>rMax) ok=false;
       if(wMax<31 && (r.dataset.walk===''||+r.dataset.walk>wMax)) ok=false;
       if(site && r.dataset.site!==site) ok=false;
+      if(fit==='area' && !(r.dataset.fit==='ok'||r.dataset.fit==='tight')) ok=false;
+      if(fit==='kind' && !(r.dataset.kindok==='1' && (r.dataset.fit==='ok'||r.dataset.fit==='tight'))) ok=false;
       r.hidden=!ok; if(!ok) p[1].hidden=true;
       if(ok){ shown++; if(!best||real(r)<real(best)) best=r; }
     });
@@ -935,6 +1047,12 @@ ${dropped.length ? `
     apply();
   }
   [dep,rent,walk].forEach(function(el){ el.addEventListener('input',apply) });
+  document.querySelectorAll('#ff .chip').forEach(function(b){
+    b.addEventListener('click',function(){
+      document.querySelectorAll('#ff .chip').forEach(function(o){o.setAttribute('aria-pressed','false')});
+      b.setAttribute('aria-pressed','true'); fit=b.dataset.fit; apply();
+    });
+  });
   document.querySelectorAll('#sf .chip').forEach(function(b){
     b.addEventListener('click',function(){
       document.querySelectorAll('#sf .chip').forEach(function(o){o.setAttribute('aria-pressed','false')});
