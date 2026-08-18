@@ -165,7 +165,7 @@ body::before{content:"";position:fixed;inset:0 0 auto 0;height:520px;z-index:-1;
   background:linear-gradient(180deg,#EEF3FF 0%,#F6F9FF 46%,#FFFFFF 100%)}
 
 .wrap{max-width:1140px;margin:0 auto;padding:0 34px}
-.top{position:sticky;top:0;z-index:30;background:rgba(255,255,255,.86);backdrop-filter:blur(12px);
+.top{position:sticky;top:0;z-index:30;background:rgba(255,255,255,.94);backdrop-filter:blur(14px) saturate(140%);
   border-bottom:1px solid var(--stroke-soft)}
 .top .wrap{display:flex;align-items:center;justify-content:space-between;gap:24px;height:70px}
 .mark{display:flex;align-items:center;gap:11px;text-decoration:none}
@@ -179,14 +179,17 @@ nav a{text-decoration:none;font-size:14px;color:var(--body);padding:8px 15px;bor
 nav a:hover{background:var(--wash);color:var(--title)}
 nav a[aria-current]{background:var(--accent);color:#fff}
 
-main{padding:76px 0 128px}
-section{margin-bottom:88px}
-.eyebrow{display:flex;align-items:center;gap:10px;font-size:12.5px;color:var(--muted);margin-bottom:18px;font-weight:500}
+/* main 과 footer 에도 .wrap 이 붙어 있다. 요소 선택자로 쓰면 클래스한테 져서
+   위아래 여백이 통째로 사라진다. 그래서 main.wrap, footer.wrap 으로 쓴다. */
+main.wrap{padding-top:62px;padding-bottom:84px}
+section{margin-bottom:76px}
+section:last-child{margin-bottom:0}
+.eyebrow{display:flex;align-items:center;gap:10px;font-size:12.5px;color:var(--muted);margin-bottom:14px;font-weight:500}
 .eyebrow .n{color:var(--accent);font-weight:700}
 .eyebrow .bar{width:18px;height:1px;background:var(--stroke)}
-h1{font-size:clamp(30px,4.6vw,44px);margin-bottom:20px;letter-spacing:-0.04em}
+h1{font-size:clamp(29px,4.4vw,42px);margin-bottom:18px;letter-spacing:-0.04em}
 .lede{font-size:17px;color:var(--body);max-width:66ch;line-height:1.8}
-h2{font-size:24px;margin-bottom:14px}
+h2{font-size:24px;margin-bottom:12px}
 h3{font-size:17px;font-weight:700}
 .note{font-size:13.5px;color:var(--muted);max-width:76ch;line-height:1.75}
 
@@ -220,7 +223,7 @@ h3{font-size:17px;font-weight:700}
   font-size:14.5px;background:var(--wash)}
 .empty b{display:block;color:var(--title);font-size:16px;margin-bottom:8px;font-weight:700}
 
-.rows{display:flex;flex-direction:column;gap:16px}
+.rows{display:flex;flex-direction:column;gap:14px}
 .rowc{background:#fff;border:1px solid var(--stroke);border-radius:20px;padding:24px 28px;box-shadow:var(--shadow)}
 .rowc .hd{display:flex;justify-content:space-between;align-items:flex-start;gap:22px;flex-wrap:wrap}
 .rowc .why{font-size:14.5px;color:var(--body);margin-top:12px;max-width:78ch;line-height:1.78}
@@ -260,7 +263,7 @@ h3{font-size:17px;font-weight:700}
   .howto td:last-child{padding-bottom:18px}
 }
 
-.steps{counter-reset:s;display:flex;flex-direction:column;gap:16px}
+.steps{counter-reset:s;display:flex;flex-direction:column;gap:14px}
 .step{position:relative;background:#fff;border:1px solid var(--stroke);border-radius:20px;
   padding:26px 30px 26px 76px;box-shadow:var(--shadow)}
 .step::before{counter-increment:s;content:counter(s);position:absolute;left:28px;top:26px;
@@ -281,7 +284,7 @@ table.data th.s:hover{color:var(--title)}
 table.data th[aria-sort]{color:var(--accent)}
 table.data th[aria-sort]::after{content:" ↓"}
 table.data th[aria-sort="ascending"]::after{content:" ↑"}
-table.data td{padding:16px;border-bottom:1px solid var(--stroke-soft);color:var(--body);vertical-align:middle;white-space:nowrap}
+table.data td{padding:14px 16px;border-bottom:1px solid var(--stroke-soft);color:var(--body);vertical-align:middle;white-space:nowrap}
 table.data tr:last-child td{border-bottom:0}
 table.data td.r,table.data th.r{text-align:right}
 table.data td.name{white-space:normal;min-width:230px;line-height:1.6}
@@ -316,7 +319,7 @@ a.q .s{display:block;font-size:11.5px;color:var(--muted);font-family:Pretendard,
 .noshot{width:96px;height:72px;border-radius:12px;background:var(--wash);border:1px dashed #CBD5E1;
   display:flex;align-items:center;justify-content:center;font-size:11px;color:var(--muted);text-align:center;line-height:1.35;padding:4px}
 td.pic{width:96px;padding-right:0}
-.shots{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:18px}
+.shots{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:0}
 .shots a{display:block;border-radius:14px;overflow:hidden;border:1px solid var(--stroke);box-shadow:var(--shadow)}
 .shots img{width:216px;height:158px;object-fit:cover;display:block;background:var(--wash)}
 @media(max-width:640px){.shots img{width:140px;height:104px}}
@@ -328,7 +331,7 @@ tr.detail li{margin-bottom:5px}
   font-size:12.5px;color:var(--body);cursor:pointer;white-space:nowrap}
 .expand:hover{border-color:var(--accent);color:var(--accent)}
 
-.panel{background:#fff;border:1px solid var(--stroke);border-radius:20px;padding:28px 30px;margin-bottom:22px;box-shadow:var(--shadow)}
+.panel{background:#fff;border:1px solid var(--stroke);border-radius:20px;padding:26px 30px;margin-bottom:18px;box-shadow:var(--shadow)}
 .panel .row{display:flex;flex-wrap:wrap;gap:26px 40px;align-items:flex-end}
 .fld{display:flex;flex-direction:column;gap:9px;min-width:170px}
 .fld .fl{font-size:12.5px;color:var(--muted);font-weight:500}
@@ -350,7 +353,7 @@ select{font-family:inherit;font-size:14.5px;color:var(--title);background:#fff;b
 .sumbar .x{font-size:13.5px;color:rgba(255,255,255,.86)}
 @media(max-width:700px){.sumbar{top:0;padding:18px 22px}.sumbar .v{font-size:25px}}
 
-.strip{height:88px;margin:10px 0 14px;background:#fff;border:1px solid var(--stroke);border-radius:20px;
+.strip{height:88px;margin:0 0 12px;background:#fff;border:1px solid var(--stroke);border-radius:20px;
   padding:0 26px;box-shadow:var(--shadow)}
 .track{position:relative;height:100%}
 .track .ax{position:absolute;top:44%;left:0;right:0;height:1px;background:var(--stroke)}
@@ -382,8 +385,11 @@ select{font-family:inherit;font-size:14.5px;color:var(--title);background:#fff;b
 .tl-item .dt{font-family:Inter,sans-serif;font-size:13px;color:var(--muted)}
 @media(max-width:640px){.tl-item{grid-template-columns:1fr;gap:6px}}
 
-footer{border-top:1px solid var(--stroke);padding:34px 0 80px;font-size:13px;color:var(--muted);line-height:1.8}
+footer{background:var(--wash);border-top:1px solid var(--stroke);font-size:13px;color:var(--muted);line-height:1.8}
+footer.wrap{max-width:none;padding:34px 0 44px}
+footer .inner{max-width:1140px;margin:0 auto;padding:0 34px}
 footer a{color:var(--body)}
+@media(max-width:700px){footer .inner{padding:0 20px}}
 
 .monly{display:none}
 @media(max-width:800px){
@@ -441,11 +447,11 @@ function page({ title, path, body, lead }) {
   <nav>${NAV.map(([h, t]) => `<a href="${h}"${h === path ? ' aria-current="page"' : ""}>${t}</a>`).join("")}</nav>
 </div></header>
 <main class="wrap">${body}</main>
-<footer class="wrap">
+<footer class="wrap"><div class="inner">
   마지막 갱신 ${esc(d.config.updatedAt)}<span class="sep"></span>자리 ${d.listings.length}건<span class="sep"></span>물건 ${ITEMS.length}개<span class="sep"></span>대관 시세 ${d.market.rates.length}곳<span class="sep"></span>사진 ${SHOT_TOTAL}장<br>
   값은 조사한 화면에서 그대로 옮긴 것입니다. 점선 밑줄이 그어진 숫자는 조사값이 아니라 계산해서 얹은 값입니다.
   사진은 매물 사이트 서버의 것을 그대로 불러옵니다. 매물이 내려가면 사진도 같이 사라집니다.
-</footer>
+</div></footer>
 </body></html>`;
 }
 
@@ -657,7 +663,17 @@ const indexBody = `
       <div class="hd"><h3>${esc(q.q)}</h3><span class="tag${q.status === "확인" ? " good" : " flag"}">${esc(q.status)}</span></div>
       <p class="why">${esc(q.why)}</p>
       ${q.answer ? `<p class="why" style="color:var(--title)"><b>${esc(q.answer)}</b></p>` : ""}
-      ${(q.sources ?? []).length ? `<div class="tags">${q.sources.map((s) => `<a class="tag" href="${esc(s)}" target="_blank" rel="noreferrer noopener" style="text-decoration:none">${esc(siteName(s))}</a>`).join("")}</div>` : ""}
+      ${(q.sources ?? []).length ? `<div class="tags">${(() => {
+        /* 같은 사이트가 여러 번 나오면 이름만으로는 구분이 안 된다. 그때만 번호를 붙인다. */
+        const names = q.sources.map(siteName);
+        const seen = {};
+        return q.sources.map((s, i) => {
+          const nm = names[i];
+          const many = names.filter((x) => x === nm).length > 1;
+          seen[nm] = (seen[nm] ?? 0) + 1;
+          return `<a class="tag" href="${esc(s)}" target="_blank" rel="noreferrer noopener" style="text-decoration:none">${esc(many ? `${nm} ${seen[nm]}` : nm)}</a>`;
+        }).join("");
+      })()}</div>` : ""}
     </div>`).join("")}
   </div>
 </section>
@@ -695,7 +711,8 @@ function listingRow(l, i) {
   const [lt, lc] = livableTag(l);
   const map = mapLink(l.address);
   return `<tr id="l-${esc(l.id)}" data-id="${esc(l.id)}" data-dep="${l.deposit}" data-rent="${monthly}" data-walk="${walk ?? ""}"
-      data-area="${l.areaM2 ?? ""}" data-live="${esc(l.livable)}" data-kind="${esc(l.kind)}"${isDup(l) ? ' data-dup="1"' : ""}>
+      data-area="${l.areaM2 ?? ""}" data-live="${esc(l.livable)}" data-kind="${esc(l.kind)}"
+      data-site="${esc(l.source?.site ?? "미상")}"${isDup(l) ? ' data-dup="1"' : ""}>
     <td class="rank">${i + 1}</td>
     <td class="pic">${shotsOf(l).length
       ? `<a href="${esc(l.itemUrl ?? l.source?.url ?? "#")}" target="_blank" rel="noreferrer noopener">${img(shotsOf(l)[0], "thumb", `${l.title} 사진`)}</a>`
@@ -801,7 +818,17 @@ ${live.length === 0 ? empty("아직 걷은 자리가 없습니다", "네이버�
           ${RATE_OPTIONS.map((r) => `<button class="chip" data-rate="${r}" aria-pressed="${r === RATE_DEFAULT}">${r}%</button>`).join("")}
         </div>
       </div>
+      <div class="fld" style="min-width:auto">
+        <span class="fl">어디서 걷은 매물</span>
+        <div class="chips" id="sf">
+          <button class="chip" data-site="" aria-pressed="true">전부 ${live.length}곳</button>
+          <button class="chip" data-site="네이버부동산" aria-pressed="false">네이버부동산만 ${live.filter((l) => l.source?.site === "네이버부동산").length}곳</button>
+        </div>
+      </div>
     </div>
+    <p class="note" style="margin-top:16px">네이버부동산은 중개사가 올리고 검증 절차를 거칩니다.
+    직방과 다방, 당근은 개인이 바로 올릴 수 있어서 이미 나간 방이 남아 있거나 조건이 실제와 다른 글이 섞입니다.
+    전화하기 전에 <b>네이버부동산만</b>으로 한 번 걸러 보고, 나머지는 사진과 글을 보고 판단하는 쪽이 낫습니다.</p>
     <p class="note" style="margin-top:14px" id="cnt"></p>
   </div>
   <div class="tblwrap">
@@ -821,7 +848,7 @@ ${live.length === 0 ? empty("아직 걷은 자리가 없습니다", "네이버�
   <p class="note" style="margin-top:14px">머리글을 누르면 그 칸으로 다시 줄 세웁니다.
   걸어가는 시간이 미확인인 자리는 거리로 거를 때 같이 빠집니다. 길찾기 화면을 못 읽은 자리라 시간을 지어내지 않았습니다.</p>
   ${SHOT_LISTINGS ? `
-  <h2 style="margin:56px 0 6px">사진으로 훑어보기</h2>
+  <h2 style="margin:64px 0 8px">사진으로 훑어보기</h2>
   <p class="note" style="margin-bottom:18px">사진이 남아 있는 ${SHOT_LISTINGS}곳입니다. 누르면 그 매물 화면으로 갑니다.
   나머지 ${live.length - SHOT_LISTINGS}곳은 매물 화면을 못 열어서 사진을 못 걷었습니다.</p>
   ${live.filter((l) => shotsOf(l).length).map((l) => `
@@ -856,7 +883,7 @@ ${dropped.length ? `
   var pairs=[]; // [행, 자세히 행]
   var rows=[].slice.call(body.rows);
   for(var i=0;i<rows.length;i+=2) pairs.push([rows[i],rows[i+1]]);
-  var rate=${RATE_DEFAULT}, sortKey='real', asc=true;
+  var rate=${RATE_DEFAULT}, sortKey='real', asc=true, site='';
   var dep=document.getElementById('dep'), rent=document.getElementById('rent'), walk=document.getElementById('walk');
   var depv=document.getElementById('depv'), rentv=document.getElementById('rentv'), walkv=document.getElementById('walkv');
   var cnt=document.getElementById('cnt');
@@ -887,6 +914,7 @@ ${dropped.length ? `
       if(dMax<18000 && +r.dataset.dep>dMax) ok=false;
       if(+r.dataset.rent>rMax) ok=false;
       if(wMax<31 && (r.dataset.walk===''||+r.dataset.walk>wMax)) ok=false;
+      if(site && r.dataset.site!==site) ok=false;
       r.hidden=!ok; if(!ok) p[1].hidden=true;
       if(ok){ shown++; if(!best||real(r)<real(best)) best=r; }
     });
@@ -907,6 +935,12 @@ ${dropped.length ? `
     apply();
   }
   [dep,rent,walk].forEach(function(el){ el.addEventListener('input',apply) });
+  document.querySelectorAll('#sf .chip').forEach(function(b){
+    b.addEventListener('click',function(){
+      document.querySelectorAll('#sf .chip').forEach(function(o){o.setAttribute('aria-pressed','false')});
+      b.setAttribute('aria-pressed','true'); site=b.dataset.site; apply();
+    });
+  });
   document.querySelectorAll('[data-rate]').forEach(function(b){
     b.addEventListener('click',function(){
       document.querySelectorAll('[data-rate]').forEach(function(o){o.setAttribute('aria-pressed','false')});
@@ -1006,7 +1040,7 @@ function itemsPage(rows, { label, h1, lede, tail, allNote }) {
     <span class="x" id="sumx"></span>
   </div>
   ${groups.map((g) => `
-    <h2 style="margin:26px 0 10px">${esc(g)}</h2>
+    <h2 style="margin:44px 0 12px">${esc(g)}</h2>
     <div class="tblwrap">
       <table class="data">
         <thead><tr><th>물건</th><th>얼마나</th><th>중고</th><th class="r">새것 최저</th><th class="r">중고 최저</th><th class="r">소계</th><th></th></tr></thead>
@@ -1339,7 +1373,7 @@ const logBody = `
       <div><div class="dt">${esc(e.date)}</div><div class="meta">${esc(e.by)}${e.kind ? `<span class="sep"></span>${esc(e.kind)}` : ""}</div></div>
       <div><h3 style="font-size:15px">${esc(e.summary)}</h3>
       ${e.detail ? `<p class="why">${esc(e.detail)}</p>` : ""}
-      ${(e.refs ?? []).length ? `<div class="tags">${e.refs.map((r) => `<a class="tag" href="${esc(r)}" target="_blank" rel="noreferrer noopener" style="text-decoration:none">${esc(siteName(r))}</a>`).join("")}</div>` : ""}
+      ${(e.refs ?? []).length ? `<div class="tags">${(() => { const nm=e.refs.map(siteName), c={}; return e.refs.map((r,i)=>{ const n=nm[i], many=nm.filter(x=>x===n).length>1; c[n]=(c[n]??0)+1; return `<a class="tag" href="${esc(r)}" target="_blank" rel="noreferrer noopener" style="text-decoration:none">${esc(many?`${n} ${c[n]}`:n)}</a>`; }).join(""); })()}</div>` : ""}
       </div></div>`).join("")}
   </div>
   <p style="text-align:center;margin-top:18px"><button class="chip" id="more">나머지 ${Math.max(0, logEntries.length - SHOW_FIRST)}줄 더 보기</button></p>
