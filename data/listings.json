@@ -15,14 +15,33 @@
     "livable": "회색",
     "livableNote": "건축물 용도를 제2종 근린생활시설로 표시합니다. 숙박·전입신고 가능 여부는 확인하지 않았습니다.",
     "noiseRisk": "미확인",
-    "commute": { "walkMin": 7, "transitMin": null, "routeNote": "네이버지도 추천 도보 경로 7분, 477m, 745걸음으로 표시합니다." },
-    "contract": { "minMonths": null, "available": null },
+    "commute": {
+      "walkMin": 7,
+      "transitMin": null,
+      "routeNote": "네이버지도 추천 도보 경로 7분, 477m, 745걸음으로 표시합니다."
+    },
+    "contract": {
+      "minMonths": null,
+      "available": null
+    },
     "status": "candidate",
     "rejectReason": "",
-    "pros": ["월세와 관리비 합계가 58만원입니다.", "즉시입주로 표시합니다.", "전용면적 16.75㎡입니다."],
-    "cons": ["건축물 용도를 제2종 근린생활시설로 표시합니다.", "지점까지 도보 시간은 확인하지 않았습니다."],
+    "pros": [
+      "월세와 관리비 합계가 58만원입니다.",
+      "즉시입주로 표시합니다.",
+      "전용면적 16.75㎡입니다."
+    ],
+    "cons": [
+      "건축물 용도를 제2종 근린생활시설로 표시합니다.",
+      "지점까지 도보 시간은 확인하지 않았습니다."
+    ],
     "notes": "건축물대장 용도와 전입신고 가능 여부를 계약 전에 확인해야 합니다.",
-    "source": { "site": "네이버부동산", "url": "https://new.land.naver.com/rooms?ms=2AL6pE,3zmibo,16&a=APT:OPST:ABYG:OBYG:GM:OR:DDDGG:JWJT:SGJT:VL&e=RETAIL&aa=SMALLSPCRENT&articleNo=2643950603", "listingId": "2643950603", "seenAt": "2026-08-15" }
+    "source": {
+      "site": "네이버부동산",
+      "url": "https://new.land.naver.com/rooms?ms=2AL6pE,3zmibo,16&a=APT:OPST:ABYG:OBYG:GM:OR:DDDGG:JWJT:SGJT:VL&e=RETAIL&aa=SMALLSPCRENT&articleNo=2643950603",
+      "listingId": "2643950603",
+      "seenAt": "2026-08-15"
+    }
   },
   {
     "id": "naver-2643983551",
@@ -40,16 +59,37 @@
     "livable": "회색",
     "livableNote": "네이버부동산 상세 화면에서 건축물 용도를 단독주택으로 표시합니다. 숙박·전입신고 가능 여부는 화면에서 확인하지 않았습니다.",
     "noiseRisk": "미확인",
-    "commute": { "walkMin": null, "transitMin": null, "routeNote": "상세 화면 소재지가 서울시 광진구 구의동까지만 표시되어 지점까지 도보 경로를 확인하지 않았습니다." },
-    "contract": { "minMonths": null, "available": null },
+    "commute": {
+      "walkMin": null,
+      "transitMin": null,
+      "routeNote": "상세 화면 소재지가 서울시 광진구 구의동까지만 표시되어 지점까지 도보 경로를 확인하지 않았습니다."
+    },
+    "contract": {
+      "minMonths": null,
+      "available": null
+    },
     "status": "candidate",
-    "unresolved": ["commute"],
+    "unresolved": [
+      "commute"
+    ],
     "unresolvedNote": "네이버부동산 두 상세 화면에서 소재지가 서울시 광진구 구의동까지만 표시되고 정확한 주소·도보 시간·지도 핀 좌표를 확인하지 못했습니다.",
     "rejectReason": "",
-    "pros": ["월세와 관리비 합계가 54만원입니다.", "공급·전용면적을 모두 33㎡로 표시합니다.", "방 2개로 표시합니다."],
-    "cons": ["2026년 9월 1일 협의가능으로 표시합니다.", "상세 화면에 정확한 주소가 없어 지점까지 도보 경로를 확인하지 않았습니다."],
+    "pros": [
+      "월세와 관리비 합계가 54만원입니다.",
+      "공급·전용면적을 모두 33㎡로 표시합니다.",
+      "방 2개로 표시합니다."
+    ],
+    "cons": [
+      "2026년 9월 1일 협의가능으로 표시합니다.",
+      "상세 화면에 정확한 주소가 없어 지점까지 도보 경로를 확인하지 않았습니다."
+    ],
     "notes": "단독주택에서 방문객을 받는 스튜디오 영업 가능 여부와 임대차 조건을 계약 전에 확인해야 합니다.",
-    "source": { "site": "네이버부동산", "url": "https://new.land.naver.com/rooms?ms=2AL6pE,3zmibo,16&a=APT:OPST:ABYG:OBYG:GM:OR:DDDGG:JWJT:SGJT:VL&e=RETAIL&aa=SMALLSPCRENT&articleNo=2643983551", "listingId": "2643983551", "seenAt": "2026-08-15" }
+    "source": {
+      "site": "네이버부동산",
+      "url": "https://new.land.naver.com/rooms?ms=2AL6pE,3zmibo,16&a=APT:OPST:ABYG:OBYG:GM:OR:DDDGG:JWJT:SGJT:VL&e=RETAIL&aa=SMALLSPCRENT&articleNo=2643983551",
+      "listingId": "2643983551",
+      "seenAt": "2026-08-15"
+    }
   },
   {
     "id": "naver-2643669294",
@@ -67,14 +107,33 @@
     "livable": "회색",
     "livableNote": "건축물 용도를 제2종 근린생활시설로 표시합니다. 숙박·전입신고 가능 여부는 확인하지 않았습니다.",
     "noiseRisk": "미확인",
-    "commute": { "walkMin": 10, "transitMin": null, "routeNote": "네이버지도 추천 도보 경로 10분, 733m, 1,145걸음으로 표시합니다." },
-    "contract": { "minMonths": null, "available": null },
+    "commute": {
+      "walkMin": 10,
+      "transitMin": null,
+      "routeNote": "네이버지도 추천 도보 경로 10분, 733m, 1,145걸음으로 표시합니다."
+    },
+    "contract": {
+      "minMonths": null,
+      "available": null
+    },
     "status": "candidate",
     "rejectReason": "",
-    "pros": ["월세와 관리비 합계가 50만원입니다.", "즉시입주 협의가능으로 표시합니다.", "주차 가능으로 표시합니다."],
-    "cons": ["건축물 용도를 제2종 근린생활시설로 표시합니다.", "전용면적이 14㎡입니다."],
+    "pros": [
+      "월세와 관리비 합계가 50만원입니다.",
+      "즉시입주 협의가능으로 표시합니다.",
+      "주차 가능으로 표시합니다."
+    ],
+    "cons": [
+      "건축물 용도를 제2종 근린생활시설로 표시합니다.",
+      "전용면적이 14㎡입니다."
+    ],
     "notes": "화면에 구의역 도보 3~4분으로 표시하지만 기준점까지의 도보 시간은 확인하지 않았습니다. 건축물대장 용도와 전입신고 가능 여부를 계약 전에 확인해야 합니다.",
-    "source": { "site": "네이버부동산", "url": "https://new.land.naver.com/rooms?ms=2AL6pE,3zmibo,16&a=APT:OPST:ABYG:OBYG:GM:OR:DDDGG:JWJT:SGJT:VL&e=RETAIL&aa=SMALLSPCRENT&articleNo=2643669294", "listingId": "2643669294", "seenAt": "2026-08-15" }
+    "source": {
+      "site": "네이버부동산",
+      "url": "https://new.land.naver.com/rooms?ms=2AL6pE,3zmibo,16&a=APT:OPST:ABYG:OBYG:GM:OR:DDDGG:JWJT:SGJT:VL&e=RETAIL&aa=SMALLSPCRENT&articleNo=2643669294",
+      "listingId": "2643669294",
+      "seenAt": "2026-08-15"
+    }
   },
   {
     "id": "naver-2643983149",
@@ -92,14 +151,34 @@
     "livable": "회색",
     "livableNote": "건축물 용도를 업무시설로 표시합니다. 숙박·전입신고 가능 여부는 확인하지 않았습니다.",
     "noiseRisk": "미확인",
-    "commute": { "walkMin": 5, "transitMin": null, "routeNote": "네이버지도 추천 도보 경로 5분, 378m, 590걸음, 횡단보도 1회로 표시합니다." },
-    "contract": { "minMonths": null, "available": null },
+    "commute": {
+      "walkMin": 5,
+      "transitMin": null,
+      "routeNote": "네이버지도 추천 도보 경로 5분, 378m, 590걸음, 횡단보도 1회로 표시합니다."
+    },
+    "contract": {
+      "minMonths": null,
+      "available": null
+    },
     "status": "candidate",
     "rejectReason": "",
-    "pros": ["월세와 관리비 합계가 95만원입니다.", "전용면적 32.34㎡입니다.", "화면에 역까지 8분으로 표시합니다."],
-    "cons": ["건축물 용도를 업무시설로 표시합니다.", "2026년 10월 31일 협의가능으로 표시합니다.", "지점까지 추천 도보 경로가 5분, 378m, 590걸음, 횡단보도 1회입니다."],
+    "pros": [
+      "월세와 관리비 합계가 95만원입니다.",
+      "전용면적 32.34㎡입니다.",
+      "화면에 역까지 8분으로 표시합니다."
+    ],
+    "cons": [
+      "건축물 용도를 업무시설로 표시합니다.",
+      "2026년 10월 31일 협의가능으로 표시합니다.",
+      "지점까지 추천 도보 경로가 5분, 378m, 590걸음, 횡단보도 1회입니다."
+    ],
     "notes": "업무시설에서 숙박과 팟캐스트 스튜디오 영업을 함께 할 수 있는지는 확인하지 않았습니다. 계약 전에 건축물대장 용도와 관리규약을 확인해야 합니다.",
-    "source": { "site": "네이버부동산", "url": "https://new.land.naver.com/rooms?ms=2AL6pE,3zmibo,16&a=APT:OPST:ABYG:OBYG:GM:OR:DDDGG:JWJT:SGJT:VL&e=RETAIL&aa=SMALLSPCRENT&articleNo=2643983149", "listingId": "2643983149", "seenAt": "2026-08-15" }
+    "source": {
+      "site": "네이버부동산",
+      "url": "https://new.land.naver.com/rooms?ms=2AL6pE,3zmibo,16&a=APT:OPST:ABYG:OBYG:GM:OR:DDDGG:JWJT:SGJT:VL&e=RETAIL&aa=SMALLSPCRENT&articleNo=2643983149",
+      "listingId": "2643983149",
+      "seenAt": "2026-08-15"
+    }
   },
   {
     "id": "naver-2643798750",
@@ -117,14 +196,33 @@
     "livable": "회색",
     "livableNote": "네이버부동산 상세 화면에서 건축물 용도를 단독주택으로 표시하고 B1층으로 표시합니다. 숙박·전입신고 가능 여부는 화면에서 확인하지 않았습니다.",
     "noiseRisk": "미확인",
-    "commute": { "walkMin": 29, "transitMin": null, "routeNote": "네이버지도 추천 도보 경로 29분, 1.6km, 2,474걸음, 횡단보도 3회로 표시합니다." },
-    "contract": { "minMonths": null, "available": null },
+    "commute": {
+      "walkMin": 29,
+      "transitMin": null,
+      "routeNote": "네이버지도 추천 도보 경로 29분, 1.6km, 2,474걸음, 횡단보도 3회로 표시합니다."
+    },
+    "contract": {
+      "minMonths": null,
+      "available": null
+    },
     "status": "candidate",
     "rejectReason": "",
-    "pros": ["월세와 관리비 합계가 47만원입니다.", "즉시입주 협의가능으로 표시합니다.", "전용면적 15㎡입니다."],
-    "cons": ["화면에 B1층으로 표시합니다.", "지점까지 도보 시간은 확인하지 않았습니다."],
+    "pros": [
+      "월세와 관리비 합계가 47만원입니다.",
+      "즉시입주 협의가능으로 표시합니다.",
+      "전용면적 15㎡입니다."
+    ],
+    "cons": [
+      "화면에 B1층으로 표시합니다.",
+      "지점까지 도보 시간은 확인하지 않았습니다."
+    ],
     "notes": "화면에는 공부상 지하지만 계단없는 1층이라고 표시합니다. 실제 사용층과 스튜디오 영업 가능 여부를 계약 전에 확인해야 합니다.",
-    "source": { "site": "네이버부동산", "url": "https://new.land.naver.com/rooms?ms=2AL6pE,3zmibo,16&a=APT:OPST:ABYG:OBYG:GM:OR:DDDGG:JWJT:SGJT:VL&e=RETAIL&aa=SMALLSPCRENT&articleNo=2643798750", "listingId": "2643798750", "seenAt": "2026-08-15" }
+    "source": {
+      "site": "네이버부동산",
+      "url": "https://new.land.naver.com/rooms?ms=2AL6pE,3zmibo,16&a=APT:OPST:ABYG:OBYG:GM:OR:DDDGG:JWJT:SGJT:VL&e=RETAIL&aa=SMALLSPCRENT&articleNo=2643798750",
+      "listingId": "2643798750",
+      "seenAt": "2026-08-15"
+    }
   },
   {
     "id": "naver-2643812573",
@@ -142,14 +240,34 @@
     "livable": "회색",
     "livableNote": "건축물 용도를 제1종 근린생활시설로 표시합니다. 숙박·전입신고 가능 여부는 확인하지 않았습니다.",
     "noiseRisk": "미확인",
-    "commute": { "walkMin": 9, "transitMin": null, "routeNote": "네이버지도 추천 도보 경로 9분, 624m, 975걸음, 횡단보도 1회로 표시합니다." },
-    "contract": { "minMonths": null, "available": null },
+    "commute": {
+      "walkMin": 9,
+      "transitMin": null,
+      "routeNote": "네이버지도 추천 도보 경로 9분, 624m, 975걸음, 횡단보도 1회로 표시합니다."
+    },
+    "contract": {
+      "minMonths": null,
+      "available": null
+    },
     "status": "candidate",
     "rejectReason": "",
-    "pros": ["월세와 관리비 합계가 77만원입니다.", "전용면적 30㎡입니다.", "즉시입주로 표시합니다."],
-    "cons": ["건축물 용도를 제1종 근린생활시설로 표시합니다.", "주차 불가능으로 표시합니다.", "지점까지 도보 시간은 확인하지 않았습니다."],
+    "pros": [
+      "월세와 관리비 합계가 77만원입니다.",
+      "전용면적 30㎡입니다.",
+      "즉시입주로 표시합니다."
+    ],
+    "cons": [
+      "건축물 용도를 제1종 근린생활시설로 표시합니다.",
+      "주차 불가능으로 표시합니다.",
+      "지점까지 도보 시간은 확인하지 않았습니다."
+    ],
     "notes": "화면에 2층 근린생활시설로 표시합니다. 팟캐스트 스튜디오 영업과 숙박·전입신고 가능 여부를 각각 계약 전에 확인해야 합니다.",
-    "source": { "site": "네이버부동산", "url": "https://new.land.naver.com/rooms?ms=2AL6pE,3zmibo,16&a=APT:OPST:ABYG:OBYG:GM:OR:DDDGG:JWJT:SGJT:VL&e=RETAIL&aa=SMALLSPCRENT&articleNo=2643812573", "listingId": "2643812573", "seenAt": "2026-08-15" }
+    "source": {
+      "site": "네이버부동산",
+      "url": "https://new.land.naver.com/rooms?ms=2AL6pE,3zmibo,16&a=APT:OPST:ABYG:OBYG:GM:OR:DDDGG:JWJT:SGJT:VL&e=RETAIL&aa=SMALLSPCRENT&articleNo=2643812573",
+      "listingId": "2643812573",
+      "seenAt": "2026-08-15"
+    }
   },
   {
     "id": "naver-2643845730",
@@ -167,14 +285,33 @@
     "livable": "회색",
     "livableNote": "네이버부동산 상세 화면에서 건축물 용도를 단독주택으로 표시합니다. 숙박·전입신고 가능 여부는 화면에서 확인하지 않았습니다.",
     "noiseRisk": "미확인",
-    "commute": { "walkMin": 24, "transitMin": null, "routeNote": "네이버지도 추천 도보 경로 24분, 1.4km, 2,245걸음, 횡단보도 3회로 표시합니다." },
-    "contract": { "minMonths": null, "available": null },
+    "commute": {
+      "walkMin": 24,
+      "transitMin": null,
+      "routeNote": "네이버지도 추천 도보 경로 24분, 1.4km, 2,245걸음, 횡단보도 3회로 표시합니다."
+    },
+    "contract": {
+      "minMonths": null,
+      "available": null
+    },
     "status": "candidate",
     "rejectReason": "",
-    "pros": ["월세와 관리비 합계가 67만원입니다.", "공급면적 94.35㎡와 전용면적 40㎡를 표시합니다.", "즉시입주로 표시합니다."],
-    "cons": ["주차 불가능으로 표시합니다.", "지점까지 도보 시간은 확인하지 않았습니다."],
+    "pros": [
+      "월세와 관리비 합계가 67만원입니다.",
+      "공급면적 94.35㎡와 전용면적 40㎡를 표시합니다.",
+      "즉시입주로 표시합니다."
+    ],
+    "cons": [
+      "주차 불가능으로 표시합니다.",
+      "지점까지 도보 시간은 확인하지 않았습니다."
+    ],
     "notes": "화면에 방 2개와 단독주택 용도를 표시합니다. 방문객을 받는 스튜디오 영업 가능 여부와 소음 조건을 계약 전에 확인해야 합니다.",
-    "source": { "site": "네이버부동산", "url": "https://new.land.naver.com/rooms?ms=2AL6pE,3zmibo,16&a=APT:OPST:ABYG:OBYG:GM:OR:DDDGG:JWJT:SGJT:VL&e=RETAIL&aa=SMALLSPCRENT&articleNo=2643845730", "listingId": "2643845730", "seenAt": "2026-08-15" }
+    "source": {
+      "site": "네이버부동산",
+      "url": "https://new.land.naver.com/rooms?ms=2AL6pE,3zmibo,16&a=APT:OPST:ABYG:OBYG:GM:OR:DDDGG:JWJT:SGJT:VL&e=RETAIL&aa=SMALLSPCRENT&articleNo=2643845730",
+      "listingId": "2643845730",
+      "seenAt": "2026-08-15"
+    }
   },
   {
     "id": "naver-2643325080",
@@ -192,14 +329,33 @@
     "livable": "회색",
     "livableNote": "네이버부동산 상세 화면에서 건축물 용도를 공동주택으로 표시합니다. 숙박·전입신고 가능 여부는 화면에서 확인하지 않았습니다.",
     "noiseRisk": "미확인",
-    "commute": { "walkMin": 10, "transitMin": null, "routeNote": "네이버지도 추천 도보 경로 10분, 710m, 1,109걸음으로 표시합니다." },
-    "contract": { "minMonths": null, "available": null },
+    "commute": {
+      "walkMin": 10,
+      "transitMin": null,
+      "routeNote": "네이버지도 추천 도보 경로 10분, 710m, 1,109걸음으로 표시합니다."
+    },
+    "contract": {
+      "minMonths": null,
+      "available": null
+    },
     "status": "candidate",
     "rejectReason": "",
-    "pros": ["월세와 관리비 합계가 63만원입니다.", "전용면적 19.83㎡입니다.", "2026년 8월 16일 협의가능으로 표시합니다."],
-    "cons": ["주차 불가능으로 표시합니다.", "지점까지 도보 시간은 확인하지 않았습니다."],
+    "pros": [
+      "월세와 관리비 합계가 63만원입니다.",
+      "전용면적 19.83㎡입니다.",
+      "2026년 8월 16일 협의가능으로 표시합니다."
+    ],
+    "cons": [
+      "주차 불가능으로 표시합니다.",
+      "지점까지 도보 시간은 확인하지 않았습니다."
+    ],
     "notes": "화면에 공동주택 용도를 표시합니다. 방문객을 받는 스튜디오 영업 가능 여부와 관리규약을 계약 전에 확인해야 합니다.",
-    "source": { "site": "네이버부동산", "url": "https://new.land.naver.com/rooms?ms=2AL6pE,3zmibo,16&a=APT:OPST:ABYG:OBYG:GM:OR:DDDGG:JWJT:SGJT:VL&e=RETAIL&aa=SMALLSPCRENT&articleNo=2643325080", "listingId": "2643325080", "seenAt": "2026-08-15" }
+    "source": {
+      "site": "네이버부동산",
+      "url": "https://new.land.naver.com/rooms?ms=2AL6pE,3zmibo,16&a=APT:OPST:ABYG:OBYG:GM:OR:DDDGG:JWJT:SGJT:VL&e=RETAIL&aa=SMALLSPCRENT&articleNo=2643325080",
+      "listingId": "2643325080",
+      "seenAt": "2026-08-15"
+    }
   },
   {
     "id": "zigbang-50032425",
@@ -217,16 +373,45 @@
     "livable": "회색",
     "livableNote": "상세 화면에 비주거로 표시합니다. 숙박·전입신고 가능 여부는 확인하지 않았습니다.",
     "noiseRisk": "미확인",
-    "commute": { "walkMin": null, "transitMin": null, "routeNote": "화면에 인근 전철역과 생활시설 시간을 표시하지만 지점까지 걸리는 시간은 확인하지 않았습니다." },
-    "contract": { "minMonths": null, "available": "2026-08-01" },
+    "commute": {
+      "walkMin": null,
+      "transitMin": null,
+      "routeNote": "화면에 인근 전철역과 생활시설 시간을 표시하지만 지점까지 걸리는 시간은 확인하지 않았습니다."
+    },
+    "contract": {
+      "minMonths": null,
+      "available": "2026-08-01"
+    },
     "status": "candidate",
-    "unresolved": ["commute"],
+    "unresolved": [
+      "commute"
+    ],
     "unresolvedNote": "사용자 요청에 따라 네이버부동산 구의동 원룸·오피스텔 목록만 확인했지만 보증금 1억 5,399만원·월세 14만원·14.85㎡·3층/5층 조건과 일치하는 네이버 매물을 찾지 못했습니다.",
     "rejectReason": "",
-    "pros": ["월세와 관리비 합계가 22만원입니다.", "전용면적 14.85㎡입니다.", "주차 가능으로 표시합니다."],
-    "cons": ["비주거로 표시합니다.", "주차비 월 2만원을 별도로 표시합니다.", "지점까지 도보 시간은 확인하지 않았습니다."],
+    "pros": [
+      "월세와 관리비 합계가 22만원입니다.",
+      "전용면적 14.85㎡입니다.",
+      "주차 가능으로 표시합니다."
+    ],
+    "cons": [
+      "비주거로 표시합니다.",
+      "주차비 월 2만원을 별도로 표시합니다.",
+      "지점까지 도보 시간은 확인하지 않았습니다."
+    ],
     "notes": "상세 화면에 2026년 8월 1일 이후 입주 가능으로 표시합니다. 비주거 공간의 스튜디오 영업과 숙박 가능 여부를 계약 전에 확인해야 합니다.",
-    "source": { "site": "직방", "url": "https://www.zigbang.com/home/oneroom/items/50032425?imageThumbnail=https%3A%2F%2Fic.zigbang.com%2Fic%2Fitems%2F50032425%2F1.jpg&hasVrKey=false", "listingId": "50032425", "seenAt": "2026-08-15" }
+    "source": {
+      "site": "직방",
+      "url": "https://www.zigbang.com/home/oneroom/items/50032425?imageThumbnail=https%3A%2F%2Fic.zigbang.com%2Fic%2Fitems%2F50032425%2F1.jpg&hasVrKey=false",
+      "listingId": "50032425",
+      "seenAt": "2026-08-15"
+    },
+    "images": [
+      "https://ic.zigbang.com/ic/items/50032425/12.jpg?w=480",
+      "https://ic.zigbang.com/ic/items/50032425/1.jpg?w=480",
+      "https://ic.zigbang.com/ic/items/50032425/2.jpg?w=480"
+    ],
+    "imagesSeenAt": "2026-08-18",
+    "itemUrl": "https://www.zigbang.com/home/oneroom/items/50032425"
   },
   {
     "id": "zigbang-49904282",
@@ -244,16 +429,45 @@
     "livable": "회색",
     "livableNote": "상세 설명에 근린생활시설이라고 표시합니다. 전입신고 가능하다는 광고 문구도 함께 표시하지만 법적 가능 여부는 확인하지 않았습니다.",
     "noiseRisk": "미확인",
-    "commute": { "walkMin": null, "transitMin": null, "routeNote": "화면에 구의역 도보 약 10분으로 표시하지만 지점까지 걸리는 시간은 확인하지 않았습니다." },
-    "contract": { "minMonths": null, "available": "2026-11-30" },
+    "commute": {
+      "walkMin": null,
+      "transitMin": null,
+      "routeNote": "화면에 구의역 도보 약 10분으로 표시하지만 지점까지 걸리는 시간은 확인하지 않았습니다."
+    },
+    "contract": {
+      "minMonths": null,
+      "available": "2026-11-30"
+    },
     "status": "candidate",
-    "unresolved": ["commute"],
+    "unresolved": [
+      "commute"
+    ],
     "unresolvedNote": "사용자 요청에 따라 네이버부동산 기존 화면과 새 화면을 대조했지만 보증금 5,000만원·월세 70만원·27.64㎡·2층/5층 조건과 일치하는 네이버 매물을 찾지 못했습니다.",
     "rejectReason": "",
-    "pros": ["월세와 관리비 합계가 70만원입니다.", "전용면적 27.64㎡입니다.", "주차 가능으로 표시합니다."],
-    "cons": ["상세 설명에 근린생활시설이라고 표시합니다.", "입주 가능일을 2026년 11월 30일 이후로 표시합니다.", "지점까지 도보 시간은 확인하지 않았습니다."],
+    "pros": [
+      "월세와 관리비 합계가 70만원입니다.",
+      "전용면적 27.64㎡입니다.",
+      "주차 가능으로 표시합니다."
+    ],
+    "cons": [
+      "상세 설명에 근린생활시설이라고 표시합니다.",
+      "입주 가능일을 2026년 11월 30일 이후로 표시합니다.",
+      "지점까지 도보 시간은 확인하지 않았습니다."
+    ],
     "notes": "관리비 없음으로 표시하지만 주차비 월 5만원은 별도라고 표시합니다. 근린생활시설의 스튜디오 영업과 숙박 가능 여부를 계약 전에 확인해야 합니다.",
-    "source": { "site": "직방", "url": "https://www.zigbang.com/home/oneroom/items/49904282?imageThumbnail=https%3A%2F%2Fic.zigbang.com%2Fic%2Fitems%2F49904282%2F1.jpg&hasVrKey=false", "listingId": "49904282", "seenAt": "2026-08-15" }
+    "source": {
+      "site": "직방",
+      "url": "https://www.zigbang.com/home/oneroom/items/49904282?imageThumbnail=https%3A%2F%2Fic.zigbang.com%2Fic%2Fitems%2F49904282%2F1.jpg&hasVrKey=false",
+      "listingId": "49904282",
+      "seenAt": "2026-08-15"
+    },
+    "images": [
+      "https://ic.zigbang.com/ic/items/49904282/5.jpg?w=480",
+      "https://ic.zigbang.com/ic/items/49904282/1.jpg?w=480",
+      "https://ic.zigbang.com/ic/items/49904282/2.jpg?w=480"
+    ],
+    "imagesSeenAt": "2026-08-18",
+    "itemUrl": "https://www.zigbang.com/home/oneroom/items/49904282"
   },
   {
     "id": "zigbang-50021445",
@@ -271,16 +485,45 @@
     "livable": "미확인",
     "livableNote": "사용자 요청에 따라 네이버부동산 기존·새 화면의 구의동 목록을 확인했지만 조건과 일치하는 상세 매물을 찾지 못해 건축물 용도를 확인하지 못했습니다.",
     "noiseRisk": "미확인",
-    "commute": { "walkMin": null, "transitMin": null, "routeNote": "화면에 구의역 도보 약 15분으로 표시하지만 지점까지 걸리는 시간은 확인하지 않았습니다." },
-    "contract": { "minMonths": null, "available": "2026-10-26" },
+    "commute": {
+      "walkMin": null,
+      "transitMin": null,
+      "routeNote": "화면에 구의역 도보 약 15분으로 표시하지만 지점까지 걸리는 시간은 확인하지 않았습니다."
+    },
+    "contract": {
+      "minMonths": null,
+      "available": "2026-10-26"
+    },
     "status": "candidate",
-    "unresolved": ["commute", "livable"],
+    "unresolved": [
+      "commute",
+      "livable"
+    ],
     "unresolvedNote": "사용자 요청에 따라 네이버부동산 기존 화면과 새 화면을 대조했지만 보증금 5,000만원·월세 45만원·24㎡·2층/5층 조건과 일치하는 네이버 매물을 찾지 못했습니다.",
     "rejectReason": "",
-    "pros": ["월세와 관리비 합계가 52만원입니다.", "전용면적 24㎡입니다.", "주차 가능으로 표시합니다."],
-    "cons": ["2026년 10월 26일 이후 입주 가능으로 표시합니다.", "지점까지 도보 시간은 확인하지 않았습니다."],
+    "pros": [
+      "월세와 관리비 합계가 52만원입니다.",
+      "전용면적 24㎡입니다.",
+      "주차 가능으로 표시합니다."
+    ],
+    "cons": [
+      "2026년 10월 26일 이후 입주 가능으로 표시합니다.",
+      "지점까지 도보 시간은 확인하지 않았습니다."
+    ],
     "notes": "상세 화면에 오픈형 원룸과 풀옵션으로 표시합니다. 방문객을 받는 스튜디오 영업 가능 여부와 소음 조건을 계약 전에 확인해야 합니다.",
-    "source": { "site": "직방", "url": "https://www.zigbang.com/home/oneroom/items/50021445?imageThumbnail=https%3A%2F%2Fic.zigbang.com%2Fic%2Fitems%2F50021445%2F1.jpg&hasVrKey=false", "listingId": "50021445", "seenAt": "2026-08-15" }
+    "source": {
+      "site": "직방",
+      "url": "https://www.zigbang.com/home/oneroom/items/50021445?imageThumbnail=https%3A%2F%2Fic.zigbang.com%2Fic%2Fitems%2F50021445%2F1.jpg&hasVrKey=false",
+      "listingId": "50021445",
+      "seenAt": "2026-08-15"
+    },
+    "images": [
+      "https://ic.zigbang.com/ic/items/50021445/10.jpg?w=480",
+      "https://ic.zigbang.com/ic/items/50021445/1.jpg?w=480",
+      "https://ic.zigbang.com/ic/items/50021445/2.jpg?w=480"
+    ],
+    "imagesSeenAt": "2026-08-18",
+    "itemUrl": "https://www.zigbang.com/home/oneroom/items/50021445"
   },
   {
     "id": "dabang-58439072",
@@ -298,14 +541,33 @@
     "livable": "회색",
     "livableNote": "건축물 용도를 제2종근린생활시설로 표시합니다. 상세 설명에는 주거겸사무실·전입신고·사업자등록 가능이라는 광고 문구도 있지만 법적 가능 여부는 확인하지 않았습니다.",
     "noiseRisk": "미확인",
-    "commute": { "walkMin": 5, "transitMin": null, "routeNote": "네이버지도 추천 도보 경로 5분, 326m, 509걸음, 횡단보도 2회로 표시합니다." },
-    "contract": { "minMonths": null, "available": "즉시 입주" },
+    "commute": {
+      "walkMin": 5,
+      "transitMin": null,
+      "routeNote": "네이버지도 추천 도보 경로 5분, 326m, 509걸음, 횡단보도 2회로 표시합니다."
+    },
+    "contract": {
+      "minMonths": null,
+      "available": "즉시 입주"
+    },
     "status": "candidate",
     "rejectReason": "",
-    "pros": ["월세와 관리비 합계가 61만원입니다.", "전용면적 21㎡입니다.", "주차 가능으로 표시합니다."],
-    "cons": ["건축물 용도를 제2종근린생활시설로 표시합니다.", "지점까지 도보 시간은 확인하지 않았습니다."],
+    "pros": [
+      "월세와 관리비 합계가 61만원입니다.",
+      "전용면적 21㎡입니다.",
+      "주차 가능으로 표시합니다."
+    ],
+    "cons": [
+      "건축물 용도를 제2종근린생활시설로 표시합니다.",
+      "지점까지 도보 시간은 확인하지 않았습니다."
+    ],
     "notes": "상세 화면에 즉시 입주와 풀옵션으로 표시합니다. 광고 문구의 주거겸사무실·전입신고·사업자등록 가능 여부는 계약 전에 별도로 확인해야 합니다.",
-    "source": { "site": "다방", "url": "https://www.dabangapp.com/map/onetwo?m_lat=37.54361914635132&m_lng=127.0932236640668&m_zoom=14&search_type=region&search_id=10178&detail_type=room&detail_id=6a7aa9ddf9bf35550b29df06", "listingId": "58439072", "seenAt": "2026-08-15" }
+    "source": {
+      "site": "다방",
+      "url": "https://www.dabangapp.com/map/onetwo?m_lat=37.54361914635132&m_lng=127.0932236640668&m_zoom=14&search_type=region&search_id=10178&detail_type=room&detail_id=6a7aa9ddf9bf35550b29df06",
+      "listingId": "58439072",
+      "seenAt": "2026-08-15"
+    }
   },
   {
     "id": "dabang-58468323",
@@ -323,16 +585,38 @@
     "livable": "미확인",
     "livableNote": "사용자 요청에 따라 네이버부동산 기존·새 화면의 구의동 목록을 확인했지만 조건과 일치하는 상세 매물을 찾지 못해 건축물 용도를 확인하지 못했습니다.",
     "noiseRisk": "미확인",
-    "commute": { "walkMin": 14, "transitMin": null, "routeNote": "네이버지도 추천 도보 경로 14분, 1.0km, 1,566걸음으로 표시합니다." },
-    "contract": { "minMonths": null, "available": "2026-09-14" },
+    "commute": {
+      "walkMin": 14,
+      "transitMin": null,
+      "routeNote": "네이버지도 추천 도보 경로 14분, 1.0km, 1,566걸음으로 표시합니다."
+    },
+    "contract": {
+      "minMonths": null,
+      "available": "2026-09-14"
+    },
     "status": "candidate",
-    "unresolved": ["livable"],
+    "unresolved": [
+      "livable"
+    ],
     "unresolvedNote": "사용자 요청에 따라 네이버부동산 기존 화면과 새 화면을 대조했지만 보증금 1,000만원·월세 68만원·23.14㎡·3층/4층 조건과 일치하는 네이버 매물을 찾지 못했습니다.",
     "rejectReason": "",
-    "pros": ["월세와 관리비 합계가 75만원입니다.", "전용면적 23.14㎡입니다.", "옵션 8개와 현관보안을 표시합니다."],
-    "cons": ["주차 불가능으로 표시합니다.", "2026년 9월 14일 협의가능으로 표시합니다.", "지점까지 도보 시간은 확인하지 않았습니다."],
+    "pros": [
+      "월세와 관리비 합계가 75만원입니다.",
+      "전용면적 23.14㎡입니다.",
+      "옵션 8개와 현관보안을 표시합니다."
+    ],
+    "cons": [
+      "주차 불가능으로 표시합니다.",
+      "2026년 9월 14일 협의가능으로 표시합니다.",
+      "지점까지 도보 시간은 확인하지 않았습니다."
+    ],
     "notes": "화면에 단독주택 용도와 풀옵션을 표시합니다. 방문객을 받는 스튜디오 영업 가능 여부와 소음 조건을 계약 전에 확인해야 합니다.",
-    "source": { "site": "다방", "url": "https://www.dabangapp.com/map/onetwo?m_lat=37.54361914635132&m_lng=127.0932236640668&m_zoom=14&search_type=region&search_id=10178&detail_type=room&detail_id=6a7d25f32be3e5151bac2481", "listingId": "58468323", "seenAt": "2026-08-15" }
+    "source": {
+      "site": "다방",
+      "url": "https://www.dabangapp.com/map/onetwo?m_lat=37.54361914635132&m_lng=127.0932236640668&m_zoom=14&search_type=region&search_id=10178&detail_type=room&detail_id=6a7d25f32be3e5151bac2481",
+      "listingId": "58468323",
+      "seenAt": "2026-08-15"
+    }
   },
   {
     "id": "dabang-6a76f9d5c7a9a35ad317e5f0",
@@ -350,14 +634,41 @@
     "livable": "미확인",
     "livableNote": "건축물 용도를 단독주택으로 표시합니다. 스튜디오 영업과 전입신고 가능 여부는 확인하지 않았습니다.",
     "noiseRisk": "미확인",
-    "commute": { "walkMin": null, "transitMin": null, "routeNote": "화면에 구의역 도보 10분 이내로 표시하지만 지점까지 걸리는 시간은 확인하지 않았습니다." },
-    "contract": { "minMonths": null, "available": "2026-08-22" },
+    "commute": {
+      "walkMin": null,
+      "transitMin": null,
+      "routeNote": "화면에 구의역 도보 10분 이내로 표시하지만 지점까지 걸리는 시간은 확인하지 않았습니다."
+    },
+    "contract": {
+      "minMonths": null,
+      "available": "2026-08-22"
+    },
     "status": "rejected",
     "rejectReason": "월세와 관리비 합계가 102만원으로 월 고정비 상한 100만원을 넘습니다.",
-    "pros": ["전용면적 29.75㎡입니다.", "방 2개와 욕실 1개로 표시합니다.", "2026년 8월 22일 입주 가능으로 표시합니다."],
-    "cons": ["월세와 관리비 합계가 102만원입니다.", "주차 불가능으로 표시합니다.", "지점까지 도보 시간은 확인하지 않았습니다."],
+    "pros": [
+      "전용면적 29.75㎡입니다.",
+      "방 2개와 욕실 1개로 표시합니다.",
+      "2026년 8월 22일 입주 가능으로 표시합니다."
+    ],
+    "cons": [
+      "월세와 관리비 합계가 102만원입니다.",
+      "주차 불가능으로 표시합니다.",
+      "지점까지 도보 시간은 확인하지 않았습니다."
+    ],
     "notes": "월 고정비 상한을 넘어서 비교 대상에서 거릅니다. 화면에는 단독주택 용도와 구의역 도보 10분 이내를 표시합니다.",
-    "source": { "site": "다방", "url": "https://www.dabangapp.com/map/onetwo?m_lat=37.54361914635132&m_lng=127.0932236640668&m_zoom=14&search_type=region&search_id=10178&detail_type=room&detail_id=6a76f9d5c7a9a35ad317e5f0", "listingId": "6a76f9d5c7a9a35ad317e5f0", "seenAt": "2026-08-15" }
+    "source": {
+      "site": "다방",
+      "url": "https://www.dabangapp.com/map/onetwo?m_lat=37.54361914635132&m_lng=127.0932236640668&m_zoom=14&search_type=region&search_id=10178&detail_type=room&detail_id=6a76f9d5c7a9a35ad317e5f0",
+      "listingId": "6a76f9d5c7a9a35ad317e5f0",
+      "seenAt": "2026-08-15"
+    },
+    "images": [
+      "https://d1774jszgerdmk.cloudfront.net/512/go02I5G_LcQKv2XFG1fA4",
+      "https://d1774jszgerdmk.cloudfront.net/512/O7pRLFez2ZkpnRVGHfNqn",
+      "https://d1774jszgerdmk.cloudfront.net/512/16e2dcb1-cef2-4f2a-82a4-6ea432921c57"
+    ],
+    "imagesSeenAt": "2026-08-18",
+    "itemUrl": "https://www.dabangapp.com/room/6a76f9d5c7a9a35ad317e5f0"
   },
   {
     "id": "daangn-4244017",
@@ -375,16 +686,45 @@
     "livable": "미확인",
     "livableNote": "사용자 요청에 따라 네이버부동산에서 주소와 주변 매물 화면을 확인했지만 조건과 일치하는 상세 매물을 찾지 못해 건축물 용도를 확인하지 못했습니다.",
     "noiseRisk": "미확인",
-    "commute": { "walkMin": 8, "transitMin": null, "routeNote": "네이버지도 추천 도보 경로 8분, 583m, 911걸음으로 표시합니다." },
-    "contract": { "minMonths": null, "available": "2026-09-20 이후 (협의 가능)" },
+    "commute": {
+      "walkMin": 8,
+      "transitMin": null,
+      "routeNote": "네이버지도 추천 도보 경로 8분, 583m, 911걸음으로 표시합니다."
+    },
+    "contract": {
+      "minMonths": null,
+      "available": "2026-09-20 이후 (협의 가능)"
+    },
     "status": "candidate",
-    "unresolved": ["livable"],
+    "unresolved": [
+      "livable"
+    ],
     "unresolvedNote": "사용자 요청에 따라 네이버부동산에서 서울 광진구 구의로9길 17 주소 검색 결과와 기존 화면을 확인했지만 보증금 3,000만원·월세 45만원·19.83㎡ 조건과 일치하는 상세 매물을 찾지 못했습니다.",
     "rejectReason": "",
-    "pros": ["월세와 관리비 합계가 45만원입니다.", "전용면적 19.83㎡입니다.", "분리형 원룸과 주차 가능으로 표시합니다."],
-    "cons": ["건축물 용도를 단독주택으로 표시합니다.", "위반건축물은 해당으로 표시합니다.", "지점까지 도보 시간은 확인하지 않았습니다."],
+    "pros": [
+      "월세와 관리비 합계가 45만원입니다.",
+      "전용면적 19.83㎡입니다.",
+      "분리형 원룸과 주차 가능으로 표시합니다."
+    ],
+    "cons": [
+      "건축물 용도를 단독주택으로 표시합니다.",
+      "위반건축물은 해당으로 표시합니다.",
+      "지점까지 도보 시간은 확인하지 않았습니다."
+    ],
     "notes": "상세 화면에 단독주택, 위반건축물 해당, 분리형 원룸으로 표시합니다. 방문객을 받는 스튜디오 영업 가능 여부와 위반건축물 관련 사항을 계약 전에 확인해야 합니다.",
-    "source": { "site": "당근", "url": "https://realty.daangn.com/articles/4244017", "listingId": "4244017", "seenAt": "2026-08-15" }
+    "source": {
+      "site": "당근",
+      "url": "https://realty.daangn.com/articles/4244017",
+      "listingId": "4244017",
+      "seenAt": "2026-08-15"
+    },
+    "images": [
+      "https://img.kr.gcp-karroter.net/realty/article/4244017/01M01Q661SJ5B95KDEPVDW2YTH.png?q=90&s=640x640&t=inside&f=webp&service=realty",
+      "https://img.kr.gcp-karroter.net/realty/article/4244017/01M01Q666CJQQEA1A7WACB4Z26.png?q=90&s=640x640&t=inside&f=webp&service=realty",
+      "https://img.kr.gcp-karroter.net/realty/article/4244017/01M01Q66AJ5420ZT7MBW7R75Q9.png?q=90&s=640x640&t=inside&f=webp&service=realty"
+    ],
+    "imagesSeenAt": "2026-08-18",
+    "itemUrl": "https://realty.daangn.com/articles/4244017"
   },
   {
     "id": "naver-2643662595",
@@ -402,14 +742,34 @@
     "livable": "회색",
     "livableNote": "네이버부동산 새 상세 화면에서 건축물용도를 단독주택으로 표시합니다. 전입신고 가능이라는 광고 문구도 표시하지만 법적 가능 여부와 스튜디오 영업 가능 여부는 확인하지 않았습니다.",
     "noiseRisk": "미확인",
-    "commute": { "walkMin": 4, "transitMin": null, "routeNote": "네이버지도 추천 도보 경로 4분, 259m, 405걸음, 횡단보도 2회로 표시합니다." },
-    "contract": { "minMonths": null, "available": "즉시입주" },
+    "commute": {
+      "walkMin": 4,
+      "transitMin": null,
+      "routeNote": "네이버지도 추천 도보 경로 4분, 259m, 405걸음, 횡단보도 2회로 표시합니다."
+    },
+    "contract": {
+      "minMonths": null,
+      "available": "즉시입주"
+    },
     "status": "candidate",
     "rejectReason": "",
-    "pros": ["월세와 관리비 합계가 60만원입니다.", "전용면적 18㎡입니다.", "에어컨·냉장고·세탁기·인덕션레인지·신발장을 표시합니다."],
-    "cons": ["건축물 용도를 단독주택으로 표시합니다.", "주차 불가능으로 표시합니다.", "지점까지 추천 도보 경로가 4분, 259m, 405걸음, 횡단보도 2회입니다."],
+    "pros": [
+      "월세와 관리비 합계가 60만원입니다.",
+      "전용면적 18㎡입니다.",
+      "에어컨·냉장고·세탁기·인덕션레인지·신발장을 표시합니다."
+    ],
+    "cons": [
+      "건축물 용도를 단독주택으로 표시합니다.",
+      "주차 불가능으로 표시합니다.",
+      "지점까지 추천 도보 경로가 4분, 259m, 405걸음, 횡단보도 2회입니다."
+    ],
     "notes": "상세 화면에 단독주택 용도, 위반건축물 해당없음, 관리비 5만원, 주차 불가능으로 표시합니다. 방문객을 받는 스튜디오 영업 가능 여부와 소음 조건을 계약 전에 확인해야 합니다.",
-    "source": { "site": "네이버부동산", "url": "https://new.land.naver.com/rooms?ms=2AL6pE,3zmibo,16&a=APT:OPST:ABYG:OBYG:GM:OR:DDDGG:JWJT:SGJT:VL&e=RETAIL&aa=SMALLSPCRENT&articleNo=2643662595", "listingId": "2643662595", "seenAt": "2026-08-15" }
+    "source": {
+      "site": "네이버부동산",
+      "url": "https://new.land.naver.com/rooms?ms=2AL6pE,3zmibo,16&a=APT:OPST:ABYG:OBYG:GM:OR:DDDGG:JWJT:SGJT:VL&e=RETAIL&aa=SMALLSPCRENT&articleNo=2643662595",
+      "listingId": "2643662595",
+      "seenAt": "2026-08-15"
+    }
   },
   {
     "id": "zigbang-50051437",
@@ -427,16 +787,46 @@
     "livable": "미확인",
     "livableNote": "사용자 요청에 따라 네이버부동산 기존·새 화면의 구의동 목록을 확인했지만 조건과 일치하는 상세 매물을 찾지 못해 건축물 용도를 확인하지 못했습니다.",
     "noiseRisk": "미확인",
-    "commute": { "walkMin": null, "transitMin": null, "routeNote": "화면에 지하철역 8분과 아차산역·광나루역을 표시하지만 지점까지 걸리는 시간은 확인하지 않았습니다." },
-    "contract": { "minMonths": null, "available": "즉시 입주 가능" },
+    "commute": {
+      "walkMin": null,
+      "transitMin": null,
+      "routeNote": "화면에 지하철역 8분과 아차산역·광나루역을 표시하지만 지점까지 걸리는 시간은 확인하지 않았습니다."
+    },
+    "contract": {
+      "minMonths": null,
+      "available": "즉시 입주 가능"
+    },
     "status": "candidate",
-    "unresolved": ["commute", "livable"],
+    "unresolved": [
+      "commute",
+      "livable"
+    ],
     "unresolvedNote": "사용자 요청에 따라 네이버부동산 기존 화면과 새 화면을 대조했지만 보증금 1억 7,700만원·월세 10만원·20.25㎡·5층/5층 조건과 일치하는 네이버 매물을 찾지 못했습니다.",
     "rejectReason": "",
-    "pros": ["월세와 관리비 합계가 16만원입니다.", "전용면적 20.25㎡입니다.", "주차 가능과 에어컨·냉장고·세탁기·인덕션을 표시합니다."],
-    "cons": ["보증금이 1억 7,700만원입니다.", "5층/5층으로 표시합니다.", "지점까지 도보 시간은 확인하지 않았습니다."],
+    "pros": [
+      "월세와 관리비 합계가 16만원입니다.",
+      "전용면적 20.25㎡입니다.",
+      "주차 가능과 에어컨·냉장고·세탁기·인덕션을 표시합니다."
+    ],
+    "cons": [
+      "보증금이 1억 7,700만원입니다.",
+      "5층/5층으로 표시합니다.",
+      "지점까지 도보 시간은 확인하지 않았습니다."
+    ],
     "notes": "상세 화면에 분리형 원룸, 주차 가능, 즉시 입주 가능으로 표시합니다. 다세대 빌라에서 방문객을 받는 스튜디오 영업 가능 여부와 소음 조건을 계약 전에 확인해야 합니다.",
-    "source": { "site": "직방", "url": "https://www.zigbang.com/home/oneroom/items/50051437?imageThumbnail=https%3A%2F%2Fic.zigbang.com%2Fic%2Fitems%2F50051437%2F1.jpg&hasVrKey=false", "listingId": "50051437", "seenAt": "2026-08-15" }
+    "source": {
+      "site": "직방",
+      "url": "https://www.zigbang.com/home/oneroom/items/50051437?imageThumbnail=https%3A%2F%2Fic.zigbang.com%2Fic%2Fitems%2F50051437%2F1.jpg&hasVrKey=false",
+      "listingId": "50051437",
+      "seenAt": "2026-08-15"
+    },
+    "images": [
+      "https://ic.zigbang.com/ic/items/50051437/5.jpg?w=480",
+      "https://ic.zigbang.com/ic/items/50051437/1.jpg?w=480",
+      "https://ic.zigbang.com/ic/items/50051437/2.jpg?w=480"
+    ],
+    "imagesSeenAt": "2026-08-18",
+    "itemUrl": "https://www.zigbang.com/home/oneroom/items/50051437"
   },
   {
     "id": "dabang-6a67104312653a7780cdd57d",
@@ -454,16 +844,45 @@
     "livable": "미확인",
     "livableNote": "사용자 요청에 따라 네이버부동산 주소 검색 결과와 기존 화면을 확인했지만 조건과 일치하는 상세 매물을 찾지 못해 건축물 용도를 확인하지 못했습니다.",
     "noiseRisk": "미확인",
-    "commute": { "walkMin": 20, "transitMin": null, "routeNote": "네이버지도 추천 도보 경로 20분, 1.2km, 1,902걸음, 횡단보도 4회로 표시합니다." },
-    "contract": { "minMonths": null, "available": "즉시 입주 (협의 가능)" },
+    "commute": {
+      "walkMin": 20,
+      "transitMin": null,
+      "routeNote": "네이버지도 추천 도보 경로 20분, 1.2km, 1,902걸음, 횡단보도 4회로 표시합니다."
+    },
+    "contract": {
+      "minMonths": null,
+      "available": "즉시 입주 (협의 가능)"
+    },
     "status": "candidate",
-    "unresolved": ["livable"],
+    "unresolved": [
+      "livable"
+    ],
     "unresolvedNote": "사용자 요청에 따라 네이버부동산에서 서울 광진구 구의동 49-13 주소 검색 결과와 기존 화면을 확인했지만 보증금 1,000만원·월세 45만원·16.5㎡·2층/5층 조건과 일치하는 상세 매물을 찾지 못했습니다.",
     "rejectReason": "",
-    "pros": ["월세와 관리비 합계가 50만원입니다.", "전용면적 16.5㎡입니다.", "옵션 8개와 주차 가능으로 표시합니다."],
-    "cons": ["건축물 용도를 단독주택으로 표시합니다.", "주차비는 별도 부과로 표시합니다.", "지점까지 도보 시간은 확인하지 않았습니다."],
+    "pros": [
+      "월세와 관리비 합계가 50만원입니다.",
+      "전용면적 16.5㎡입니다.",
+      "옵션 8개와 주차 가능으로 표시합니다."
+    ],
+    "cons": [
+      "건축물 용도를 단독주택으로 표시합니다.",
+      "주차비는 별도 부과로 표시합니다.",
+      "지점까지 도보 시간은 확인하지 않았습니다."
+    ],
     "notes": "상세 화면에 단독주택, 주차 가능, 주차비 별도, 즉시 입주 가능으로 표시합니다. 방문객을 받는 스튜디오 영업 가능 여부와 주차비를 계약 전에 확인해야 합니다.",
-    "source": { "site": "다방", "url": "https://www.dabangapp.com/map/onetwo?m_lat=37.54361914635132&m_lng=127.0932236640668&m_zoom=14&search_type=region&search_id=10178&detail_type=room&detail_id=6a67104312653a7780cdd57d", "listingId": "6a67104312653a7780cdd57d", "seenAt": "2026-08-15" }
+    "source": {
+      "site": "다방",
+      "url": "https://www.dabangapp.com/map/onetwo?m_lat=37.54361914635132&m_lng=127.0932236640668&m_zoom=14&search_type=region&search_id=10178&detail_type=room&detail_id=6a67104312653a7780cdd57d",
+      "listingId": "6a67104312653a7780cdd57d",
+      "seenAt": "2026-08-15"
+    },
+    "images": [
+      "https://d1774jszgerdmk.cloudfront.net/512/3566eeaf-6b1a-4133-96b0-864dd4777b65",
+      "https://d1774jszgerdmk.cloudfront.net/512/926b2822-c0b6-4889-afa0-d9b531d2d5fe",
+      "https://d1774jszgerdmk.cloudfront.net/512/yasPFyEsaLYnRbskXRZIp"
+    ],
+    "imagesSeenAt": "2026-08-18",
+    "itemUrl": "https://www.dabangapp.com/room/6a67104312653a7780cdd57d"
   },
   {
     "id": "daangn-4169317",
@@ -481,16 +900,45 @@
     "livable": "미확인",
     "livableNote": "사용자 요청에 따라 네이버부동산 주소 검색 결과와 기존 화면을 확인했지만 조건과 일치하는 상세 매물을 찾지 못해 건축물 용도를 확인하지 못했습니다.",
     "noiseRisk": "미확인",
-    "commute": { "walkMin": 8, "transitMin": null, "routeNote": "네이버지도 추천 도보 경로 8분, 583m, 911걸음으로 표시합니다." },
-    "contract": { "minMonths": null, "available": "2026-09-15 이후 (협의 가능)" },
+    "commute": {
+      "walkMin": 8,
+      "transitMin": null,
+      "routeNote": "네이버지도 추천 도보 경로 8분, 583m, 911걸음으로 표시합니다."
+    },
+    "contract": {
+      "minMonths": null,
+      "available": "2026-09-15 이후 (협의 가능)"
+    },
     "status": "candidate",
-    "unresolved": ["livable"],
+    "unresolved": [
+      "livable"
+    ],
     "unresolvedNote": "사용자 요청에 따라 네이버부동산에서 서울 광진구 구의로9길 17 주소 검색 결과와 기존 화면을 확인했지만 보증금 3,000만원·월세 45만원·19.83㎡·1층/5층 조건과 일치하는 상세 매물을 찾지 못했습니다.",
     "rejectReason": "",
-    "pros": ["월세와 관리비 합계가 45만원입니다.", "전용면적 19.83㎡입니다.", "주차 가능과 세탁기·냉장고·에어컨·인덕션을 표시합니다."],
-    "cons": ["건축물 용도를 단독주택으로 표시합니다.", "2026년 9월 15일 이후 입주 협의로 표시합니다.", "지점까지 도보 시간은 확인하지 않았습니다."],
+    "pros": [
+      "월세와 관리비 합계가 45만원입니다.",
+      "전용면적 19.83㎡입니다.",
+      "주차 가능과 세탁기·냉장고·에어컨·인덕션을 표시합니다."
+    ],
+    "cons": [
+      "건축물 용도를 단독주택으로 표시합니다.",
+      "2026년 9월 15일 이후 입주 협의로 표시합니다.",
+      "지점까지 도보 시간은 확인하지 않았습니다."
+    ],
     "notes": "상세 화면에 단독주택, 분리형 원룸, 주차 가능, 2026년 9월 15일 이후 입주 협의로 표시합니다. 방문객을 받는 스튜디오 영업 가능 여부와 소음 조건을 계약 전에 확인해야 합니다.",
-    "source": { "site": "당근", "url": "https://realty.daangn.com/articles/4169317", "listingId": "4169317", "seenAt": "2026-08-15" }
+    "source": {
+      "site": "당근",
+      "url": "https://realty.daangn.com/articles/4169317",
+      "listingId": "4169317",
+      "seenAt": "2026-08-15"
+    },
+    "images": [
+      "https://img.kr.gcp-karroter.net/realty/article/4169317/01M025KBPEGC82K62MTT5B05C3.png?q=90&s=640x640&t=inside&f=webp&service=realty",
+      "https://img.kr.gcp-karroter.net/realty/article/4169317/01M025KBV1BJXAQRMW6MQ4S19K.png?q=90&s=640x640&t=inside&f=webp&service=realty",
+      "https://img.kr.gcp-karroter.net/realty/article/4169317/01M025KBZ4922N49EE0QA9E9F6.png?q=90&s=640x640&t=inside&f=webp&service=realty"
+    ],
+    "imagesSeenAt": "2026-08-18",
+    "itemUrl": "https://realty.daangn.com/articles/4169317"
   },
   {
     "id": "naver-2643603437",
@@ -508,14 +956,34 @@
     "livable": "회색",
     "livableNote": "네이버부동산 상세 화면에서 건축물대장 주용도를 단독주택으로 표시합니다. 숙박·전입신고 가능 여부와 스튜디오 영업 가능 여부는 확인하지 않았습니다.",
     "noiseRisk": "미확인",
-    "commute": { "walkMin": 20, "transitMin": null, "routeNote": "네이버지도 추천 도보 경로 20분, 1.2km, 1,851걸음, 횡단보도 4회로 표시합니다." },
-    "contract": { "minMonths": null, "available": "2026-10-30" },
+    "commute": {
+      "walkMin": 20,
+      "transitMin": null,
+      "routeNote": "네이버지도 추천 도보 경로 20분, 1.2km, 1,851걸음, 횡단보도 4회로 표시합니다."
+    },
+    "contract": {
+      "minMonths": null,
+      "available": "2026-10-30"
+    },
     "status": "candidate",
     "rejectReason": "",
-    "pros": ["월세와 관리비 합계가 89만원입니다.", "전용면적 27.01㎡입니다.", "주차 가능과 에어컨·가스레인지·냉장고·세탁기를 표시합니다."],
-    "cons": ["위반건축물 해당으로 표시합니다.", "주차 가능 여부는 협의로 표시합니다.", "2026년 10월 30일 입주 가능으로 표시합니다."],
+    "pros": [
+      "월세와 관리비 합계가 89만원입니다.",
+      "전용면적 27.01㎡입니다.",
+      "주차 가능과 에어컨·가스레인지·냉장고·세탁기를 표시합니다."
+    ],
+    "cons": [
+      "위반건축물 해당으로 표시합니다.",
+      "주차 가능 여부는 협의로 표시합니다.",
+      "2026년 10월 30일 입주 가능으로 표시합니다."
+    ],
     "notes": "상세 화면에 단독주택 용도, 위반건축물 해당, 관리비 9만원, 주차 가능으로 표시합니다. 위반건축물 관련 사항과 방문객을 받는 스튜디오 영업 가능 여부를 계약 전에 확인해야 합니다.",
-    "source": { "site": "네이버부동산", "url": "https://new.land.naver.com/rooms?ms=2AL6pE,3zmibo,16&a=APT:OPST:ABYG:OBYG:GM:OR:DDDGG:JWJT:SGJT:VL&e=RETAIL&aa=SMALLSPCRENT&articleNo=2643603437", "listingId": "2643603437", "seenAt": "2026-08-15" }
+    "source": {
+      "site": "네이버부동산",
+      "url": "https://new.land.naver.com/rooms?ms=2AL6pE,3zmibo,16&a=APT:OPST:ABYG:OBYG:GM:OR:DDDGG:JWJT:SGJT:VL&e=RETAIL&aa=SMALLSPCRENT&articleNo=2643603437",
+      "listingId": "2643603437",
+      "seenAt": "2026-08-15"
+    }
   },
   {
     "id": "zigbang-49931126",
@@ -543,7 +1011,10 @@
       "available": "2026-08-27 이후 (현 거주자와 합의)"
     },
     "status": "candidate",
-    "unresolved": ["commute", "livable"],
+    "unresolved": [
+      "commute",
+      "livable"
+    ],
     "unresolvedNote": "사용자 요청에 따라 네이버부동산 기존 화면과 새 화면을 대조했지만 보증금 1,000만원·월세 70만원·23.14㎡·2층/3층 조건과 일치하는 네이버 매물을 찾지 못했습니다.",
     "rejectReason": "",
     "pros": [
@@ -562,6 +1033,13 @@
       "url": "https://www.zigbang.com/home/oneroom/items/49931126?itemDetailType=ZIGBANG&imageThumbnail=https%3A%2F%2Fic.zigbang.com%2Fic%2Fitems%2F49931126%2F1.jpg&hasVrKey=false",
       "listingId": "49931126",
       "seenAt": "2026-08-15"
-    }
+    },
+    "images": [
+      "https://ic.zigbang.com/ic/items/49931126/7.jpg?w=480",
+      "https://ic.zigbang.com/ic/items/49931126/1.jpg?w=480",
+      "https://ic.zigbang.com/ic/items/49931126/2.jpg?w=480"
+    ],
+    "imagesSeenAt": "2026-08-18",
+    "itemUrl": "https://www.zigbang.com/home/oneroom/items/49931126"
   }
 ]
