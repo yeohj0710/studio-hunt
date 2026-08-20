@@ -3,17 +3,17 @@
   "goal": "광진구 신용보증기금 광진지점 도보권 팟캐스트 스튜디오 조사",
   "queue": {
     "source": "node next.mjs",
-    "current": "listing:zigbang-938073,listing:zigbang-928282",
-    "status": "완료",
-    "backoff": 0
+    "current": "commute:naver-2644423671",
+    "status": "부분 완료",
+    "backoff": 1
   },
   "counters": {
-    "loops": 15,
-    "processed": 14,
+    "loops": 16,
+    "processed": 15,
     "rejected": 0,
-    "dataChanges": 10
+    "dataChanges": 11
   },
   "lastSync": "2026-08-20",
-  "nextAction": "다음 회차에는 naver-2644423671, naver-2644520906, zigbang-938073, zigbang-928282의 지점까지 도보 시간이나 지도 좌표를 확인합니다.",
+  "nextAction": "브라우저 lease가 풀리면 naver-2644520906, zigbang-938073, zigbang-928282의 도보시간이나 지도 좌표를 확인합니다.",
   "updatedAt": "2026-08-20"
 }

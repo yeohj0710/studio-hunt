@@ -1059,9 +1059,9 @@
     "livableNote": "건축물 용도를 제1종 근린생활시설로 표시합니다. 숙박·전입신고 가능 여부는 화면에서 확인하지 않았습니다.",
     "noiseRisk": "미확인",
     "commute": {
-      "walkMin": null,
+      "walkMin": 3,
       "transitMin": null,
-      "routeNote": "지점까지 도보 시간을 확인하지 않았습니다."
+      "routeNote": "네이버지도 도보 길찾기에서 신용보증기금 광진지점에서 서울 광진구 구의동 237-20까지 3분·216m·338걸음으로 표시합니다."
     },
     "contract": {
       "minMonths": null,
