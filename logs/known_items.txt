@@ -1,6 +1,7 @@
 cleanup|2026-08-17|oldListings=0|oldRates=0
 listing:naver-2644423671|2026-08-20|site=naver|detail=confirmed|result=recorded
 listing:naver-2644520906|2026-08-20|site=naver|detail=confirmed|result=recorded
+checkpoint|2026-08-20|task=자리|added=naver-2644423671,naver-2644520906|next=직방|deployment=READY
 gear:g-recorder|2026-08-17|newQuotes=1|usedQuotes=0|source=coupang|result=partial
 gear:g-recorder|2026-08-17|newQuotes=1|usedQuotes=2|source=coupang+joongna|result=recorded
 gear:g-hpamp|2026-08-17|newQuotes=1|usedQuotes=0|source=danawa|result=partial
