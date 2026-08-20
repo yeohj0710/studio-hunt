@@ -1108,6 +1108,8 @@
       "transitMin": null,
       "routeNote": "지점까지 도보 시간을 확인하지 않았습니다."
     },
+    "unresolved": ["commute"],
+    "unresolvedNote": "네이버부동산 상세 화면이 소재지를 서울시 광진구 구의동까지만 표시하고 지도 핀의 좌표를 읽을 수 없어 도보시간과 좌표를 기록하지 않습니다.",
     "contract": {
       "minMonths": null,
       "available": "즉시입주"
@@ -1153,6 +1155,8 @@
       "transitMin": null,
       "routeNote": "상세 화면은 광진구 능동으로만 표시해 지점까지 도보 시간을 확인하지 않았습니다."
     },
+    "unresolved": ["commute"],
+    "unresolvedNote": "직방 상세 화면이 광진구 능동까지만 표시하고 위치 영역도 표시된 범위만 보여 지도 핀의 좌표를 읽을 수 없어 도보시간과 좌표를 기록하지 않습니다.",
     "contract": {
       "minMonths": null,
       "available": "2026-05-05, 협의가능"
@@ -1199,6 +1203,8 @@
       "transitMin": null,
       "routeNote": "상세 화면은 광진구 구의동으로만 표시해 지점까지 도보 시간을 확인하지 않았습니다."
     },
+    "unresolved": ["commute"],
+    "unresolvedNote": "직방 상세 화면이 광진구 구의동까지만 표시하고 위치 영역도 표시된 범위만 보여 지도 핀의 좌표를 읽을 수 없어 도보시간과 좌표를 기록하지 않습니다.",
     "contract": {
       "minMonths": null,
       "available": "즉시입주"

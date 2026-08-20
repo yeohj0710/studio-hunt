@@ -1322,5 +1322,11 @@
     "summary":"네이버지도 도보 길찾기에서 구의동 237-20 매물까지 3분 경로를 확인했습니다.",
     "detail":"신용보증기금 광진지점에서 서울 광진구 구의동 237-20까지 도보 3분·216m·338걸음을 확인해 기록했습니다. 나머지 세 매물은 추가 지도 확인 직전에 브라우저 lease가 다른 작업으로 넘어가 화면을 읽지 못했으므로 좌표와 시간을 기록하지 않았습니다.",
     "refs":["https://map.naver.com/p/search/%EC%84%9C%EC%9A%B8%20%EA%B4%91%EC%A7%84%EA%B5%AC%20%EA%B4%91%EB%82%98%EB%A3%A8%EB%A1%9C%20520"]
+  },
+  {
+    "date":"2026-08-20","by":"codex","kind":"도보",
+    "summary":"남은 세 매물의 상세 화면을 다시 확인했지만 정확한 주소와 좌표가 없어 commute를 미확정으로 남겼습니다.",
+    "detail":"네이버부동산 2644520906은 서울시 광진구 구의동까지만 표시하고, 직방 938073과 928282는 각각 광진구 능동·구의동과 표시된 범위만 보여 정확한 도보 경로와 지도 핀 좌표를 확인하지 못했습니다. 세 항목은 unresolved에 commute를 기록하고 추정값은 제외했습니다.",
+    "refs":["https://new.land.naver.com/offices?ms=2ALgn4,3zmeYP,16&a=SG:SMS:GJCG:APTHGJ:GM:TJ&e=RETAIL&articleNo=2644520906","https://www.zigbang.com/home/store/items/938073?log_screen_name=%EC%83%81%EA%B0%80%EB%A7%A4%EB%AC%BC%EC%83%81%EC%84%B8","https://www.zigbang.com/home/store/items/928282?log_screen_name=%EC%83%81%EA%B0%80%EB%A7%A4%EB%AC%BC%EC%83%81%EC%84%B8"]
   }
 ]
