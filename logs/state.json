@@ -4,7 +4,7 @@
   "queue": {
     "source": "node next.mjs",
     "current": "commute:naver-2644520906,commute:zigbang-938073,commute:zigbang-928282",
-    "status": "완료",
+    "status": "배포 완료",
     "backoff": 0
   },
   "counters": {
