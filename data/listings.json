@@ -1041,5 +1041,95 @@
     ],
     "imagesSeenAt": "2026-08-18",
     "itemUrl": "https://www.zigbang.com/home/oneroom/items/49931126"
+  },
+  {
+    "id": "naver-2644423671",
+    "title": "구의동 일반상가 1층",
+    "kind": "상가",
+    "address": "서울시 광진구 구의동 237-20",
+    "addressDetail": "1층",
+    "deposit": 1000,
+    "rent": 70,
+    "maintenance": 0,
+    "areaM2": 23.14,
+    "floor": 1,
+    "totalFloors": 4,
+    "ceilingM": null,
+    "livable": "회색",
+    "livableNote": "건축물 용도를 제1종 근린생활시설로 표시합니다. 숙박·전입신고 가능 여부는 화면에서 확인하지 않았습니다.",
+    "noiseRisk": "미확인",
+    "commute": {
+      "walkMin": null,
+      "transitMin": null,
+      "routeNote": "지점까지 도보 시간을 확인하지 않았습니다."
+    },
+    "contract": {
+      "minMonths": null,
+      "available": "즉시"
+    },
+    "status": "candidate",
+    "rejectReason": "",
+    "pros": [
+      "월세와 관리비 합계가 70만원입니다.",
+      "계약면적과 전용면적을 모두 23.14㎡로 표시합니다.",
+      "벽걸이 에어컨 2대와 매장·조리공간 분리를 표시합니다."
+    ],
+    "cons": [
+      "건축물 용도를 제1종 근린생활시설로 표시합니다.",
+      "주차 불가능으로 표시합니다.",
+      "시설비 성격의 권리금이 있다고 표시합니다."
+    ],
+    "notes": "상세 화면에 1층 상가, 즉시입주, 전기 승압공사, 어닝과 폴딩도어를 표시합니다. 팟캐스트 스튜디오 영업과 숙박·전입신고 가능 여부를 계약 전에 확인해야 합니다.",
+    "source": {
+      "site": "네이버부동산",
+      "url": "https://new.land.naver.com/offices?ms=2ALgn4,3zmeYP,16&a=SG:SMS:GJCG:APTHGJ:GM:TJ&e=RETAIL&articleNo=2644423671",
+      "listingId": "2644423671",
+      "seenAt": "2026-08-20"
+    }
+  },
+  {
+    "id": "naver-2644520906",
+    "title": "구의동 단지내상가 B1층",
+    "kind": "상가",
+    "address": "서울시 광진구 구의동",
+    "addressDetail": "B1층",
+    "deposit": 1500,
+    "rent": 70,
+    "maintenance": 8,
+    "areaM2": 78.12,
+    "floor": -1,
+    "totalFloors": 3,
+    "ceilingM": null,
+    "livable": "회색",
+    "livableNote": "건축물 용도를 제2종 근린생활시설로 표시합니다. 화면의 주거도가능 문구만으로 숙박·전입신고 가능 여부를 판단하지 않았습니다.",
+    "noiseRisk": "미확인",
+    "commute": {
+      "walkMin": null,
+      "transitMin": null,
+      "routeNote": "지점까지 도보 시간을 확인하지 않았습니다."
+    },
+    "contract": {
+      "minMonths": null,
+      "available": "즉시입주"
+    },
+    "status": "candidate",
+    "rejectReason": "",
+    "pros": [
+      "월세와 관리비 합계가 78만원입니다.",
+      "전용면적 78.12㎡를 표시합니다.",
+      "싱크대·탕비실 별도 공간과 바닥난방 방을 표시합니다."
+    ],
+    "cons": [
+      "B1층으로 표시합니다.",
+      "건축물 용도를 제2종 근린생활시설로 표시합니다.",
+      "지점까지 도보 시간을 확인하지 않았습니다."
+    ],
+    "notes": "상세 화면에 구의역 초역세권, 무권리, 즉시입주, 주차 가능과 총주차대수 10대를 표시합니다. 화면의 주거도가능 문구와 건축물 용도는 별도로 확인해야 합니다.",
+    "source": {
+      "site": "네이버부동산",
+      "url": "https://new.land.naver.com/offices?ms=2ALgn4,3zmeYP,16&a=SG:SMS:GJCG:APTHGJ:GM:TJ&e=RETAIL&articleNo=2644520906",
+      "listingId": "2644520906",
+      "seenAt": "2026-08-20"
+    }
   }
 ]
