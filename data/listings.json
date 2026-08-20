@@ -1131,5 +1131,97 @@
       "listingId": "2644520906",
       "seenAt": "2026-08-20"
     }
+  },
+  {
+    "id": "zigbang-938073",
+    "title": "능동 3층 15평 사무실",
+    "kind": "사무실",
+    "address": "서울특별시 광진구 능동",
+    "addressDetail": "3층",
+    "deposit": 1000,
+    "rent": 82,
+    "maintenance": null,
+    "areaM2": 59.5,
+    "floor": 3,
+    "totalFloors": 3,
+    "ceilingM": null,
+    "livable": "회색",
+    "livableNote": "중개대상물 종류를 제1종 근린생활시설로 표시합니다. 숙박·전입신고 가능 여부는 화면에서 확인하지 않았습니다.",
+    "noiseRisk": "미확인",
+    "commute": {
+      "walkMin": null,
+      "transitMin": null,
+      "routeNote": "상세 화면은 광진구 능동으로만 표시해 지점까지 도보 시간을 확인하지 않았습니다."
+    },
+    "contract": {
+      "minMonths": null,
+      "available": "2026-05-05, 협의가능"
+    },
+    "status": "candidate",
+    "rejectReason": "",
+    "pros": [
+      "월세 82만원과 관리비 포함을 표시합니다.",
+      "전용면적 59.5㎡와 3층/3층을 표시합니다.",
+      "상세 설명에 외부는 대로변이지만 내부는 비교적 조용한 환경이라고 표시합니다."
+    ],
+    "cons": [
+      "건축물 용도를 제1종 근린생활시설로 표시합니다.",
+      "엘리베이터 없음과 화장실 외부(남녀구분)를 표시합니다.",
+      "주차 수량을 화면의 서로 다른 위치에서 3대와 4대로 표시해 수량을 확정하지 않았습니다."
+    ],
+    "notes": "상세 화면에 인테리어 없음, 난방 없음, 최근 바닥공사, 위반건축물 해당없음, 즉시 입주에 가까운 협의 가능 조건을 표시합니다. 팟캐스트 스튜디오 영업과 숙박·전입신고 가능 여부를 계약 전에 확인해야 합니다.",
+    "source": {
+      "site": "직방",
+      "url": "https://www.zigbang.com/home/store/items/938073?log_screen_name=%EC%83%81%EA%B0%80%EB%A7%A4%EB%AC%BC%EC%83%81%EC%84%B8",
+      "listingId": "938073",
+      "seenAt": "2026-08-20"
+    },
+    "itemUrl": "https://www.zigbang.com/home/store/items/938073"
+  },
+  {
+    "id": "zigbang-928282",
+    "title": "구의동 1층 6평 상가",
+    "kind": "상가",
+    "address": "서울특별시 광진구 구의동",
+    "addressDetail": "1층",
+    "deposit": 1000,
+    "rent": 55,
+    "maintenance": null,
+    "areaM2": 19.8,
+    "floor": 1,
+    "totalFloors": 6,
+    "ceilingM": null,
+    "livable": "회색",
+    "livableNote": "중개대상물 종류를 제1종 근린생활시설로 표시합니다. 숙박·전입신고 가능 여부는 화면에서 확인하지 않았습니다.",
+    "noiseRisk": "미확인",
+    "commute": {
+      "walkMin": null,
+      "transitMin": null,
+      "routeNote": "상세 화면은 광진구 구의동으로만 표시해 지점까지 도보 시간을 확인하지 않았습니다."
+    },
+    "contract": {
+      "minMonths": null,
+      "available": "즉시입주"
+    },
+    "status": "candidate",
+    "rejectReason": "",
+    "pros": [
+      "월세 55만원과 관리비 포함을 표시합니다.",
+      "전용면적 19.8㎡와 1층/6층을 표시합니다.",
+      "엘리베이터 있음과 주차 가능을 표시합니다."
+    ],
+    "cons": [
+      "화장실 외부(남녀혼용)로 표시합니다.",
+      "위반건축물 여부를 '해당(매물은 위반사항 없음)'으로 표시해 계약 전에 확인해야 합니다.",
+      "주소를 광진구 구의동까지만 표시해 지점까지 도보 시간을 확인하지 않았습니다."
+    ],
+    "notes": "상세 화면에 1층 상가, 즉시입주, 무권리, 제1종 근린생활시설, 사용승인일 2018-12-26을 표시합니다. 화면의 추천 업종은 가구·가전으로 표시하며 팟캐스트 스튜디오 영업 가능 여부와 건축물 용도를 계약 전에 확인해야 합니다.",
+    "source": {
+      "site": "직방",
+      "url": "https://www.zigbang.com/home/store/items/928282?log_screen_name=%EC%83%81%EA%B0%80%EB%A7%A4%EB%AC%BC%EC%83%81%EC%84%B8",
+      "listingId": "928282",
+      "seenAt": "2026-08-20"
+    },
+    "itemUrl": "https://www.zigbang.com/home/store/items/928282"
   }
 ]
