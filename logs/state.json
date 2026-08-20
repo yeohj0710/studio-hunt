@@ -3,17 +3,17 @@
   "goal": "광진구 신용보증기금 광진지점 도보권 팟캐스트 스튜디오 조사",
   "queue": {
     "source": "node next.mjs",
-    "current": "listing:naver-2644423671,listing:naver-2644520906",
-    "status": "완료",
-    "backoff": 0
+    "current": "자리:직방",
+    "status": "브라우저 대기",
+    "backoff": 1
   },
   "counters": {
-    "loops": 13,
+    "loops": 14,
     "processed": 13,
     "rejected": 0,
     "dataChanges": 9
   },
   "lastSync": "2026-08-20",
-  "nextAction": "다음 회차에는 직방에서 상가·사무실·투룸 상세 화면을 확인해 usable 매물 8건을 채웁니다.",
+  "nextAction": "브라우저 lease가 풀리면 직방에서 상가·사무실·투룸 상세 화면을 확인해 usable 매물 8건을 채웁니다.",
   "updatedAt": "2026-08-20"
 }

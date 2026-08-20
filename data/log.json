@@ -1304,5 +1304,11 @@
     "summary":"네이버부동산 구의동 상가·업무 화면에서 월 고정비 상한 안의 상세 매물 2건을 확인했습니다.",
     "detail":"상세 화면에서 1층 일반상가 1,000/70·전용 23.14㎡·관리비 없음·제1종 근린생활시설과 B1층 단지내상가 1,500/70·전용 78.12㎡·관리비 8만원·제2종 근린생활시설을 확인해 기록했습니다. 목록에서 월세와 관리비 합계가 100만원을 넘는 매물과 상세 화면을 열지 않은 매물은 기록하지 않았습니다.",
     "refs":["https://new.land.naver.com/offices?ms=2ALgn4,3zmeYP,16&a=SG:SMS:GJCG:APTHGJ:GM:TJ&e=RETAIL&articleNo=2644423671","https://new.land.naver.com/offices?ms=2ALgn4,3zmeYP,16&a=SG:SMS:GJCG:APTHGJ:GM:TJ&e=RETAIL&articleNo=2644520906"]
+  },
+  {
+    "date":"2026-08-20","by":"codex","kind":"매물",
+    "summary":"직방 자리 조사를 시작했지만 브라우저 lease가 다른 작업에 점유되어 상세 화면을 확인하지 못했습니다.",
+    "detail":"lease 확보 결과 acquired:false를 받아 직방 매물 상세 화면을 열지 않았습니다. 검색 결과나 목록에만 보이는 가격·면적은 기록하지 않고 다음 회차로 넘깁니다.",
+    "refs":[]
   }
 ]
