@@ -3,13 +3,13 @@
   "goal": "광진구 신용보증기금 광진지점 도보권 팟캐스트 스튜디오 조사",
   "queue": {
     "source": "node next.mjs",
-    "current": "commute:naver-2644520906,commute:zigbang-938073,commute:zigbang-928282",
-    "status": "배포 완료",
+    "current": "정리:오래된 매물·시세",
+    "status": "완료·변경 없음",
     "backoff": 0
   },
   "counters": {
-    "loops": 17,
-    "processed": 16,
+    "loops": 18,
+    "processed": 17,
     "rejected": 0,
     "dataChanges": 12
   },
