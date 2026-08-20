@@ -15,6 +15,7 @@ commute:zigbang-928282|2026-08-20|source=zigbang-detail|result=unresolved-dong-o
 checkpoint|2026-08-20|task=commute|resolved=naver-2644520906,zigbang-938073,zigbang-928282|commit=0f61624|deployment=dpl_Am7AAd8p2omk6V8rXrGwikSFBQKW|status=READY
 cleanup|2026-08-20|oldListings=0|oldRates=0|result=no-change
 cleanup|2026-08-20|oldListings=0|oldRates=0|result=no-change|repeat=2
+cleanup|2026-08-20|oldListings=0|oldRates=0|result=no-change|repeat=3|blocked=cleanup-loop
 gear:g-recorder|2026-08-17|newQuotes=1|usedQuotes=0|source=coupang|result=partial
 gear:g-recorder|2026-08-17|newQuotes=1|usedQuotes=2|source=coupang+joongna|result=recorded
 gear:g-hpamp|2026-08-17|newQuotes=1|usedQuotes=0|source=danawa|result=partial
