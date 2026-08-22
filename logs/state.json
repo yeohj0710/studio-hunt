@@ -4,16 +4,16 @@
   "queue": {
     "source": "node next.mjs",
     "current": "정리:오래된 매물·시세",
-    "status": "재개·정리 감사 1회차",
+    "status": "재개·정리 감사 2회차",
     "backoff": 0
   },
   "counters": {
-    "loops": 21,
-    "processed": 20,
+    "loops": 22,
+    "processed": 21,
     "rejected": 0,
     "dataChanges": 12
   },
   "lastSync": "2026-08-20",
-  "nextAction": "새 blocked audit에서 같은 정리 결과가 두 회차 더 반복되는지 확인합니다.",
+  "nextAction": "새 blocked audit에서 같은 정리 결과가 한 회차 더 반복되는지 확인합니다.",
   "updatedAt": "2026-08-22"
 }

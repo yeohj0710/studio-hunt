@@ -17,6 +17,7 @@ cleanup|2026-08-20|oldListings=0|oldRates=0|result=no-change
 cleanup|2026-08-20|oldListings=0|oldRates=0|result=no-change|repeat=2
 cleanup|2026-08-20|oldListings=0|oldRates=0|result=no-change|repeat=3|blocked=cleanup-loop
 cleanup|2026-08-22|oldListings=0|oldRates=0|result=no-change|audit=1
+cleanup|2026-08-22|oldListings=0|oldRates=0|result=no-change|audit=2
 gear:g-recorder|2026-08-17|newQuotes=1|usedQuotes=0|source=coupang|result=partial
 gear:g-recorder|2026-08-17|newQuotes=1|usedQuotes=2|source=coupang+joongna|result=recorded
 gear:g-hpamp|2026-08-17|newQuotes=1|usedQuotes=0|source=danawa|result=partial
