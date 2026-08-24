@@ -95,6 +95,10 @@ source:spacecloud|2026-08-24|id=spacecloud-host-gur0542|result=added|detail=화�
 source:spacecloud|2026-08-24|id=spacecloud-host-1755151578|result=added|detail=자양동 스튜디오 카미|next=중고나라
 checkpoint|2026-08-24|task=스페이스클라우드 광진·건대·성수·군자 대관|added=spacecloud-host-1649655528,spacecloud-host-gur0542,spacecloud-host-1755151578|next=중고나라 중고 장비·제품(마이크 제외)
 deployment|2026-08-24|commit=4354b4c|id=dpl_6z3hqCyERLjvrNcZGHE2AwDmkwqe|status=READY|alias=https://studio-hunt.vercel.app|next=중고나라 중고 장비·제품(마이크 제외)
+cleanup|2026-08-24|oldListings=0|oldRates=0|result=no-change|audit=13|next=중고나라
+source:joongna|2026-08-24|id=joongna-231516919|result=added|detail=베링거 UMC22 USB 오디오인터페이스|next=번개장터
+source:joongna|2026-08-24|id=joongna-231809598|result=added|detail=Audient iD14 MK2 오디오 인터페이스|next=번개장터
+checkpoint|2026-08-24|task=중고나라 중고 장비·제품|added=joongna-231516919,joongna-231809598|excluded=마이크 전체(2인용 무선 핀마이크 보유)|next=번개장터 중고 헤드폰·카메라·조명
 interior:i-diy-wall|2026-08-17|componentQuotes=2|source=danawa+smartstore|result=recorded
 interior:i-paint|2026-08-17|newQuotes=2|source=danawa|result=recorded
 interior:i-absorb|2026-08-17|candidate=143000|result=not-recorded-size-unverified
