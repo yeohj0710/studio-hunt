@@ -78,6 +78,10 @@ checkpoint|2026-08-24|task=당근부동산 광진구 상가|added=daangn-4284781
 cleanup|2026-08-24|oldListings=0|oldRates=0|result=no-change|audit=8|next=네이버부동산
 source:naver|2026-08-24|area=능동·화양동·군자동·중곡동·성수|result=detail-unavailable-map-list-only|next=직방
 cleanup|2026-08-24|oldListings=0|oldRates=0|result=no-change|audit=9|next=직방
+source:zigbang|2026-08-24|id=zigbang-505253|result=excluded|detail=성수동2가 363.6㎡ 사무실|reason=rent-1200-exceeds-validator-limit|next=다방
+source:zigbang|2026-08-24|id=zigbang-713496|result=added|detail=군자동 106.81㎡ 노출천장 상가|next=다방
+source:zigbang|2026-08-24|id=zigbang-960577|result=added|detail=성수동2가 72.73㎡ 룸1 사무실|next=다방
+checkpoint|2026-08-24|task=직방 성수·군자동 상가·사무실|added=zigbang-713496,zigbang-960577|excluded=zigbang-505253|next=다방 성수·화양동·능동·군자동
 interior:i-diy-wall|2026-08-17|componentQuotes=2|source=danawa+smartstore|result=recorded
 interior:i-paint|2026-08-17|newQuotes=2|source=danawa|result=recorded
 interior:i-absorb|2026-08-17|candidate=143000|result=not-recorded-size-unverified
