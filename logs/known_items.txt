@@ -2,6 +2,7 @@ cleanup|2026-08-17|oldListings=0|oldRates=0
 source:daangn|2026-08-24|id=daangn-fkc8va1ra52|result=added|detail=소니 WH-CH720N 무선 헤드폰 블랙|next=정리
 source:daangn|2026-08-24|id=daangn-723pbvfu6ast|result=added|detail=소니 WH-1000XM5 플래티넘 실버 헤드폰|next=정리
 checkpoint|2026-08-24|task=당근 중고 장비·제품|added=daangn-fkc8va1ra52,daangn-723pbvfu6ast|excluded=마이크 전체(2인용 무선 핀마이크 보유)|next=정리
+deployment|2026-08-24|commit=0f5ce15|id=dpl_2d734YEjS3FXVSSnhEXi1gudEoHj|status=READY|alias=https://studio-hunt.vercel.app|next=정리
 source:dabang|2026-08-24|area=광진구 인접 지역|result=detail-unavailable-browser-lease-busy
 listing:peterpan-19802103|2026-08-24|site=피터팬|area=자양동|result=added
 listing:peterpan-19782443|2026-08-24|site=피터팬|area=자양동|result=added
