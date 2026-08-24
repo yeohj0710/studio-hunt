@@ -1,8 +1,4 @@
 cleanup|2026-08-17|oldListings=0|oldRates=0
-source:daangn|2026-08-24|id=daangn-fkc8va1ra52|result=added|detail=소니 WH-CH720N 무선 헤드폰 블랙|next=정리
-source:daangn|2026-08-24|id=daangn-723pbvfu6ast|result=added|detail=소니 WH-1000XM5 플래티넘 실버 헤드폰|next=정리
-checkpoint|2026-08-24|task=당근 중고 장비·제품|added=daangn-fkc8va1ra52,daangn-723pbvfu6ast|excluded=마이크 전체(2인용 무선 핀마이크 보유)|next=정리
-deployment|2026-08-24|commit=0f5ce15|id=dpl_2d734YEjS3FXVSSnhEXi1gudEoHj|status=READY|alias=https://studio-hunt.vercel.app|next=정리
 source:dabang|2026-08-24|area=광진구 인접 지역|result=detail-unavailable-browser-lease-busy
 listing:peterpan-19802103|2026-08-24|site=피터팬|area=자양동|result=added
 listing:peterpan-19782443|2026-08-24|site=피터팬|area=자양동|result=added
@@ -112,3 +108,23 @@ interior:i-paint|2026-08-17|newQuotes=2|source=danawa|result=recorded
 interior:i-absorb|2026-08-17|candidate=143000|result=not-recorded-size-unverified
 gear:g-xlr|2026-08-17|newQuotes=1|source=coupang|result=recorded
 cleanup|2026-08-17|oldListings=0|oldRates=0
+source:daangn|2026-08-24|id=daangn-fkc8va1ra52|result=added|detail=소니 WH-CH720N 무선 헤드폰 블랙|next=정리
+source:daangn|2026-08-24|id=daangn-723pbvfu6ast|result=added|detail=소니 WH-1000XM5 플래티넘 실버 헤드폰|next=정리
+checkpoint|2026-08-24|task=당근 중고 장비·제품|added=daangn-fkc8va1ra52,daangn-723pbvfu6ast|excluded=마이크 전체(2인용 무선 핀마이크 보유)|next=정리
+deployment|2026-08-24|commit=0f5ce15|id=dpl_2d734YEjS3FXVSSnhEXi1gudEoHj|status=READY|alias=https://studio-hunt.vercel.app|next=정리
+cleanup|2026-08-24|oldListings=0|oldRates=0|result=no-change|audit=16|next=node-next-recheck
+cleanup|2026-08-24|oldListings=0|oldRates=0|result=no-change|audit=17|next=node-next-recheck
+cleanup|2026-08-24|oldListings=0|oldRates=0|result=no-change|audit=18|next=new-evidence
+cleanup|2026-08-24|oldListings=0|oldRates=0|result=no-change|audit=19|next=new-evidence
+cleanup|2026-08-24|oldListings=0|oldRates=0|result=no-change|audit=20|next=new-evidence|distribution=구의23·자양12·군자6·중곡5·능동3·성수3·화양1
+cleanup|2026-08-24|oldListings=0|oldRates=0|result=no-change|audit=21|next=new-evidence|result=three-goal-turns-no-new-evidence
+source:naver|2026-08-24|area=광진구 인접 생활권|result=detail-unavailable-chrome-tab-control|reason=chrome-tab-control-error|next=user-open-fresh-chrome-tab
+source:naver|2026-08-24|area=광진구 인접 생활권|result=detail-unavailable-chrome-tab|reason=naver-property-tab-not-open|next=user-open-fresh-chrome-tab
+source:naver|2026-08-24|area=광진구 인접 생활권|result=detail-unavailable-chrome-tab|reason=three-resumed-turns-no-property-tab|next=new-chrome-tab-required
+source:naver|2026-08-24|area=구의동|result=excluded-map-only|reason=apartment-map-filter-no-detail-and-chrome-disconnected|next=naver-detail-tab
+source:naver|2026-08-24|area=광진구 인접 생활권|result=detail-unavailable-chrome|reason=chrome-connection-not-ready|next=naver-detail-tab
+checkpoint|2026-08-24|task=네이버부동산 광진구 상가·사무실|result=excluded-region-menu-not-open-and-lease-busy|dataChanges=0|next=lease-available-then-non-guui-detail
+cleanup|2026-08-24|oldListings=0|oldRates=0|result=no-change|oldestListing=2026-08-15|oldestRate=2026-08-15|next=node-next-recheck
+cleanup|2026-08-24|oldListings=0|oldRates=0|result=no-change|audit=22|next=node-next-recheck
+cleanup|2026-08-24|oldListings=0|oldRates=0|result=no-change|audit=23|blocked=cleanup-loop|next=new-evidence
+listing:naver-2645515124|2026-08-24|site=네이버부동산|area=자양동|kind=상가|result=added|deposit=1000|rent=95|maintenance=5|next=군자·능동·중곡·화양·성수 광역 조사
