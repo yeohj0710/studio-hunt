@@ -1,5 +1,7 @@
 cleanup|2026-08-17|oldListings=0|oldRates=0
 source:dabang|2026-08-24|area=광진구 인접 지역|result=detail-unavailable-browser-lease-busy
+listing:peterpan-19802103|2026-08-24|site=피터팬|area=자양동|result=added
+listing:peterpan-19782443|2026-08-24|site=피터팬|area=자양동|result=added
 cleanup|2026-08-24|oldListings=0|oldRates=0|result=no-change|audit=4|next=다방
 listing:naver-2644423671|2026-08-20|site=naver|detail=confirmed|result=recorded
 listing:naver-2644520906|2026-08-20|site=naver|detail=confirmed|result=recorded
