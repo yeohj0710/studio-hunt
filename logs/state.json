@@ -16,11 +16,11 @@
   "lastSync": "2026-08-24",
   "nextAction": "직방에서 군자동·화양동 사무실 2건을 추가했습니다. 다음 회차에는 피터팬에서 능동·중곡동·군자권의 투룸·상가·사무실·스튜디오 상세 화면을 확인합니다. 사용자가 2인용 무선 핀마이크를 보유한다고 알려 신규 마이크 견적은 제외합니다.",
   "lastDeployment": {
-    "commit": "324a3ac",
-    "id": "dpl_KMutua5mTDPX3W5wDvBQoph74TnS",
+    "commit": "1a6cbb0",
+    "id": "dpl_v7rbsg7tES52vVQDJwbUxzr9kXNg",
     "status": "READY",
     "url": "https://studio-hunt.vercel.app",
-    "verified": "https://studio-hunt.vercel.app/listings HTTP 200, 중곡동 1층 33.1㎡ 무권리 상가·중곡동 1층 56.35㎡ 거실형 투룸 제목 확인"
+    "verified": "https://studio-hunt.vercel.app/listings HTTP 200, 군자동 3층 89㎡ 스튜디오 운영 사무실·화양동 2층 188.4㎡ 룸3 사무실 제목 확인"
   },
   "updatedAt": "2026-08-24"
 }
