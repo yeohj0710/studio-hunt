@@ -4,7 +4,7 @@
   "queue": {
     "source": "node next.mjs",
     "current": "정리:오래된 매물·시세",
-    "status": "진행·당근 성수동 상가 확장 회차 진행",
+    "status": "진행·당근 성수동 상가 확장 회차 배포 완료",
     "backoff": 0
   },
   "counters": {
@@ -16,11 +16,11 @@
   "lastSync": "2026-08-24",
   "nextAction": "당근부동산에서 성수동1가 상가 상세 2건을 추가했습니다. 다음 회차에는 다른 사이트에서 능동·중곡동·화양동의 투룸·상가·사무실·스튜디오를 확인하고, 브라우저 탭 정리 후 배포 체크포인트를 남깁니다.",
   "lastDeployment": {
-    "commit": "eef9902",
-    "id": "dpl_Brqs3DppUrqEmRHgFsAsQERBkgPf",
+    "commit": "1cf22dd",
+    "id": "dpl_FSpbQ4uYkUbfM1YmgKJjQYG5cJf3",
     "status": "READY",
     "url": "https://studio-hunt.vercel.app",
-    "verified": "https://studio-hunt.vercel.app/listings HTTP 200, 자양동 반지층 30㎡ 투룸·자양동 3층 39.7㎡ 투룸 제목 확인"
+    "verified": "https://studio-hunt.vercel.app/listings HTTP 200, 성수동1가 지하 59.83㎡ 스튜디오 상가·성수동1가 2층 52.89㎡ 작업실 상가 제목 확인"
   },
   "updatedAt": "2026-08-24"
 }
