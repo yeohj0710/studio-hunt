@@ -1511,5 +1511,193 @@
       "listingId": "2645119044",
       "seenAt": "2026-08-24"
     }
+  },
+  {
+    "id": "zigbang-961782",
+    "title": "자양동 1층 가성비 상가",
+    "kind": "상가",
+    "address": "서울특별시 광진구 자양동",
+    "addressDetail": "1층",
+    "deposit": 1000,
+    "rent": 48,
+    "maintenance": null,
+    "areaM2": 18.7,
+    "floor": 1,
+    "totalFloors": 3,
+    "ceilingM": null,
+    "livable": "회색",
+    "livableNote": "건축물 용도를 제1종 근린생활시설로 표시합니다. 숙박·전입신고 가능 여부는 화면에서 확인하지 않았습니다.",
+    "noiseRisk": "미확인",
+    "commute": {
+      "walkMin": null,
+      "transitMin": null,
+      "routeNote": "상세 화면은 자양동까지만 표시해 지점까지 정확한 도보 시간을 확인하지 않았습니다."
+    },
+    "unresolved": ["commute"],
+    "unresolvedNote": "직방 상세 화면이 자양동까지만 표시하고 위치 영역도 표시된 범위만 보여 지도 핀의 좌표를 읽을 수 없어 도보시간과 좌표를 기록하지 않습니다.",
+    "contract": {
+      "minMonths": null,
+      "available": "즉시입주"
+    },
+    "status": "candidate",
+    "rejectReason": "",
+    "pros": [
+      "월세 48만원과 관리비 포함을 표시합니다.",
+      "전용면적 18.7㎡와 1층/3층을 표시합니다.",
+      "상세 설명에서 현재 장소대여공간으로 이용하고 사진·영상·촬영 스튜디오 업종을 추천합니다."
+    ],
+    "cons": [
+      "건축물 용도를 제1종 근린생활시설로 표시해 스튜디오 사용 범위를 계약 전에 확인해야 합니다.",
+      "화장실 외부(남녀혼용), 주차 불가, 엘리베이터 없음으로 표시합니다.",
+      "주소를 자양동까지만 표시해 지점까지 정확한 도보 시간을 확인하지 않았습니다."
+    ],
+    "notes": "상세 화면에서 주거단지 생활상권의 1층 상가, 공방·소규모 사무실·사진·영상·촬영 스튜디오 추천, 즉시입주를 확인합니다. 관리비는 포함으로 표시해 별도 금액을 기록하지 않습니다.",
+    "source": {
+      "site": "직방",
+      "url": "https://www.zigbang.com/home/store/items/961782?log_screen_name=%EC%83%81%EA%B0%80%EB%A7%A4%EB%AC%BC%EC%83%81%EC%84%B8",
+      "listingId": "961782",
+      "seenAt": "2026-08-24"
+    }
+  },
+  {
+    "id": "zigbang-50139006",
+    "title": "자양동 반지하 36㎡ 투룸",
+    "kind": "투룸",
+    "address": "서울시 광진구 자양동",
+    "addressDetail": "반지하",
+    "deposit": 2000,
+    "rent": 65,
+    "maintenance": null,
+    "areaM2": 36,
+    "floor": null,
+    "totalFloors": 3,
+    "ceilingM": null,
+    "livable": "가능",
+    "livableNote": "투룸 주거 매물로 표시합니다.",
+    "noiseRisk": "미확인",
+    "commute": {
+      "walkMin": null,
+      "transitMin": null,
+      "routeNote": "상세 화면은 자양동까지만 표시해 지점까지 정확한 도보 시간을 확인하지 않았습니다."
+    },
+    "unresolved": ["commute"],
+    "unresolvedNote": "직방 상세 화면이 자양동까지만 표시하고 지도 핀의 좌표를 읽을 수 없어 도보시간과 좌표를 기록하지 않습니다.",
+    "contract": {
+      "minMonths": null,
+      "available": "즉시 입주 가능"
+    },
+    "status": "candidate",
+    "rejectReason": "",
+    "pros": [
+      "월세 65만원과 관리비 없음으로 표시합니다.",
+      "전용면적 36㎡ 투룸과 욕실 1개를 표시합니다.",
+      "내부 올리모델링과 즉시입주 가능 조건을 표시합니다."
+    ],
+    "cons": [
+      "반지하이고 주차 불가능으로 표시합니다.",
+      "주소를 자양동까지만 표시해 지점까지 정확한 도보 시간을 확인하지 않았습니다.",
+      "팟캐스트 녹음에 필요한 방음 상태와 건축물 용도를 화면에서 확인하지 않았습니다."
+    ],
+    "notes": "상세 화면에서 전용면적 36㎡, 반지하/3층, 욕실 1개, 내부 올리모델링, 즉시 입주 가능을 확인합니다. 관리비 없음으로 표시해 별도 관리비를 0만원으로 추정하지 않습니다.",
+    "source": {
+      "site": "직방",
+      "url": "https://www.zigbang.com/home/villa/items/50139006?itemDetailType=ZIGBANG&imageThumbnail=https%3A%2F%2Fic.zigbang.com%2Fic%2Fitems%2F50139006%2F1.jpg&hasVrKey=false",
+      "listingId": "50139006",
+      "seenAt": "2026-08-24"
+    }
+  },
+  {
+    "id": "zigbang-50079479",
+    "title": "자양동 1층 넓은 투룸",
+    "kind": "투룸",
+    "address": "서울시 광진구 자양동",
+    "addressDetail": "1층",
+    "deposit": 2000,
+    "rent": 80,
+    "maintenance": 2,
+    "areaM2": 36.36,
+    "floor": 1,
+    "totalFloors": 3,
+    "ceilingM": null,
+    "livable": "가능",
+    "livableNote": "투룸 주거 매물로 표시합니다.",
+    "noiseRisk": "미확인",
+    "commute": {
+      "walkMin": null,
+      "transitMin": null,
+      "routeNote": "상세 화면은 자양동까지만 표시해 지점까지 정확한 도보 시간을 확인하지 않았습니다."
+    },
+    "unresolved": ["commute"],
+    "unresolvedNote": "직방 상세 화면이 자양동까지만 표시하고 지도 핀의 좌표를 읽을 수 없어 도보시간과 좌표를 기록하지 않습니다.",
+    "contract": {
+      "minMonths": null,
+      "available": "2026.09.30 이후 입주 가능 (입주협의)"
+    },
+    "status": "candidate",
+    "rejectReason": "",
+    "pros": [
+      "월세 80만원과 관리비 2만원으로 표시합니다.",
+      "전용면적 36.36㎡ 투룸과 욕실 1개를 표시합니다.",
+      "풀옵션, 상태 깨끗, 1층 조건을 표시합니다."
+    ],
+    "cons": [
+      "주차 불가능으로 표시합니다.",
+      "주소를 자양동까지만 표시해 지점까지 정확한 도보 시간을 확인하지 않았습니다.",
+      "팟캐스트 녹음에 필요한 방음 상태와 건축물 용도를 화면에서 확인하지 않았습니다."
+    ],
+    "notes": "상세 화면에서 전용면적 36.36㎡, 1층/3층, 풀옵션, 상태 깨끗, 2026년 9월 30일 이후 입주 가능 조건을 확인합니다. 월 고정비는 월세 80만원과 관리비 2만원으로 표시합니다.",
+    "source": {
+      "site": "직방",
+      "url": "https://www.zigbang.com/home/villa/items/50079479?itemDetailType=ZIGBANG&imageThumbnail=https%3A%2F%2Fic.zigbang.com%2Fic%2Fitems%2F50079479%2F1.jpg&hasVrKey=false",
+      "listingId": "50079479",
+      "seenAt": "2026-08-24"
+    }
+  },
+  {
+    "id": "zigbang-50139497",
+    "title": "자양동 3층 넓은 투룸",
+    "kind": "투룸",
+    "address": "서울시 광진구 자양동",
+    "addressDetail": "3층",
+    "deposit": 1000,
+    "rent": 100,
+    "maintenance": 3,
+    "areaM2": 40,
+    "floor": 3,
+    "totalFloors": 4,
+    "ceilingM": null,
+    "livable": "가능",
+    "livableNote": "투룸 주거 매물로 표시합니다.",
+    "noiseRisk": "미확인",
+    "commute": {
+      "walkMin": null,
+      "transitMin": null,
+      "routeNote": "상세 화면은 자양동까지만 표시해 지점까지 정확한 도보 시간을 확인하지 않았습니다."
+    },
+    "unresolved": ["commute"],
+    "unresolvedNote": "직방 상세 화면이 자양동까지만 표시하고 지도 핀의 좌표를 읽을 수 없어 도보시간과 좌표를 기록하지 않습니다.",
+    "contract": {
+      "minMonths": null,
+      "available": "2026.10.10 이후 입주 가능 (협의가능)"
+    },
+    "status": "candidate",
+    "rejectReason": "",
+    "pros": [
+      "월세 100만원과 관리비 3만원으로 표시합니다.",
+      "전용면적 40㎡ 투룸과 욕실 1개를 표시합니다.",
+      "풀옵션과 넓은 베란다, 입주 협의 조건을 표시합니다."
+    ],
+    "cons": [
+      "월 고정비 103만원으로 현재 100만원 기준을 3만원 초과합니다.",
+      "주차 불가능으로 표시합니다.",
+      "주소를 자양동까지만 표시해 지점까지 정확한 도보 시간을 확인하지 않았습니다."
+    ],
+    "notes": "상세 화면에서 전용면적 40㎡, 3층/4층, 풀옵션, 넓은 베란다, 2026년 10월 10일 이후 입주 가능 조건을 확인합니다. 현재 월 고정비 기준을 넘지만 비용 상한 비교 후보로 남깁니다.",
+    "source": {
+      "site": "직방",
+      "url": "https://www.zigbang.com/home/villa/items/50139497?imageThumbnail=https%3A%2F%2Fic.zigbang.com%2Fic%2Fitems%2F50139497%2F1.jpg&hasVrKey=false",
+      "listingId": "50139497",
+      "seenAt": "2026-08-24"
+    }
   }
 ]

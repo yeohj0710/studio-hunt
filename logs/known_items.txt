@@ -28,6 +28,11 @@ listing:naver-2644678728|2026-08-24|site=네이버부동산|area=자양동|resul
 listing:naver-2644743458|2026-08-24|site=네이버부동산|area=자양동|result=added
 listing:naver-2645153583|2026-08-24|site=네이버부동산|area=자양동|result=added|monthly-over-limit
 listing:naver-2645119044|2026-08-24|site=네이버부동산|area=군자동|result=added|monthly-over-limit
+listing:zigbang-961782|2026-08-24|site=직방|area=자양동|result=added
+listing:zigbang-50139006|2026-08-24|site=직방|area=자양동|result=added
+listing:zigbang-50079479|2026-08-24|site=직방|area=자양동|result=added
+listing:zigbang-50139497|2026-08-24|site=직방|area=자양동|result=added|monthly-over-limit
+listing:zigbang-955114|2026-08-24|site=직방|area=자양동|result=excluded-card-detail-mismatch
 gear:g-recorder|2026-08-17|newQuotes=1|usedQuotes=0|source=coupang|result=partial
 gear:g-recorder|2026-08-17|newQuotes=1|usedQuotes=2|source=coupang+joongna|result=recorded
 gear:g-hpamp|2026-08-17|newQuotes=1|usedQuotes=0|source=danawa|result=partial

@@ -4,16 +4,16 @@
   "queue": {
     "source": "node next.mjs",
     "current": "정리:오래된 매물·시세",
-    "status": "진행·확장 회차 완료·정리 큐 재반환",
+    "status": "진행·직방 자양동 투룸·상가 확장 회차 완료",
     "backoff": 0
   },
   "counters": {
-    "loops": 27,
-    "processed": 26,
+    "loops": 28,
+    "processed": 27,
     "rejected": 0,
-    "dataChanges": 13
+    "dataChanges": 17
   },
   "lastSync": "2026-08-24",
-  "nextAction": "node next.mjs가 정리 큐를 다시 반환했습니다. 오래된 항목이 생길 때까지 같은 정리 작업을 반복하지 않고, 다음 확장 회차에서 다른 사이트의 투룸·상가 후보를 확인합니다.",
+  "nextAction": "직방 자양동 상세 화면 4건을 추가했습니다. 다음 회차에는 다른 매물 사이트에서 능동·중곡동·화양동 또는 성수동의 투룸·상가·사무실을 확인하고 같은 카드-상세 대조를 적용합니다.",
   "updatedAt": "2026-08-24"
 }

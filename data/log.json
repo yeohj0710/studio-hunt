@@ -1388,5 +1388,11 @@
     "summary":"네이버부동산에서 자양동과 군자동의 사무실 6건을 상세 화면으로 확인해 추가합니다.",
     "detail":"자양동 5건과 군자동 1건을 기록합니다. 월세 46~130만원, 관리비 2~20만원, 전용면적 26.4~129.95㎡, 2~B1층을 확인합니다. 월 고정비 100만원을 넘는 자양동 130/8만원과 군자동 90/20만원은 비용 상한 초과 사실을 notes와 cons에 남겨 비교 후보로 유지합니다. 검색 목록만 보고 상세 화면을 열지 않은 나머지 매물과 개인정보는 기록하지 않습니다.",
     "refs":["https://fin.land.naver.com/articles/2645207868","https://fin.land.naver.com/articles/2645035301","https://fin.land.naver.com/articles/2644678728","https://fin.land.naver.com/articles/2644743458","https://fin.land.naver.com/articles/2645153583","https://fin.land.naver.com/articles/2645119044"]
+  },
+  {
+    "date":"2026-08-24","by":"codex","kind":"매물",
+    "summary":"직방에서 자양동 상가·투룸 4건을 상세 화면으로 확인해 추가합니다.",
+    "detail":"월세 48만원 상가, 월세 65만원과 82만원 투룸, 월 고정비 103만원 투룸을 기록해 비용 폭을 넓힙니다. 자양역 사무실·넓은 상가·사진스튜디오 카드 등은 열린 상세 번호 955114의 임대료와 면적이 카드와 달라 제외합니다. 목록 화면만 확인한 나머지 매물과 개인정보는 기록하지 않습니다.",
+    "refs":["https://www.zigbang.com/home/store/items/961782?log_screen_name=%EC%83%81%EA%B0%80%EB%A7%A4%EB%AC%BC%EC%83%81%EC%84%B8","https://www.zigbang.com/home/villa/items/50139006?itemDetailType=ZIGBANG&imageThumbnail=https%3A%2F%2Fic.zigbang.com%2Fic%2Fitems%2F50139006%2F1.jpg&hasVrKey=false","https://www.zigbang.com/home/villa/items/50079479?itemDetailType=ZIGBANG&imageThumbnail=https%3A%2F%2Fic.zigbang.com%2Fic%2Fitems%2F50079479%2F1.jpg&hasVrKey=false","https://www.zigbang.com/home/villa/items/50139497?imageThumbnail=https%3A%2F%2Fic.zigbang.com%2Fic%2Fitems%2F50139497%2F1.jpg&hasVrKey=false"]
   }
 ]
