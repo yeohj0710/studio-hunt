@@ -40,11 +40,11 @@
 
 - [x] Run `node validate.mjs` and fix only data-format errors if present.
 - [x] If listing data changed and validation passes, run `npm run build`.
-- [ ] Commit and push the data and checkpoint changes, then run `npx vercel --prod --yes` from `C:/dev/studio-hunt`.
-- [ ] Recheck `git status --short --branch` and record the next single task in `logs/state.json`.
+- [x] Commit and push the data and checkpoint changes, then run `npx vercel --prod --yes` from `C:/dev/studio-hunt`.
+- [x] Recheck `git status --short --branch` and record the next single task in `logs/state.json`.
 
 ### Completion audit
 
-- [ ] Confirm the expanded set contains multiple neighborhoods and at least one non-one-room kind supported by detail-screen URLs.
-- [ ] Confirm monthly costs use 만원, unknown fields remain null, and no listing source URL is a search-results page.
-- [ ] Confirm validation, build, GitHub push, and Vercel deployment results.
+- [x] Confirm the expanded set contains multiple neighborhoods and at least one non-one-room kind supported by detail-screen URLs.
+- [x] Confirm monthly costs use 만원, unknown fields remain null, and no listing source URL is a search-results page.
+- [x] Confirm validation, build, GitHub push, and Vercel deployment results.
