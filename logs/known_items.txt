@@ -130,3 +130,4 @@ cleanup|2026-08-24|oldListings=0|oldRates=0|result=no-change|audit=23|blocked=cl
 listing:naver-2645515124|2026-08-24|site=네이버부동산|area=자양동|kind=상가|result=added|deposit=1000|rent=95|maintenance=5|next=군자·능동·중곡·화양·성수 광역 조사
 checkpoint|2026-08-24|task=광진구 광역 매물|added=naver-2645515124|commit=e5fd8fc|deployment=dpl_94FYwPHJ4tagPi7AccLVycw23cKq|status=READY|next=군자·능동·중곡·화양·성수 광역 조사
 listing:naver-2645511713|2026-08-24|site=네이버부동산|area=군자동|kind=상가|result=added|deposit=500|rent=70|maintenance=null|next=능동·중곡·화양·성수 광역 조사
+checkpoint|2026-08-24|task=광진구 광역 매물|added=naver-2645511713|commit=2f95289|deployment=dpl_CfGXzy5HmtMNe3ESBxZrCtrnP5YE|status=READY|next=능동·중곡·화양·성수 광역 조사
