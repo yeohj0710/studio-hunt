@@ -60,6 +60,13 @@ listing:zigbang-959051|2026-08-24|site=직방|area=군자동|result=added
 listing:zigbang-932401|2026-08-24|site=직방|area=화양동|result=added|monthly-over-limit
 checkpoint|2026-08-24|task=직방 광역 매물|added=zigbang-959051,zigbang-932401|next=피터팬 능동·중곡동·군자권|commit=1a6cbb0|deployment=dpl_v7rbsg7tES52vVQDJwbUxzr9kXNg|status=READY|verified=listings-HTTP200
 cleanup|2026-08-24|oldListings=0|oldRates=0|result=no-change|audit=5|next=피터팬
+cleanup|2026-08-24|oldListings=0|oldRates=0|result=no-change|audit=6|next=피터팬
+listing:peterpan-19780389|2026-08-24|site=피터팬|area=중곡동|result=added|monthly-over-limit
+listing:peterpan-19744355|2026-08-24|site=피터팬|area=능동|result=added
+listing:peterpan-19690387|2026-08-24|site=피터팬|area=중곡동|result=added|monthly-over-limit
+listing:peterpan-19769217|2026-08-24|site=피터팬|area=구의동|result=added
+card:peterpan-19762680|2026-08-24|site=피터팬|area=능동|result=excluded-list-only
+card:peterpan-19789794|2026-08-24|site=피터팬|area=중곡동|result=excluded-list-only
 interior:i-diy-wall|2026-08-17|componentQuotes=2|source=danawa+smartstore|result=recorded
 interior:i-paint|2026-08-17|newQuotes=2|source=danawa|result=recorded
 interior:i-absorb|2026-08-17|candidate=143000|result=not-recorded-size-unverified

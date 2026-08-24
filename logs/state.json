@@ -4,17 +4,17 @@
   "queue": {
     "source": "node next.mjs",
     "current": "정리:오래된 매물·시세",
-    "status": "진행·정리 대상 없음·피터팬 전환",
+    "status": "진행·피터팬 광진구 상가·사무실 4건 추가",
     "backoff": 0
   },
   "counters": {
-    "loops": 43,
-    "processed": 42,
+    "loops": 45,
+    "processed": 44,
     "rejected": 0,
-    "dataChanges": 25
+    "dataChanges": 26
   },
   "lastSync": "2026-08-24",
-  "nextAction": "정리 대상이 없어 데이터를 바꾸지 않았습니다. 다음 회차에는 피터팬에서 능동·중곡동·군자권의 투룸·상가·사무실·스튜디오 상세 화면을 확인합니다. 사용자가 2인용 무선 핀마이크를 보유한다고 알려 신규 마이크 견적은 제외합니다.",
+  "nextAction": "피터팬에서 광진구 상가·사무실 4건을 추가했습니다. 다음 회차에는 당근부동산에서 능동·중곡동·화양동·군자·성수의 상가·사무실·스튜디오 상세 화면을 확인합니다. 사용자가 2인용 무선 핀마이크를 보유한다고 알려 신규 마이크 견적은 제외합니다.",
   "lastDeployment": {
     "commit": "1a6cbb0",
     "id": "dpl_v7rbsg7tES52vVQDJwbUxzr9kXNg",
