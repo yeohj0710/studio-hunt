@@ -9,6 +9,8 @@ source:naver|2026-08-24|area=능동|types=상가·사무실|result=detail-unavai
 cleanup|2026-08-24|oldListings=0|oldRates=0|result=no-change|switch=직방
 listing:zigbang-937340|2026-08-24|site=직방|area=자양동|result=added
 card:zigbang|2026-08-24|area=자양동|title=자양역 도보 5분 1층 9평 소형 상가 임대|result=excluded-detail-unavailable-browser-lease-busy
+cleanup|2026-08-24|oldListings=0|oldRates=0|result=no-change|switch=피터팬
+listing:peterpan-19781509|2026-08-24|site=피터팬|area=중곡동|result=added
 cleanup|2026-08-24|oldListings=0|oldRates=0|result=no-change|audit=4|next=다방
 listing:naver-2644423671|2026-08-20|site=naver|detail=confirmed|result=recorded
 listing:naver-2644520906|2026-08-20|site=naver|detail=confirmed|result=recorded
