@@ -83,6 +83,7 @@ source:zigbang|2026-08-24|id=zigbang-713496|result=added|detail=군자동 106.81
 source:zigbang|2026-08-24|id=zigbang-960577|result=added|detail=성수동2가 72.73㎡ 룸1 사무실|next=다방
 checkpoint|2026-08-24|task=직방 성수·군자동 상가·사무실|added=zigbang-713496,zigbang-960577|excluded=zigbang-505253|next=다방 성수·화양동·능동·군자동
 deployment|2026-08-24|commit=88517f7|id=dpl_4dHmbGWJuz5EQGcjBpQ1ficJv4Cx|status=READY|alias=https://studio-hunt.vercel.app|next=다방 성수·화양동·능동·군자동
+cleanup|2026-08-24|oldListings=0|oldRates=0|result=no-change|audit=10|next=다방
 interior:i-diy-wall|2026-08-17|componentQuotes=2|source=danawa+smartstore|result=recorded
 interior:i-paint|2026-08-17|newQuotes=2|source=danawa|result=recorded
 interior:i-absorb|2026-08-17|candidate=143000|result=not-recorded-size-unverified

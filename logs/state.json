@@ -4,12 +4,12 @@
   "queue": {
     "source": "node next.mjs",
     "current": "다방:성수·화양동·능동·군자동",
-    "status": "진행·직방 상세 2건 추가·1건 제외·다방 전환",
+    "status": "진행·오래된 매물·시세 갱신 대상 없음·다방 유지",
     "backoff": 0
   },
   "counters": {
-    "loops": 51,
-    "processed": 50,
+    "loops": 52,
+    "processed": 51,
     "rejected": 1,
     "dataChanges": 29
   },
