@@ -67,6 +67,7 @@ listing:peterpan-19690387|2026-08-24|site=피터팬|area=중곡동|result=added|
 listing:peterpan-19769217|2026-08-24|site=피터팬|area=구의동|result=added
 card:peterpan-19762680|2026-08-24|site=피터팬|area=능동|result=excluded-list-only
 card:peterpan-19789794|2026-08-24|site=피터팬|area=중곡동|result=excluded-list-only
+checkpoint|2026-08-24|task=피터팬 광진구 상가·사무실|added=peterpan-19780389,peterpan-19744355,peterpan-19690387,peterpan-19769217|next=당근부동산 능동·중곡동·화양동·군자·성수|commit=dd01182|deployment=dpl_84ewa5PoGKKwefEvMuhgECGWtnaJ|status=READY|verified=listings-HTTP200
 interior:i-diy-wall|2026-08-17|componentQuotes=2|source=danawa+smartstore|result=recorded
 interior:i-paint|2026-08-17|newQuotes=2|source=danawa|result=recorded
 interior:i-absorb|2026-08-17|candidate=143000|result=not-recorded-size-unverified

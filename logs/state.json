@@ -16,11 +16,11 @@
   "lastSync": "2026-08-24",
   "nextAction": "피터팬에서 광진구 상가·사무실 4건을 추가했습니다. 다음 회차에는 당근부동산에서 능동·중곡동·화양동·군자·성수의 상가·사무실·스튜디오 상세 화면을 확인합니다. 사용자가 2인용 무선 핀마이크를 보유한다고 알려 신규 마이크 견적은 제외합니다.",
   "lastDeployment": {
-    "commit": "1a6cbb0",
-    "id": "dpl_v7rbsg7tES52vVQDJwbUxzr9kXNg",
+    "commit": "dd01182",
+    "id": "dpl_84ewa5PoGKKwefEvMuhgECGWtnaJ",
     "status": "READY",
     "url": "https://studio-hunt.vercel.app",
-    "verified": "https://studio-hunt.vercel.app/listings HTTP 200, 군자동 3층 89㎡ 스튜디오 운영 사무실·화양동 2층 188.4㎡ 룸3 사무실 제목 확인"
+    "verified": "https://studio-hunt.vercel.app/listings HTTP 200, 중곡동 B1층 117.93㎡ 호리존 스튜디오 상가·능동 2층 43㎡ 어린이대공원 인접 사무실·중곡동 2층 82.64㎡ 단독사용 사무실·구의동 0층 141㎡ 탁 트인 상가 제목 확인"
   },
   "updatedAt": "2026-08-24"
 }
