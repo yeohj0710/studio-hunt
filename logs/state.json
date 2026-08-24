@@ -16,11 +16,11 @@
   "lastSync": "2026-08-24",
   "nextAction": "당근부동산에서 군자동·중곡동 상가 2건을 추가하고 능동 부적합 매물 1건을 rejected로 기록했습니다. 다음 회차에는 네이버부동산에서 능동·화양동·군자동·중곡동·성수의 상가·사무실·스튜디오 상세 화면을 확인합니다. 사용자가 2인용 무선 핀마이크를 보유한다고 알려 신규 마이크 견적은 제외합니다.",
   "lastDeployment": {
-    "commit": "dd01182",
-    "id": "dpl_84ewa5PoGKKwefEvMuhgECGWtnaJ",
+    "commit": "c00c698",
+    "id": "dpl_9cx21Jid2Q6t267p9kBwsicMyqv3",
     "status": "READY",
     "url": "https://studio-hunt.vercel.app",
-    "verified": "https://studio-hunt.vercel.app/listings HTTP 200, 중곡동 B1층 117.93㎡ 호리존 스튜디오 상가·능동 2층 43㎡ 어린이대공원 인접 사무실·중곡동 2층 82.64㎡ 단독사용 사무실·구의동 0층 141㎡ 탁 트인 상가 제목 확인"
+    "verified": "https://studio-hunt.vercel.app/listings HTTP 200, 군자동 1층 36.3㎡ 시설양도 상가·중곡동 2층 66.1㎡ 무권리 상가·능동 4층 94.62㎡ 시설완비 마사지 상가 제목 확인"
   },
   "updatedAt": "2026-08-24"
 }
