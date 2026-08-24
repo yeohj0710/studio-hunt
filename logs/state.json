@@ -3,13 +3,13 @@
   "goal": "광진구 신용보증기금 광진지점 도보권 팟캐스트 스튜디오 조사",
   "queue": {
     "source": "node next.mjs",
-    "current": "번개장터:중고 헤드폰·카메라·조명",
-    "status": "진행·중고나라 오디오 인터페이스 2건 추가·번개장터 전환",
-    "backoff": 0
+    "current": "당근:중고 헤드폰·카메라·조명",
+    "status": "진행·번개장터 상세 근거 없음·당근 전환",
+    "backoff": 1
   },
   "counters": {
-    "loops": 58,
-    "processed": 57,
+    "loops": 60,
+    "processed": 59,
     "rejected": 1,
     "dataChanges": 36
   },
