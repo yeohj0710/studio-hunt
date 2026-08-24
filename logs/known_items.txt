@@ -13,6 +13,8 @@ cleanup|2026-08-24|oldListings=0|oldRates=0|result=no-change|switch=피터팬
 listing:peterpan-19781509|2026-08-24|site=피터팬|area=중곡동|result=added
 cleanup|2026-08-24|oldListings=0|oldRates=0|result=no-change|switch=당근
 listing:daangn-4303576|2026-08-24|site=당근|area=중곡동|result=added
+listing:daangn-4303576|2026-08-24|site=당근|area=중곡동|result=added
+source:naver|2026-08-24|area=능동|types=상가·사무실|result=detail-unavailable-map-only|next=직방
 cleanup|2026-08-24|oldListings=0|oldRates=0|result=no-change|audit=4|next=다방
 listing:naver-2644423671|2026-08-20|site=naver|detail=confirmed|result=recorded
 listing:naver-2644520906|2026-08-20|site=naver|detail=confirmed|result=recorded
