@@ -4,17 +4,17 @@
   "queue": {
     "source": "node next.mjs",
     "current": "정리:오래된 매물·시세",
-    "status": "진행·정리 무변경·다음 다방 확장 대기",
+    "status": "진행·다방 상세 근거 없음·다음 사이트 전환",
     "backoff": 0
   },
   "counters": {
-    "loops": 29,
-    "processed": 28,
+    "loops": 30,
+    "processed": 29,
     "rejected": 0,
     "dataChanges": 17
   },
   "lastSync": "2026-08-24",
-  "nextAction": "정리 기준을 넘긴 항목이 없어 데이터를 바꾸지 않았습니다. 다음 회차에는 다방에서 능동·중곡동·화양동·성수동의 투룸·상가·사무실·스튜디오 후보를 확인하고 실제 상세 화면만 기록합니다.",
+  "nextAction": "다방은 브라우저 잠금과 공개 상세 화면 부재로 0건 기록했습니다. 다음 회차에는 같은 다방 재시도를 피하고 피터팬 또는 당근에서 광진구 인접 지역의 투룸·상가·사무실·스튜디오 상세 화면을 확인합니다.",
   "lastDeployment": {
     "commit": "df0744f",
     "id": "dpl_26GpGLuevSsAw9XAnCtEcY58QhgS",
