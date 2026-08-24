@@ -84,6 +84,10 @@ source:zigbang|2026-08-24|id=zigbang-960577|result=added|detail=성수동2가 72
 checkpoint|2026-08-24|task=직방 성수·군자동 상가·사무실|added=zigbang-713496,zigbang-960577|excluded=zigbang-505253|next=다방 성수·화양동·능동·군자동
 deployment|2026-08-24|commit=88517f7|id=dpl_4dHmbGWJuz5EQGcjBpQ1ficJv4Cx|status=READY|alias=https://studio-hunt.vercel.app|next=다방 성수·화양동·능동·군자동
 cleanup|2026-08-24|oldListings=0|oldRates=0|result=no-change|audit=10|next=다방
+cleanup|2026-08-24|oldListings=0|oldRates=0|result=no-change|audit=11|next=다방
+source:dabang|2026-08-24|id=dabang-6a79a4d7b991ae02e5d3dc47|result=added|detail=군자동 35㎡ 투룸|next=스페이스클라우드
+source:dabang|2026-08-24|id=dabang-6a76ea6240ce492d932bf3b0|result=added|detail=군자동 42.97㎡ 투룸|next=스페이스클라우드
+checkpoint|2026-08-24|task=다방 군자동 투룸|added=dabang-6a79a4d7b991ae02e5d3dc47,dabang-6a76ea6240ce492d932bf3b0|next=스페이스클라우드 광진·건대·성수·군자
 interior:i-diy-wall|2026-08-17|componentQuotes=2|source=danawa+smartstore|result=recorded
 interior:i-paint|2026-08-17|newQuotes=2|source=danawa|result=recorded
 interior:i-absorb|2026-08-17|candidate=143000|result=not-recorded-size-unverified
