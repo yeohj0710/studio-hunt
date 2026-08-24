@@ -16,11 +16,11 @@
   "lastSync": "2026-08-24",
   "nextAction": "스페이스클라우드에서 광진구·건대·성수·군자 주변 스튜디오 대관 상세 화면을 확인합니다. 시간당 가격과 공간 조건을 화면에서 확인한 항목만 기록합니다. 사용자가 2인용 무선 핀마이크를 보유한다고 알려 신규 마이크 견적은 제외합니다.",
   "lastDeployment": {
-    "commit": "88517f7",
-    "id": "dpl_4dHmbGWJuz5EQGcjBpQ1ficJv4Cx",
+    "commit": "79f6f33",
+    "id": "dpl_DgGTfV98z3EGfZpYKEYPuqQYPAPP",
     "status": "READY",
     "url": "https://studio-hunt.vercel.app",
-    "verified": "Vercel CLI에서 프로덕션 READY와 https://studio-hunt.vercel.app 별칭을 확인합니다. 빌드는 매물 53건으로 통과합니다."
+    "verified": "Vercel CLI에서 프로덕션 READY와 https://studio-hunt.vercel.app 별칭을 확인합니다. 빌드는 매물 55건으로 통과합니다."
   },
   "updatedAt": "2026-08-24"
 }
