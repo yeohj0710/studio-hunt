@@ -16,11 +16,11 @@
   "lastSync": "2026-08-24",
     "nextAction": "네이버부동산 차례를 광진구 광역 조사로 재개했습니다. 다음 매물 조사에서는 군자동·능동·중곡동·화양동·성수동으로 지역을 바꾸고 투룸·상가·사무실·단독·다가구를 우선 확인합니다. 사용자가 2인용 무선 핀마이크를 보유한다고 알려 마이크 견적은 제외합니다.",
   "lastDeployment": {
-    "commit": "0f5ce15",
-    "id": "dpl_2d734YEjS3FXVSSnhEXi1gudEoHj",
+    "commit": "e5fd8fc",
+    "id": "dpl_94FYwPHJ4tagPi7AccLVycw23cKq",
     "status": "READY",
     "url": "https://studio-hunt.vercel.app",
-    "verified": "Vercel CLI에서 프로덕션 READY와 https://studio-hunt.vercel.app 별칭을 확인합니다. 빌드는 매물 55건·장비 22개·인테리어 12건·대관 시세 11건·일지 208건으로 통과합니다."
+    "verified": "Vercel CLI에서 프로덕션 READY와 별칭을 확인합니다. 빌드는 매물 56건·장비 22개·인테리어 12건·대관 시세 11건·일지 223건으로 통과합니다."
   },
   "updatedAt": "2026-08-24"
 }
