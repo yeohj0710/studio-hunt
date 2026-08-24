@@ -3,18 +3,18 @@
   "goal": "광진구 신용보증기금 광진지점 도보권 팟캐스트 스튜디오 조사",
   "queue": {
     "source": "node next.mjs",
-    "current": "당근:중고 헤드폰·카메라·조명",
-    "status": "진행·번개장터 상세 근거 없음·당근 전환",
+    "current": "정리:오래된 매물·시세 점검",
+    "status": "진행·당근 중고 헤드폰 반영·정리 전환",
     "backoff": 1
   },
   "counters": {
-    "loops": 60,
-    "processed": 59,
+    "loops": 62,
+    "processed": 61,
     "rejected": 1,
-    "dataChanges": 36
+    "dataChanges": 38
   },
   "lastSync": "2026-08-24",
-  "nextAction": "번개장터에서 마이크를 제외한 모니터 헤드폰·헤드폰 분배기·카메라·조명 중 정확한 상품 상세 화면을 확인합니다. 모델·가격·상태·배송비 또는 직거래 조건·게시일을 확인한 항목만 중고 견적으로 기록합니다. 사용자가 2인용 무선 핀마이크를 보유한다고 알려 신규 마이크 견적은 제외합니다.",
+  "nextAction": "30일 넘은 매물의 생존 여부와 60일 넘은 대관 시세를 실제 화면에서 확인합니다. 변경 근거가 없으면 data/log.json에 한 줄만 남기고 데이터·빌드·배포는 생략합니다. 사용자가 2인용 무선 핀마이크를 보유한다고 알려 마이크 견적은 제외합니다.",
   "lastDeployment": {
     "commit": "10283fd",
     "id": "dpl_EvqgA5HzhrQreddLh7zkm4ViBntG",
