@@ -1394,5 +1394,6 @@
     "summary":"직방에서 자양동 상가·투룸 4건을 상세 화면으로 확인해 추가합니다.",
     "detail":"월세 48만원 상가, 월세 65만원과 82만원 투룸, 월 고정비 103만원 투룸을 기록해 비용 폭을 넓힙니다. 자양역 사무실·넓은 상가·사진스튜디오 카드 등은 열린 상세 번호 955114의 임대료와 면적이 카드와 달라 제외합니다. 목록 화면만 확인한 나머지 매물과 개인정보는 기록하지 않습니다.",
     "refs":["https://www.zigbang.com/home/store/items/961782?log_screen_name=%EC%83%81%EA%B0%80%EB%A7%A4%EB%AC%BC%EC%83%81%EC%84%B8","https://www.zigbang.com/home/villa/items/50139006?itemDetailType=ZIGBANG&imageThumbnail=https%3A%2F%2Fic.zigbang.com%2Fic%2Fitems%2F50139006%2F1.jpg&hasVrKey=false","https://www.zigbang.com/home/villa/items/50079479?itemDetailType=ZIGBANG&imageThumbnail=https%3A%2F%2Fic.zigbang.com%2Fic%2Fitems%2F50079479%2F1.jpg&hasVrKey=false","https://www.zigbang.com/home/villa/items/50139497?imageThumbnail=https%3A%2F%2Fic.zigbang.com%2Fic%2Fitems%2F50139497%2F1.jpg&hasVrKey=false"]
-  }
+  },
+  {"date":"2026-08-24","by":"codex","kind":"정리","summary":"오래된 매물·시세를 다시 확인했지만 갱신 대상이 없습니다.","detail":"현재 가장 오래된 매물과 시세 확인일은 2026년 8월 15일입니다. 30일 지난 매물과 60일 지난 시세가 없어 상태와 가격을 바꾸지 않습니다.","refs":[]}
 ]

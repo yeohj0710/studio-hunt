@@ -1,4 +1,5 @@
 cleanup|2026-08-17|oldListings=0|oldRates=0
+cleanup|2026-08-24|oldListings=0|oldRates=0|result=no-change|audit=4|next=다방
 listing:naver-2644423671|2026-08-20|site=naver|detail=confirmed|result=recorded
 listing:naver-2644520906|2026-08-20|site=naver|detail=confirmed|result=recorded
 checkpoint|2026-08-20|task=자리|added=naver-2644423671,naver-2644520906|next=직방|deployment=READY
