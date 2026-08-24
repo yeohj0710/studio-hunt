@@ -6,6 +6,7 @@ listing:daangn-3804689|2026-08-24|site=당근|area=성수동1가|result=added|mo
 listing:daangn-4171992|2026-08-24|site=당근|area=성수동1가|result=added|monthly-over-limit
 listing:daangn-4171992|2026-08-24|site=당근|area=성수동1가|result=added|monthly-over-limit
 cleanup|2026-08-24|oldListings=0|oldRates=0|result=no-change|next=광역 매물 조사
+source:naver|2026-08-24|area=능동|types=상가·사무실|result=detail-unavailable-browser-lease-expired|next=직방
 cleanup|2026-08-24|oldListings=0|oldRates=0|result=no-change|audit=4|next=다방
 listing:naver-2644423671|2026-08-20|site=naver|detail=confirmed|result=recorded
 listing:naver-2644520906|2026-08-20|site=naver|detail=confirmed|result=recorded

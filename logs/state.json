@@ -4,17 +4,17 @@
   "queue": {
     "source": "node next.mjs",
     "current": "정리:오래된 매물·시세",
-    "status": "진행·정리 점검 완료·다음은 광역 매물 조사",
+    "status": "진행·네이버 능동 광역 조사·상세 근거 부족",
     "backoff": 0
   },
   "counters": {
-    "loops": 33,
-    "processed": 32,
+    "loops": 34,
+    "processed": 33,
     "rejected": 0,
     "dataChanges": 21
   },
   "lastSync": "2026-08-24",
-  "nextAction": "정리 대상이 없어 무변경 처리했습니다. 다음 회차에는 네이버부동산에서 능동·중곡동·화양동·군자권의 투룸·상가·사무실·스튜디오를 넓게 확인합니다.",
+  "nextAction": "네이버 능동 화면은 상세 URL이 없어 기록하지 않았습니다. 다음 회차에는 직방에서 능동·중곡동·화양동·군자권의 투룸·상가·사무실·스튜디오를 넓게 확인합니다.",
   "lastDeployment": {
     "commit": "1cf22dd",
     "id": "dpl_FSpbQ4uYkUbfM1YmgKJjQYG5cJf3",
