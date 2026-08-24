@@ -4,6 +4,8 @@ listing:peterpan-19802103|2026-08-24|site=피터팬|area=자양동|result=added
 listing:peterpan-19782443|2026-08-24|site=피터팬|area=자양동|result=added
 listing:daangn-3804689|2026-08-24|site=당근|area=성수동1가|result=added|monthly-over-limit
 listing:daangn-4171992|2026-08-24|site=당근|area=성수동1가|result=added|monthly-over-limit
+listing:daangn-4171992|2026-08-24|site=당근|area=성수동1가|result=added|monthly-over-limit
+cleanup|2026-08-24|oldListings=0|oldRates=0|result=no-change|next=광역 매물 조사
 cleanup|2026-08-24|oldListings=0|oldRates=0|result=no-change|audit=4|next=다방
 listing:naver-2644423671|2026-08-20|site=naver|detail=confirmed|result=recorded
 listing:naver-2644520906|2026-08-20|site=naver|detail=confirmed|result=recorded
