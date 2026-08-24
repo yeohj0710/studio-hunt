@@ -77,6 +77,7 @@ card:daangn-4107718|2026-08-24|site=당근|area=화양동|result=excluded-detail
 checkpoint|2026-08-24|task=당근부동산 광진구 상가|added=daangn-4284781,daangn-3916209|rejected=daangn-4269473|excluded=daangn-4262680,daangn-4107718|next=네이버부동산 능동·화양동·군자동·중곡동·성수|commit=c00c698|deployment=dpl_9cx21Jid2Q6t267p9kBwsicMyqv3|status=READY|verified=listings-HTTP200
 cleanup|2026-08-24|oldListings=0|oldRates=0|result=no-change|audit=8|next=네이버부동산
 source:naver|2026-08-24|area=능동·화양동·군자동·중곡동·성수|result=detail-unavailable-map-list-only|next=직방
+cleanup|2026-08-24|oldListings=0|oldRates=0|result=no-change|audit=9|next=직방
 interior:i-diy-wall|2026-08-17|componentQuotes=2|source=danawa+smartstore|result=recorded
 interior:i-paint|2026-08-17|newQuotes=2|source=danawa|result=recorded
 interior:i-absorb|2026-08-17|candidate=143000|result=not-recorded-size-unverified
