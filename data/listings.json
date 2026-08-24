@@ -2028,5 +2028,101 @@
       "listingId": "4303576",
       "seenAt": "2026-08-24"
     }
+  },
+  {
+    "id": "zigbang-959051",
+    "title": "군자동 3층 89㎡ 스튜디오 운영 사무실",
+    "kind": "사무실",
+    "address": "서울특별시 광진구 군자동",
+    "addressDetail": "3층",
+    "deposit": 1000,
+    "rent": 70,
+    "maintenance": null,
+    "areaM2": 89,
+    "floor": 3,
+    "totalFloors": 4,
+    "ceilingM": null,
+    "livable": "회색",
+    "livableNote": "상세 설명은 건축물대장상 용도를 주택으로 안내하지만 하단 중개대상물 종류는 제1종 근린생활시설로 표시합니다. 스튜디오 사용 범위는 별도 확인이 필요합니다.",
+    "noiseRisk": "미확인",
+    "commute": {
+      "walkMin": null,
+      "transitMin": null,
+      "routeNote": "상세 화면은 광진구 군자동으로 표시하고 신용보증기금 광진지점까지의 도보 경로를 확인하지 않았습니다."
+    },
+    "unresolved": ["commute"],
+    "unresolvedNote": "직방 상세 화면은 군자동까지만 표시해 기준 지점까지의 도보시간을 기록하지 않습니다.",
+    "contract": {
+      "minMonths": null,
+      "available": "즉시입주"
+    },
+    "status": "candidate",
+    "rejectReason": "",
+    "pros": [
+      "월세 70만원과 관리비 포함을 표시합니다.",
+      "전용면적 89㎡와 3층/4층을 표시합니다.",
+      "현재 스튜디오 운영 중이며 동향 창과 채광이 좋다고 표시합니다."
+    ],
+    "cons": [
+      "상세 설명은 건축물대장상 용도를 주택으로 안내해 사용 범위를 계약 전에 확인해야 합니다.",
+      "불특정 다수 방문 렌탈 스튜디오 운영을 불가 범위로 표시합니다.",
+      "엘리베이터 없음, 화장실 내부 남녀혼용으로 표시하며 기준 지점까지 도보시간은 확인하지 않았습니다."
+    ],
+    "notes": "상세 화면에서 현재 스튜디오 운영, 인테리어 없음, 동향, 즉시입주, 주차대수 3대, 위반건축물 해당없음을 확인합니다. 하단 중개대상물 종류는 제1종 근린생활시설로 표시합니다.",
+    "source": {
+      "site": "직방",
+      "url": "https://www.zigbang.com/home/store/items/959051?log_screen_name=%EC%83%81%EA%B0%80%EB%A7%A4%EB%AC%BC%EC%83%81%EC%84%B8",
+      "listingId": "959051",
+      "seenAt": "2026-08-24"
+    },
+    "itemUrl": "https://www.zigbang.com/home/store/items/959051"
+  },
+  {
+    "id": "zigbang-932401",
+    "title": "화양동 2층 188.4㎡ 룸3 사무실",
+    "kind": "사무실",
+    "address": "서울특별시 광진구 화양동",
+    "addressDetail": "2층",
+    "deposit": 3000,
+    "rent": 489,
+    "maintenance": null,
+    "areaM2": 188.4,
+    "floor": 2,
+    "totalFloors": 5,
+    "ceilingM": null,
+    "livable": "회색",
+    "livableNote": "중개대상물 종류를 제2종 근린생활시설로 표시합니다. 숙박·전입신고 가능 여부는 화면에서 확인하지 않았습니다.",
+    "noiseRisk": "미확인",
+    "commute": {
+      "walkMin": null,
+      "transitMin": null,
+      "routeNote": "상세 화면은 어린이대공원역 도보 5분을 표시하지만 신용보증기금 광진지점까지의 도보 경로는 확인하지 않았습니다."
+    },
+    "unresolved": ["commute"],
+    "unresolvedNote": "직방 상세 화면은 역까지의 도보시간은 표시하지만 기준 지점까지의 도보시간을 표시하지 않아 commute를 기록하지 않습니다.",
+    "contract": {
+      "minMonths": null,
+      "available": "즉시입주"
+    },
+    "status": "candidate",
+    "rejectReason": "",
+    "pros": [
+      "월세 489만원과 관리비 포함을 표시합니다.",
+      "전용면적 188.4㎡와 2층/5층을 표시합니다.",
+      "업무홀·룸 3개·탕비공간, 인테리어 무상인수, 냉난방기 완비를 표시합니다."
+    ],
+    "cons": [
+      "월세가 높아 비용 상한을 크게 넘는 비교 후보입니다.",
+      "외부 남녀구분 화장실로 표시하고 기준 지점까지의 도보시간은 확인하지 않았습니다.",
+      "제2종 근린생활시설로 표시해 팟캐스트 스튜디오 사용 범위를 계약 전에 확인해야 합니다."
+    ],
+    "notes": "상세 화면에서 화양동 초역세권 사무실, 어린이대공원역 도보 5분, 즉시입주, 동향, 위반건축물 해당없음을 확인합니다. 관리비는 포함으로 표시합니다.",
+    "source": {
+      "site": "직방",
+      "url": "https://www.zigbang.com/home/store/items/932401?log_screen_name=%EC%83%81%EA%B0%80%EB%A7%A4%EB%AC%BC%EC%83%81%EC%84%B8",
+      "listingId": "932401",
+      "seenAt": "2026-08-24"
+    },
+    "itemUrl": "https://www.zigbang.com/home/store/items/932401"
   }
 ]

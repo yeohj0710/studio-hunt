@@ -13,7 +13,6 @@ cleanup|2026-08-24|oldListings=0|oldRates=0|result=no-change|switch=피터팬
 listing:peterpan-19781509|2026-08-24|site=피터팬|area=중곡동|result=added
 cleanup|2026-08-24|oldListings=0|oldRates=0|result=no-change|switch=당근
 listing:daangn-4303576|2026-08-24|site=당근|area=중곡동|result=added
-listing:daangn-4303576|2026-08-24|site=당근|area=중곡동|result=added
 source:naver|2026-08-24|area=능동|types=상가·사무실|result=detail-unavailable-map-only|next=직방
 cleanup|2026-08-24|oldListings=0|oldRates=0|result=no-change|audit=4|next=다방
 listing:naver-2644423671|2026-08-20|site=naver|detail=confirmed|result=recorded
@@ -56,6 +55,9 @@ gear:g-hpamp|2026-08-17|newQuotes=1|usedQuotes=0|source=danawa|result=partial
 gear:g-sd|2026-08-17|newQuotes=1|source=danawa|result=recorded
 interior:i-absorb|2026-08-17|newQuotes=2|source=danawa|result=recorded
 cleanup|2026-08-17|oldListings=0|oldRates=0
+cleanup|2026-08-24|oldListings=0|oldRates=0|result=no-change|switch=직방
+listing:zigbang-959051|2026-08-24|site=직방|area=군자동|result=added
+listing:zigbang-932401|2026-08-24|site=직방|area=화양동|result=added|monthly-over-limit
 interior:i-diy-wall|2026-08-17|componentQuotes=2|source=danawa+smartstore|result=recorded
 interior:i-paint|2026-08-17|newQuotes=2|source=danawa|result=recorded
 interior:i-absorb|2026-08-17|candidate=143000|result=not-recorded-size-unverified
