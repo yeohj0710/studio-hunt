@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-15",
-  "note": "광진구·성수·건대 일대 촬영 스튜디오 대관 시세를 스페이스클라우드에서 확인합니다. 8곳의 시간당 가격 중앙값을 hourlyRate에 넣었습니다.",
+  "updatedAt": "2026-08-24",
+  "note": "광진구·성수·건대 일대 촬영 스튜디오 대관 시세를 스페이스클라우드에서 확인합니다. 11곳의 시간당 가격 중앙값을 hourlyRate에 넣었습니다.",
   "rates": [
     {
       "name": "스틸 스튜디오",
@@ -89,6 +89,33 @@
       "seenAt": "2026-08-15",
       "image": "https://formeqly4682.edge.naverncp.com/service/177589385_828db1d50407d1da3325633649091501.png?type=m&w=900&h=900&autorotate=true&quality=90",
       "imageSeenAt": "2026-08-18"
+    },
+    {
+      "name": "광진구 군자 렌탈스튜디오HLO",
+      "area": "군자동",
+      "hourlyKRW": 30000,
+      "sizeM2": null,
+      "note": "최대 14인, 리뷰 6개, 화이트·촬영스튜디오·공방·오피스 콘셉트와 여러 컨셉룸을 표시합니다. 페이지에 면적은 표시하지 않습니다.",
+      "url": "https://www.spacecloud.kr/host/1649655528",
+      "seenAt": "2026-08-24"
+    },
+    {
+      "name": "[건대최저가]드림스튜디오 연습실",
+      "area": "화양동",
+      "hourlyKRW": 2000,
+      "sizeM2": null,
+      "note": "시간당 2,000원, 최대 10인, 리뷰 200개를 표시합니다. 페이지에 면적은 표시하지 않습니다.",
+      "url": "https://www.spacecloud.kr/host/gur0542",
+      "seenAt": "2026-08-24"
+    },
+    {
+      "name": "스튜디오 카미",
+      "area": "자양동",
+      "hourlyKRW": 4400,
+      "sizeM2": null,
+      "note": "시간당 4,400원, 최대 8인, 리뷰 10개를 표시합니다. 보컬연습·건대연습실·촬영 관련 태그를 표시하고 면적은 표시하지 않습니다.",
+      "url": "https://www.spacecloud.kr/host/1755151578",
+      "seenAt": "2026-08-24"
     }
   ],
   "assumptions": {

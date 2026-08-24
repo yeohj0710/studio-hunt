@@ -89,6 +89,11 @@ source:dabang|2026-08-24|id=dabang-6a79a4d7b991ae02e5d3dc47|result=added|detail=
 source:dabang|2026-08-24|id=dabang-6a76ea6240ce492d932bf3b0|result=added|detail=군자동 42.97㎡ 투룸|next=스페이스클라우드
 checkpoint|2026-08-24|task=다방 군자동 투룸|added=dabang-6a79a4d7b991ae02e5d3dc47,dabang-6a76ea6240ce492d932bf3b0|next=스페이스클라우드 광진·건대·성수·군자
 deployment|2026-08-24|commit=79f6f33|id=dpl_DgGTfV98z3EGfZpYKEYPuqQYPAPP|status=READY|alias=https://studio-hunt.vercel.app|next=스페이스클라우드 광진·건대·성수·군자
+cleanup|2026-08-24|oldListings=0|oldRates=0|result=no-change|audit=12|next=스페이스클라우드
+source:spacecloud|2026-08-24|id=spacecloud-host-1649655528|result=added|detail=군자동 렌탈스튜디오HLO|next=중고나라
+source:spacecloud|2026-08-24|id=spacecloud-host-gur0542|result=added|detail=화양동 드림스튜디오 연습실|next=중고나라
+source:spacecloud|2026-08-24|id=spacecloud-host-1755151578|result=added|detail=자양동 스튜디오 카미|next=중고나라
+checkpoint|2026-08-24|task=스페이스클라우드 광진·건대·성수·군자 대관|added=spacecloud-host-1649655528,spacecloud-host-gur0542,spacecloud-host-1755151578|next=중고나라 중고 장비·제품(마이크 제외)
 interior:i-diy-wall|2026-08-17|componentQuotes=2|source=danawa+smartstore|result=recorded
 interior:i-paint|2026-08-17|newQuotes=2|source=danawa|result=recorded
 interior:i-absorb|2026-08-17|candidate=143000|result=not-recorded-size-unverified
