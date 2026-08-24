@@ -4,7 +4,7 @@
   "queue": {
     "source": "node next.mjs",
     "current": "정리:오래된 매물·시세",
-    "status": "진행·피터팬 자양동 투룸 확장 회차 완료",
+    "status": "진행·피터팬 자양동 투룸 확장 회차 배포 완료",
     "backoff": 0
   },
   "counters": {
@@ -16,11 +16,11 @@
   "lastSync": "2026-08-24",
   "nextAction": "피터팬에서 자양동 투룸 상세 2건을 추가했습니다. 다음 회차에는 당근 또는 다른 매물 사이트에서 능동·중곡동·화양동·성수동의 상가·사무실·스튜디오를 확인하고 주소·상세 조건을 대조합니다.",
   "lastDeployment": {
-    "commit": "df0744f",
-    "id": "dpl_26GpGLuevSsAw9XAnCtEcY58QhgS",
+    "commit": "eef9902",
+    "id": "dpl_Brqs3DppUrqEmRHgFsAsQERBkgPf",
     "status": "READY",
     "url": "https://studio-hunt.vercel.app",
-    "verified": "https://studio-hunt.vercel.app/listings HTTP 200, 새 자양동 상가·투룸 제목 확인"
+    "verified": "https://studio-hunt.vercel.app/listings HTTP 200, 자양동 반지층 30㎡ 투룸·자양동 3층 39.7㎡ 투룸 제목 확인"
   },
   "updatedAt": "2026-08-24"
 }
