@@ -2467,5 +2467,32 @@
     "cons": ["건축물 용도를 제2종 근린생활시설로 표시합니다.","주차 불가능으로 표시합니다.","자양동에서 기준 지점까지의 도보시간과 소음 위험은 화면에서 확인하지 않았습니다."],
     "notes": "상세 화면에서 자양동 3층 일반상가, 즉시입주, 사용승인일 1988년 8월 6일, 건축물대장 주용도 제2종근린생활시설을 확인합니다.",
     "source": {"site": "네이버부동산","url": "https://new.land.naver.com/offices?ms=2AKEoI,3zlM6w,16&a=SG:SMS:GJCG:APTHG:GM:TJ&e=RETAIL&articleNo=2645515124","listingId": "2645515124","seenAt": "2026-08-24"}
+  },
+  {
+    "id": "naver-2645511713",
+    "title": "군자동 B1층 저비용 30평 일반상가",
+    "kind": "상가",
+    "address": "서울시 광진구 군자동",
+    "addressDetail": "B1층",
+    "deposit": 500,
+    "rent": 70,
+    "maintenance": null,
+    "areaM2": 99.1,
+    "floor": -1,
+    "totalFloors": 3,
+    "ceilingM": null,
+    "livable": "회색",
+    "livableNote": "건축물 용도를 제2종 근린생활시설로 표시합니다. 팟캐스트 스튜디오 영업 가능 여부와 숙박·전입신고 가능 여부는 화면에서 확인하지 않았습니다.",
+    "noiseRisk": "미확인",
+    "commute": {"walkMin": null,"transitMin": null,"routeNote": "상세 화면은 서울시 광진구 군자동까지만 표시해 신용보증기금 광진지점까지의 도보 경로를 확인하지 않았습니다."},
+    "unresolved": ["commute"],
+    "unresolvedNote": "상세 화면에 군자동까지만 표시하고 기준 지점까지의 길찾기 화면과 좌표를 확인하지 않았습니다.",
+    "contract": {"minMonths": null,"available": "즉시입주 협의가능"},
+    "status": "candidate",
+    "rejectReason": "",
+    "pros": ["월세 70만원을 표시합니다.","전용면적 99.1㎡와 B1층/3층을 표시합니다.","즉시입주 협의가능, 단독층 사용, 무권리, 개별난방·전기를 화면에 표시합니다."],
+    "cons": ["관리비를 화면에 표시하지 않습니다.","주차 불가능으로 표시합니다.","지하 1층과 제2종 근린생활시설로 표시하며 군자동에서 기준 지점까지의 도보시간과 소음 위험은 화면에서 확인하지 않았습니다."],
+    "notes": "상세 화면에서 군자동 B1층 일반상가, 즉시입주 협의가능, 사용승인일 1990년 6월 20일, 위반건축물 해당없음, 건축물대장 주용도 제2종근린생활시설을 확인합니다.",
+    "source": {"site": "네이버부동산","url": "https://new.land.naver.com/offices?ms=2ALzog,3zlLFg,16&a=SG:SMS:GJCG:APTHG:GM:TJ&e=RETAIL&articleNo=2645511713","listingId": "2645511713","seenAt": "2026-08-24"}
   }
 ]
